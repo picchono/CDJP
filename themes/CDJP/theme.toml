@@ -5,11 +5,11 @@ name = "chairedesign"
 license = "MIT"
 licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
 description = ""
-homepage = "https://chairedesign.fr/"
+homepage = "https://chaire-design.fr/"
 tags = []
 features = []
 min_version = "0.110.0"
 
 [author]
   name = "Pierre Lévy"
-  homepage = "https://chairedesign.fr"
+  homepage = "https://chaire-design.fr"

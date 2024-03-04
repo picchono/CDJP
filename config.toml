@@ -1,12 +1,12 @@
-baseURL = "https://chairedesign.fr"
+baseURL = "https://chaire-design.fr"
 languageCode = "en"
 title = "Chaire design Jean Prouvé"
 theme = "CDJP"
-defaultContentLanguage = "en"
+defaultContentLanguage = "fr"
 ignoreErrors = ["error-disable-taxonomy"]
 
-DefaultContentLanguage = "en"
-copyright = "chairedesign.fr"
+DefaultContentLanguage = "fr"
+copyright = "chaire-design.fr"
 
 [Params]
 favicon = "icon.png"
@@ -50,13 +50,13 @@ minifyOutput = true
 merge = "deep"
 
 [languages]
-  [languages.en]
-    languageName = "EN"
-    languageCode = "en"
-    weight = 1
   [languages.fr]
     languageName = "FR"
     languageCode = "fr"
+    weight = 1
+  [languages.en]
+    languageName = "EN"
+    languageCode = "en"
     weight = 2
   [languages.jp]
     languageName = "JP"
