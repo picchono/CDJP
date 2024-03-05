@@ -1,8 +1,6 @@
-{{if not .IsHome }}
-    <div class="logosign absolute z-50 top-3 left-3 lg:top-3">
-        <a class="text-primary-text " href="{{ .Site.BaseURL | absURL }}">{{ partial "icons.html" (dict "ico" "jprouve" "hei" 2 "colo" "var(--color-epierrot)") -}}</a>
-    </div>
-{{ end }}
+<div class="logosign absolute z-50 top-4 left-4">
+    <a class="text-primary-text " href="{{ .Site.BaseURL | absURL }}">{{ partial "icons.html" (dict "ico" "jprouve" "hei" 2 "colo" "var(--color-epierrot)") -}}</a>
+</div>
 <div class="w-full overflow-hidden flex flex-col md:flex-row">
     <div class="w-1/6 pl-5 pr-20 self-start"></div>
     <div class="max-w-3xl w-full px-5">
