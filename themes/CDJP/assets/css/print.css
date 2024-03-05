@@ -110,3 +110,7 @@ h2 {
 .videoLink {
     @apply visible h-auto w-auto;
 }
+
+#search, #international, #footer, #CDJPlogo {
+    @apply invisible h-0 w-0 p-0 m-0;
+}
