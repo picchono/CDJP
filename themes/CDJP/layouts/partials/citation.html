@@ -73,8 +73,8 @@
     {{- if .Params.citation.organization }}, organization = {{ .Params.citation.organization }}{{- end -}}
 	{{- if .Params.citation.pages }}, pages = {{ if eq .Params.citation.pages "online" }}online{{ else }}{{ .Params.citation.pages }}{{ end }}{{- end -}}
 	{{- if .Params.link.paper }}, paper = { {{- .Params.link.paper -}} }{{- end -}}
-	{{- if .Params.citation.publisher }}, publisher = { {{- .Params.citation.publisher -}} }{{- end -}}
-	{{- if .Params.citation.school }}, school = { {{ index .Params.citation.school 0 -}}, {{ index .Params.citation.school 1 -}} }{{- end -}}
+	{{- if .Params.citation.publisher }}, publisher = { {{ index .Params.citation.publisher 0 -}} }, address = { {{ index .Params.citation.publisher 1 }} }{{- end -}}
+	{{- if .Params.citation.school }}, school = { {{ index .Params.citation.school 0 -}} }, address = { {{ index .Params.citation.school 1 -}} }{{- end -}}
 	{{- if .Params.citation.series }}, series = { {{- .Params.citation.series -}} }{{- end -}}
 	{{- if .Params.citation.type }}, series = { {{- .Params.citation.type -}} }{{- end -}}
     {{- if .Params.citation.volume }}, volume = { {{- .Params.citation.volume -}} }{{ end }}
