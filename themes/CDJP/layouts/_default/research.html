@@ -1,5 +1,5 @@
 {{ define "main" }}
-    <div class="mb-20">
+    <div class="mb-20" {{if .Params.searchWeight }}data-pagefind-weight="{{.Params.searchWeight }}"{{ end }}>
         <div class="grid">
             {{ $rresearch := where .Site.Pages "Section" "research" }}{{range $rresearch}}{{ if ne .Params.bodyclass "Research" }}
             <div class="w-full py-1 px-2.5" data-category="1" data-sort="value"><a class="py-1 rounded bg-primary-bg"

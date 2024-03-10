@@ -7,7 +7,7 @@
         {{ partial "international.html" . }}
         {{ partial "search.html" . }}
         <div class="text-left items-start">
-            <h1 class="text-4xl font-bold">{{ .Params.title |safeHTML }}</h1>
+            <h1 class="text-4xl font-bold" {{if .Params.searchWeight }}data-pagefind-weight="{{.Params.searchWeight }}"{{ end }}>{{ .Params.title |safeHTML }}</h1>
             {{ if .Params.authors }}
                 <p class="mt-3 italic">{{ .Params.authors }},
                     {{ dateFormat "02 Jan 2006" .Date }}</p>
@@ -27,6 +27,8 @@
                 </p>
             </div>
         {{ end }}
+
+        {{ if .Params.citation }}<div class="max-w-3xl w-full pr-5">{{ partial "citation.html" . }}</div>{{ end }}
         {{ if .Params.diploma}}
             <div class="flex flex-row items-start justify-start my-10">
                 <p class="mr-4 flex-grow flex-shrink">
@@ -40,6 +42,12 @@
                             {{ .name }}<br>
                             {{ end }}
                         </p>
+                    </div>
+                {{ end }}
+
+                {{ if .Params.description }}
+                    <div class="h-auto my-10">
+                        <p><b>{{ .Params.description |safeHTML }}</b></p>
                     </div>
                 {{ end }}
                 {{ if .Params.reference }}

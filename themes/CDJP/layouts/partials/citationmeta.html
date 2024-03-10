@@ -1,0 +1,6 @@
+<meta name="DCSext.pn-cat" content="Article">
+
+    <meta property="DC.title" content="{{ .Params.titre }}">
+    {{if .Params.titre }}<meta property="DC.URI" content="{{ .Params.titre }}">{{ end }}
+    <meta property="DC.abstract" content="{{ .Params.abstract }}">
+    {{ if .Params.year }}<meta property="DC.date" content="{{ .Params.year }}">{{ end }}

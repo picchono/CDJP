@@ -1,10 +1,30 @@
-<meta property="DC.title" content="{{ .Title }}">
-<meta property="DC.URI" content="{{ .Params.link.book }}">
-<meta property="DC.abstract" content="{{ .Params.abstract }}">
-<meta name="DCSext.pn-cat" content="Article">
 {{ with .Params.citation }}
-    {{ with .authors }}{{ range . }}
-    <meta property="DC.creator" content="{{ . }}" />
-    {{ end }}{{ end }}
-    {{ if .date }}<meta property="DC.date" content="{{ .date }}">{{ end }}
+{{ if .authors }}
+    {{ $auth := .authors }}
+    {{ $lea := len $auth }}
+    {{ range $auth }}
+        {{- if ne (index . 0) 1 -}}{{- if eq (index . 0) $lea }} & {{- else -}}, {{- end -}}{{- end }}
+        {{ index . 1 }}, {{ index . 3 -}}
+    {{ end }}
+{{ end }}
+({{ .year }}). {{ .title }}.
+{{ if .editors }}
+    {{ $edito := .editors }}
+    {{ $lee := len $edito }}
+    In {{ range $edito }}
+        {{- if ne (index . 0) 1 -}}{{- if eq (index . 0) $lee }} & {{- else -}}, {{- end -}}{{- end }}
+        {{ index . 3 }} {{ index . 1 -}} 
+    {{ end }} (Eds.), 
+{{ end }}
+{{ if .journal}}
+    {{- .journal -}}
+    {{- if .number -}}. {{ .number }}{{ if .volume}}({{ .volume }}){{ end -}}{{ end }}
+    {{- if .pages -}}, {{ if eq .pages "online" }}online{{ else }}{{ .pages }}{{ end }}{{- end -}}.
+{{ end }}
+{{ if .proceedings }}
+    {{ .proceedings }}
+    {{ if .pages }}({{ if eq .pages "CD" }}[on CD]{{ else if eq .pages "online" }}online{{ else }}pp. {{ .pages }}{{ end }}). {{ end }}
+{{ end }}
+{{ if .publisher }}{{ index .publisher 1 -}}: {{ index .publisher 0 -}}.{{ end }}
+{{ if .doi }}<a href="http://dx.doi.org/{{- .doi -}}" rel="noreferrer">http://dx.doi.org/{{- .doi -}}</a>{{ end }}
 {{ end }}
