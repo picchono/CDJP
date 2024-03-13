@@ -1,23 +1,23 @@
-<div class="max-w-3xl w-full pr-5">
 {{ with .Params.citation }}
 {{ if .authors }}
     {{ $auth := .authors }}
     {{ $lea := len $auth }}
     {{ $ord := 1 }}
     {{ range $auth }}
-        {{- if ne $ord 1 -}}{{- if eq $ord $lea }} & {{- else -}}, {{- end -}}{{- end }}
+        {{ if ne $ord 1 -}}{{- if eq $ord $lea }} & {{- else -}}, {{- end -}}{{- end }}
         {{ index . 0 -}}, {{ index . 2 -}}
         {{ $ord = add $ord 1 }}
     {{ end }}
 {{ end }}
-({{ .year }}). {{ .title }}.
+{{ if .year }}({{ .year -}}).{{- end -}}
+{{ if .title }} {{ .title -}}.{{- end -}}
 {{ if .editors }}
     {{ $edito := .editors }}
     {{ $lee := len $edito }}
-    In {{ range $edito }}
+    {{ if ne .Params.publitype "edition" }}In{{ end }} {{ range $edito }}
         {{- if ne (index . 0) 1 -}}{{- if eq (index . 0) $lee }} & {{- else -}}, {{- end -}}{{- end }}
-        {{ index . 3 }} {{ index . 1 -}} 
-    {{ end }} (Eds.), 
+        {{ index . 2 }}, {{ index . 0 -}} 
+    {{ end }} (Eds.){{ if ne .Params.publitype "edition" }}, {{ else }}. {{ end }}
 {{ end }}
 {{ if .journal}}
     {{- .journal -}}
@@ -25,7 +25,8 @@
     {{- if .pages -}}, {{ if eq .pages "online" }}online{{ else }}{{ .pages }}{{ end }}{{- end -}}.
 {{ end }}
 {{ if .proceedings }}
-    In {{ .proceedings }}
+    {{ if .editors }}{{ else }}In {{ end }}{{ .proceedings }}
+    {{- if .number -}}, {{ .number }}{{ if .volume}}({{ .volume }}){{ end -}} {{ end }}
     {{ if .pages }}({{ if eq .pages "CD" }}[on CD]{{ else if eq .pages "online" }}online{{ else }}pp. {{ .pages }}{{ end }}). {{ end }}
 {{ end }}
 {{ if .booktitle }}
@@ -34,49 +35,7 @@
 {{ end }}
 {{ if .publisher }}{{ index .publisher 1 -}}{{ if ne (index .publisher 0) "" -}}: {{ index .publisher 0 -}}{{ end }}.{{ end }}
 {{ if .school }}{{ index .school 1 -}}{{ if ne (index .school 0) "" -}}: {{ index .school 0 -}}{{ end }}.{{ end }}
-{{ if .doi }}<a href="https://doi.org/{{- .doi -}}" rel="noreferrer">https://dx.doi.org/{{- .doi -}}</a>{{ end }}
+{{- if .isbn }}ISBN: {{ .isbn }}. {{- end -}}
+{{- if .issn }}ISSN: {{ .issn }}. {{- end -}}
+{{ if .doi }}<a href="https://doi.org/{{- .doi -}}" rel="noreferrer">https://doi.org/{{- .doi -}}</a>{{ end }}
 {{ end }}
-</div>
-<div class="rounded-md p-4 my-4 bg-secondary-bg">
-@{{ .Params.publitype}}{PLevy_{{- .File.TranslationBaseName -}},
-	title = "{{ .Title }}"
-	, year = {{ .Params.citation.year -}}
-    , url = {{ .Page.Permalink }}
-	, abstract = "{{ .Params.abstract }}"
-	{{ if .Params.citation.authors }}
-    {{ $auth := .Params.citation.authors }}
-    {{ $ord := 1 }}
-    , author = { {{- range $auth }}
-        {{- if ne $ord 1 }} and {{ end }}
-        {{ index . 0 -}}, {{ index . 1 }}
-        {{ $ord = add $ord 1 }}
-    {{ end -}} }
-    {{ end }}
-    {{ if .Params.citation.editors }}
-    {{ $edito := .Params.citation.editors }}
-    {{ $ord := 1 }}
-    , editor = { {{- range $edito }}
-        {{- if ne $ord 1 }} and {{ end }}
-        {{ index . 0 -}}, {{ index . 1 }}
-        {{ $ord = add $ord 1 }}
-    {{ end -}} }
-    {{ end }}
-    {{- if .Params.citation.booktitle }}, booktitle = {{ .Params.citation.booktitle }}{{- end -}}
-    {{- if .Params.citation.chapter }}, chapter = {{ .Params.citation.chapter }}{{- end -}}
-    {{- if .Params.citation.doi }}, doi = {{ .Params.citation.doi }}{{- end -}}
-    {{- if .Params.citation.edition }}, edition = {{ .Params.citation.edition }}{{- end -}}
-    {{- if .Params.citation.institution }}, institution = {{ .Params.citation.institution }}{{- end -}}
-    {{- if .Params.citation.isbn }}, isbn = {{ .Params.citation.isbn }}{{- end -}}
-    {{- if .Params.citation.issn }}, issn = {{ .Params.citation.issn }}{{- end -}}
-	{{- if .Params.citation.journal }}, journal = { {{- .Params.citation.journal -}} }{{ end }}
-	{{- if .Params.citation.number }}, number = { {{- .Params.citation.number -}} }{{ end }}
-    {{- if .Params.citation.organization }}, organization = {{ .Params.citation.organization }}{{- end -}}
-	{{- if .Params.citation.pages }}, pages = {{ if eq .Params.citation.pages "online" }}online{{ else }}{{ .Params.citation.pages }}{{ end }}{{- end -}}
-	{{- if .Params.link.paper }}, paper = { {{- .Params.link.paper -}} }{{- end -}}
-	{{- if .Params.citation.publisher }}, publisher = { {{ index .Params.citation.publisher 0 -}} }, address = { {{ index .Params.citation.publisher 1 }} }{{- end -}}
-	{{- if .Params.citation.school }}, school = { {{ index .Params.citation.school 0 -}} }, address = { {{ index .Params.citation.school 1 -}} }{{- end -}}
-	{{- if .Params.citation.series }}, series = { {{- .Params.citation.series -}} }{{- end -}}
-	{{- if .Params.citation.type }}, series = { {{- .Params.citation.type -}} }{{- end -}}
-    {{- if .Params.citation.volume }}, volume = { {{- .Params.citation.volume -}} }{{ end }}
-}
-</div>
