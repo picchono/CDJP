@@ -1,5 +1,5 @@
 {{ if ne (dateFormat "2006" .context.Date) "0001" }}
-    <div class='it{{- int .cou }} {{ .context.Params.Subsection }} h-auto w-full my-4 lg:mr-4' aria-label="{{- .context.Title |safeHTML -}}">
+    <div class='it{{- int .cou }} h-auto w-full my-4 lg:mr-4' aria-label="{{- .context.Title |safeHTML -}}">
         <a class="boxA text-primary-text transition-all duration-700 ease-in-out justify-center flex flex-col w-full p-4" href="{{ .context.Permalink }}">
             <div class="w-full flex flex-col lg:flex-row pb-1">
                 <div class="w-0 lg:w-1/6">&nbsp;</div>
@@ -37,15 +37,19 @@
                         <div class="w-full">
                             {{ end }}
                             <p class="block text-sm overflow-ellipsis overflow-hidden ... text-secondary-text">
-                                {{ if isset .context.Params "reference" }}
-                                    {{- .context.Params.reference |safeHTML -}}
-                                {{ else if isset .context.Params "quote" }}
-                                    {{ .context.Params.quote.quoteline |safeHTML}}<br/>
-                                    <span class="text text-sm italic">-
+                                {{ if .context.Params.citation }}
+                                    {{ partial "box-citation.html" .context }}
+                                {{ else }}
+                                    {{ if .context.Params.reference }}
+                                        {{- .context.Params.reference |safeHTML -}}
+                                    {{ else if .context.Params.quote }}
+                                        {{ .context.Params.quote.quoteline |safeHTML}}<br/>
+                                        <span class="text text-sm italic">-
                                         {{ .context.Params.quote.quoteauthor }}
                                         ({{ .context.Params.quote.quotedate }})</span>
-                                {{ else }}
-                                    <span class="text text-sm italic">{{if .context.Params.abstract }}{{ .context.Params.abstract |safeHTML }}{{ else }}{{ .context.Params.description }}{{ end }}{{ .context.Params.boxtext |safeHTML }}</span>
+                                    {{ else }}
+                                        <span class="text text-sm italic">{{if .context.Params.abstract }}{{ .context.Params.abstract |safeHTML }}{{ else }}{{ .context.Params.description }}{{ end }}{{ .context.Params.boxtext |safeHTML }}</span>
+                                    {{ end }}
                                 {{ end }}
                             </p>
                             {{ if .context.Params.collaboration }}

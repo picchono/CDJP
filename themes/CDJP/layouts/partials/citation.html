@@ -8,19 +8,31 @@
         {{ index . 0 -}}, {{ index . 2 -}}
         {{ $ord = add $ord 1 }}
     {{ end }}
+    {{ if .year }}({{ .year -}}).{{- end -}}
+    {{ if .title }} {{ .title -}}.{{- end -}}
 {{ end }}
-{{ if .year }}({{ .year -}}).{{- end -}}
-{{ if .title }} {{ .title -}}.{{- end -}}
 {{ if .editors }}
     {{ $edito := .editors }}
     {{ $lee := len $edito }}
-    {{ if ne .Params.publitype "edition" }}In{{ end }} {{ range $edito }}
-        {{- if ne (index . 0) 1 -}}{{- if eq (index . 0) $lee }} & {{- else -}}, {{- end -}}{{- end }}
-        {{ index . 2 }}, {{ index . 0 -}} 
-    {{ end }} (Eds.){{ if ne .Params.publitype "edition" }}, {{ else }}. {{ end }}
+    {{ $ord := 1 }}
+    {{ if ne $.Params.publitype "edition" }}
+        In {{ range $edito }}
+        {{ if ne $ord 1 -}}{{- if eq $ord $lee }} & {{- else -}}, {{- end -}}{{- end }}
+        {{ index . 2 }}, {{ index . 0 -}}
+        {{ $ord = add $ord 1 }}
+        {{ end }} (Eds.), 
+    {{ else }}
+        {{ range $edito }}
+        {{ if ne $ord 1 -}}{{- if eq $ord $lee }} & {{- else -}}, {{- end -}}{{- end }}
+        {{ index . 0 -}}, {{ index . 2 }} 
+        {{ $ord = add $ord 1 }}
+        {{ end }} (Eds.). 
+        {{ if .year }} {{ .year -}}. {{ end -}}
+    {{ end }}
 {{ end }}
 {{ if .journal}}
     {{- .journal -}}
+    {{ if eq $.Params.publitype "edition" }}{{- if .title }}: {{ .title -}}{{- end -}}{{- end -}}
     {{- if .number -}}. {{ .number }}{{ if .volume}}({{ .volume }}){{ end -}}{{ end }}
     {{- if .pages -}}, {{ if eq .pages "online" }}online{{ else }}{{ .pages }}{{ end }}{{- end -}}.
 {{ end }}
