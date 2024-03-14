@@ -54,6 +54,10 @@
                 {{ if and (.Params.reference) (ne .File.Section "publications") }}
                     <div class="my-10"><p>{{ .Params.reference |safeHTML }}</p></div>
                 {{ end }}
+                {{ if .Params.link }}
+                    <div class="my-10">{{ partial "doclink.html" . }}</div>
+            {{ end }}
+
                 {{ if .Params.abstract }}
                     <div class="h-auto my-10">
                         <p>
@@ -85,9 +89,6 @@
                             </a>
                         {{ end }}
                     </div>
-                {{ end }}
-                {{ if .Params.link }}
-                    <div class="max-w-3xl w-full pr-5">{{ partial "doclink.html" . }}</div>
                 {{ end }}
                 {{ if .Params.photogallery }}
                     {{ partial "photogallery.html" . }}
