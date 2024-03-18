@@ -20,7 +20,7 @@
 			"order": 1,
 			"type": "Curriculum vitae",
 			"username": "Pierre Levy",
-			"url": "../cv",
+			"url": "/team/PLevy_cv/",
 			"icon": "cv"
 		},
 		"photo": {

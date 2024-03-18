@@ -15,7 +15,7 @@
                 {{ $slid := .Params.slides }}
                 {{ $ord := 1 }}
                 <div class="flex flex-row flex-wrap spotlight-group">{{ range $slid }}
-                    <div class="w-full lg:w-44 mr-4 mb-4"><a class="place-self-center spotlight w-full" href="{{ . }}&width=1920&height=1080" aria-label="See image {{ $ord }}">
+                    <div class="w-full lg:w-44 mr-4 mb-4"><a class="place-self-center spotlight w-full" href="{{ . }}&width=3840&height=2160" aria-label="See image {{ $ord }}">
                         <img class="rounded-sm object-cover" loading="lazy" src="{{ . }}&width=660">
                     </a></div>
                     {{ $ord = add $ord 1 }}
