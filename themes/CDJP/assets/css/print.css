@@ -32,6 +32,10 @@ body {
     font-variant-ligatures: common-ligatures;
 }
 
+a {
+    @apply border-0;
+}
+
 a[href^="http://"].pdf:after,
 a[href^="https://"].pdf:after {
     content: " ["attr(href) "]";

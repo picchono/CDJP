@@ -59,7 +59,7 @@
                         class="text-sm italic">{{ .comment |safeHTML }}</span>{{ end }}
                      {{ end }}</div>{{ end }}
                   {{ if isset . "activities" }}
-                  <div class="leading-6 text-sm">
+                  <div class="pt-4 leading-6 text-sm">
                      {{ range sort .activities "start" "desc" }}
                      <b class="vert text-sm">{{ .title |safeHTML }}</b> ({{ if eq .end "none" }}{{ i18n "Since" }}
                      {{ .start }}{{ else }}{{ .start }}-{{ .end }}{{ end }}) {{ if isset . "comment" }} - <span
@@ -92,7 +92,7 @@
                         class="text-sm italic">{{ .comment |safeHTML }}</span>{{ end }}
                      {{ end }}</div>{{ end }}
                   {{ if isset . "activities" }}
-                  <div class="leading-6 text-sm">
+                  <div class="pt-4 leading-6 text-sm">
                      {{ range sort .activities "start" "desc" }}
                      <b class="vert text-sm">{{ .title |safeHTML }}</b> ({{ if eq .end "none" }}{{ i18n "Since" }}
                      {{ .start }}{{ else }}{{ .start }}-{{ .end }}{{ end }}) {{ if isset . "comment" }} - <span

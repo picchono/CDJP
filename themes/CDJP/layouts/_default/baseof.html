@@ -19,20 +19,4 @@
 {{ $spo_js := resources.Get "js/spotl.js" | minify }}
 <script defer src="{{ $spo_js.Permalink }}"></script>
 {{ end }}
-
-<script>
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/sw.js', { scope: '/' })
-      .then(function (reg) {
-        // registration worked
-        console.log('Registration succeeded. Scope is ' + reg.scope);
-      }).catch(function(error) {
-        //registration failed
-        console.log('Registration failed with ' + error);
-      });
-    });
-  }
-</script>
-
 </html>

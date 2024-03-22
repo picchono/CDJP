@@ -7,7 +7,7 @@
 *,
 html,
 body {
-  font-size: 17px;
+  font-size: 16px;
   font-stretch: 100%;
   letter-spacing: 0.01rem;
   line-height: var(--lineHeight);
@@ -1043,7 +1043,7 @@ canvas#bgirreg2in {
 }
 .pagefind-ui__result-excerpt.svelte-j9e30.svelte-j9e30 {
   display: inline-block;
-  font-weight: 400;
+  font-weight: normal;
   font-size: calc(16px * var(--pagefind-ui-scale));
   margin-top: calc(4px * var(--pagefind-ui-scale));
   margin-bottom: 0;
@@ -1152,7 +1152,7 @@ canvas#bgirreg2in {
 
 .pagefind-ui__result-excerpt.svelte-4xnkmf.svelte-4xnkmf {
   display: inline-block;
-  font-weight: 400;
+  font-weight: normal;
   font-size: calc(16px * var(--pagefind-ui-scale));
   margin-top: calc(4px * var(--pagefind-ui-scale));
   margin-bottom: 0;
@@ -1287,7 +1287,7 @@ legend.svelte-1v2r7ls.svelte-1v2r7ls {
 .pagefind-ui__filter-label.svelte-1v2r7ls.svelte-1v2r7ls {
   cursor: pointer;
   font-size: calc(16px * var(--pagefind-ui-scale));
-  font-weight: 400;
+  font-weight: normal;
 }
 .pagefind-ui--reset
   *:where(:not(html, iframe, canvas, img, svg, video):not(svg *, symbol *)) {
