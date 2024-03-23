@@ -15,8 +15,4 @@
     {{ partial "footer.html" . }}
   </main>
 </body>
-{{ if .Params.photogallery }}
-{{ $spo_js := resources.Get "js/spotl.js" | minify }}
-<script defer src="{{ $spo_js.Permalink }}"></script>
-{{ end }}
 </html>

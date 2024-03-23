@@ -1,7 +1,7 @@
 :root {
   @apply font-sans text-primary-text leading-6 box-border;
   --st-dropshadow: 7px 7px 8px #00000044;
-  --lineHeight: 1.8;
+  --lineHeight: 1.7;
 }
 
 *,
@@ -66,6 +66,13 @@ a.slashLink:hover {
   @apply bg-epierrot text-primary-bg;
 }
 
+#lightgallery > a {
+  @apply border-0;
+}
+
+#lightgallery > a:hover {
+  @apply bg-transparent;
+}
 
 strong > a {
   @apply border-0;
@@ -213,12 +220,6 @@ button {
 
 .menuActive {
   @apply text-epierrot;
-}
-
-/* photo gallery */
-#spotlight .title {
-  font-weight: normal !important;
-  font-size: 1rem !important;
 }
 
 /* video */
@@ -974,17 +975,17 @@ canvas#bgirreg2in {
   height: 100%;
 }
 
-.logosign>a{
-  @apply border-primary-bg;
+.logosign a{
+  @apply border-primary-bg mr-2;
   filter:grayscale(1)opacity(0.5);
   transition-duration: 500ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.logosign>a:hover{
-  @apply bg-primary-bg;
-  filter:grayscale(0);
+.logosign a:hover{
+  @apply bg-transparent text-primary-text;
+  filter:grayscale(0)opacity(1);
 }
 
 /* pagefind */

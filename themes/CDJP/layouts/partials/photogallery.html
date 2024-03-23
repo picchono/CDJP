@@ -1,14 +1,20 @@
 {{ $photonb := len .Params.photogallery }}
 {{ if eq $photonb 1 }}
-<div class="p-0"><img loading="lazy" class="imag object-cover w-full h-full spotlight cursor-pointer rounded-md"
+<div class="p-0" id="lightgallery"><img loading="lazy" class="imag object-cover w-full h-full cursor-pointer rounded-md"
         src="{{ .Params.photogallery.image1.img }}"></div>
 {{ else }}
-<div class="py-8">
-    <div class="flex flex-row flex-wrap spotlight-group w-full">
+<div class="flex flex-row flex-wrap w-full py-8" id="lightgallery">
         {{ range sort .Params.photogallery "order" "asc" }}
-        <div class="w-1/4 sm:w-1/6 lg:w-1/12 p-0.5"><a class="place-self-center spotlight w-full" href="{{ .img }}" data-title="{{ .name }}" aria-label="See image"><img class="rounded-sm object-cover h-14"
-                loading="lazy" src="{{ .src }}"></a></div>
+        <a class="place-self-center w-1/4 sm:w-1/6 lg:w-1/12 p-0.5" href="{{ .img }}" aria-label="See image"><img class="rounded-sm object-cover h-14" loading="lazy" src="{{ .src }}" alt="{{ .name }}"></a>
         {{ end }}
-    </div>
 </div>
 {{ end }}
+
+{{ $lightg_js := resources.Get "js/lg.js" | minify }}
+<script src="{{ $lightg_js.Permalink }}"></script>
+<script type="text/javascript">
+  lightGallery(document.getElementById('lightgallery'), {
+      licenseKey: "0000-0000-000-0000",
+      speed: 500
+  });
+</script>

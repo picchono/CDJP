@@ -7,35 +7,79 @@
                 <div class="invisible md:visible md:mr-4 flex-shrink-0 flex-grow-0 h-0 md:h-40 w-0 md:w-40">
                     <span id="qrcode" class="block h-0 md:h-36 w-0 md:w-36 md:mb-8 md:p-3 bg-white rounded-lg"></span>
                 </div>
-                {{ if .Content}}<div class="flex-shrink flex-grow w-52">
-                       {{ .Content }}
-                </div>{{ end }}
+                {{ if .Content}}
+                    <div class="flex-shrink flex-grow w-52">
+                        {{ .Content }}
+                    </div>
+                {{ end }}
             </div>
             {{ if .Params.slides }}
-                {{ $slid := .Params.slides }}
-                {{ $ord := 1 }}
-                <div class="flex flex-row flex-wrap spotlight-group">{{ range $slid }}
-                    <div class="w-full lg:w-44 mr-4 mb-4"><a class="place-self-center spotlight w-full" href="{{ . }}&width=3840&height=2160" aria-label="See image {{ $ord }}">
-                        <img class="rounded-sm object-cover" loading="lazy" src="{{ . }}&width=660">
-                    </a></div>
+            {{ $slid := .Params.slides }}
+            {{ $ord := 1 }}
+            <div class="flex flex-row flex-wrap" id="lightgallery">
+                {{ range $slid }}
+                    {{ $typ := index . 1 }}
+                    {{ if eq $typ "img" }}
+                        <a class="place-self-center w-full lg:w-44 mr-4 mb-4" href="{{ index . 0 }}&width=3840&height=2160" aria-label="See image {{ $ord }}">
+                            <img class="rounded-sm object-cover" loading="lazy" src="{{ index . 0 }}&width=600" alt="image {{ $ord }}"></a>
+                    {{ else if eq $typ "mov"}}
+                        <a  data-lg-size="1280-720"
+                            data-src="//vimeo.com/129643275"
+                            data-poster="{{ index . 2 }}"
+                            class="place-self-center w-full lg:w-44 mr-4 mb-4">
+                    <img class="rounded-sm object-cover" loading="lazy" src="{{ index . 2 }}" alt="video {{ $ord }}">
+                    </a>
+                    {{ end }}
                     {{ $ord = add $ord 1 }}
-                {{ end }}</div>
+                {{ end }}
+            </div>
             {{ end }}
         </div>
         <div class="md:w-2/6 px-5 md:pl-20 self-start">&nbsp;</div>
     </div>
-    {{ $qr_js := resources.Get "js/qrgen.js" | minify }}
-    <script src="{{ $qr_js.Permalink }}"></script>
-    {{ $spo_js := resources.Get "js/spotl.js" | minify }}
-    <script defer src="{{ $spo_js.Permalink }}"></script>
-    <script>
-        const qrcode = new QRCode(document.getElementById('qrcode'), {
-            text: {{.Page.Permalink }},
-            width: 500,
-            height: 500,
-            colorDark: '#000',
-            colorLight: '#fff',
-            correctLevel: QRCode.CorrectLevel.H
-        });
-    </script>
+{{ $qr_js := resources.Get "js/qrgen.js" | minify }}
+<script src="{{ $qr_js.Permalink }}"></script>
+<script defer="defer">
+    const qrcode = new QRCode(document.getElementById('qrcode'), {
+        text: {{ .Page.Permalink }},
+        width: 500,
+        height: 500,
+        colorDark: '#000',
+        colorLight: '#fff',
+        correctLevel: QRCode.CorrectLevel.H
+    });
+</script>
+{{ $lightg_js := resources.Get "js/lg.js" | minify }}
+<script src="{{ $lightg_js.Permalink }}"></script>
+<script src="https://player.vimeo.com/api/player.js"></script>
+{{ $lgvid_js := resources.Get "js/lg-video.js" | minify }}
+<script src="{{ $lgvid_js.Permalink }}"></script>
+<script type="text/javascript">
+    lightGallery(document.getElementById('lightgallery'), {
+        licenseKey: "0000-0000-000-0000",
+        speed: 500,
+        plugins: [lgVideo],
+        download: false,
+        loop: false,
+        mode: "lg-fade",
+        showBarsAfter: 2000,
+        showMaximizeIcon: true,
+        videojs: true,
+        getCaptionFromTitleOrAlt: false,
+        videojsOptions: {
+            muted: true,
+        },
+        vimeoPlayerParams: {
+            byline : 0,
+            portrait : 0,
+            color : 'CCCCCC'
+        },
+        youTubePlayerParams: {
+            modestbranding : 1,
+            showinfo : 0,
+            controls : 0
+        },
+        loadYouTubePoster: true
+    });
+</script>
 {{ end }}
