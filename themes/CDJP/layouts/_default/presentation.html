@@ -49,6 +49,13 @@
         correctLevel: QRCode.CorrectLevel.H
     });
 </script>
+<style>
+@font-face {
+    font-family: "lg";
+    src: url(/lg.woff2) format("truetype");
+}
+</style>
+
 {{ $lightg_js := resources.Get "js/lg.js" | minify }}
 <script src="{{ $lightg_js.Permalink }}"></script>
 <script src="https://player.vimeo.com/api/player.js"></script>
@@ -62,6 +69,8 @@
         download: false,
         loop: false,
         mode: "lg-fade",
+        nextHtml: ">",
+        prevHtml: "<",
         showBarsAfter: 2000,
         showMaximizeIcon: true,
         videojs: true,

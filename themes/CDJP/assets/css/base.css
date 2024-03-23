@@ -1579,3 +1579,11 @@ div.highlight pre {
   @apply bg-primary-bg;
   filter: grayscale(0) brightness(1) saturate(1) contrast(1) drop-shadow(var(--st-dropshadow));
 }
+
+/* Presentation */
+.lg-prev:after {
+  content: '' !important;
+}
+.lg-next:before {
+  content: '' !important;
+}
