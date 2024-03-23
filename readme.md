@@ -18,4 +18,3 @@ It uses the scripts:
 - [lightgallery](http://www.lightgalleryjs.com/)
 - [qrcode.js](https://davidshimjs.github.io/qrcodejs/)
 - [clipboard-polyfill](https://github.com/lgarron/clipboard-polyfill)
-- 
