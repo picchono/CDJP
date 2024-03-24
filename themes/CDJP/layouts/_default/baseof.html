@@ -7,6 +7,7 @@
   <div class="invisible h-0 w-0">
     <span data-pagefind-filter="Type">{{ .Params.searchFilter }}</span>
     <span data-pagefind-filter="Institution">{{ .Params.institution.short}}</span>
+    {{ if eq .Params.searchFilter "Publication"}}<span data-pagefind-filter="Publication">{{ .Params.subsection }}</span>{{ end }}
     {{ range .Params.collaboration -}}<span data-pagefind-filter="Collaboration">{{ .short }}</span>{{- end -}}
   </div>{{ end }}
   <main class='w-full lg:w-auto' data-pagefind-body>  
