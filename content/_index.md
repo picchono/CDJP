@@ -1,0 +1,32 @@
+---
+title: "Chaire design Jean Prouvé"
+date: 2020-10-24T00:55:28+02:00
+draft: false
+layout: single
+searchFilter: home
+institution:
+    logo: cnam
+    short: Cnam
+    name: "Conservatoire national des Arts et Métiers"
+    web: "https://www.cnam.fr/"
+    colo: "#c1002a"
+tags: ['Pierre', 'Lévy', 'design', 'kansei', 'eindhoven', 'pratiques_transformatives']
+description: "La Chaire de Design Jean Prouvé est un lieu bienveillant consacré au développement de la pratique et de la recherche en design. Elle s'engage dans un programme combinant recherche, enseignement, et projets en design, avec comme horizon la transformation au travers des pratiques réflexives du quotidien."
+notEverything: true
+notListed: true
+noPagesearch: true
+comment: false
+---
+
+{{<slashLink "Leçon inaugurale" "/events/lecon-inaugurale/">}}  
+
+&nbsp;  
+{{<slashLink "Écrits recents" "/writings/">}}&nbsp;[La diversité dans l'enseignement du design et des métiers d'art doit faire école]({{< ref "/writings/PLevy_PIA23" >}})
+{{<slashLink "Formations" "/courses/">}}&nbsp;[Master design Cnam·CESAAP]({{< ref "/courses/Master-CESAAP.md" >}}) en résidence à l'Académie du climat à Paris
+{{<slashLink "Enseignements" "/teaching/">}}&nbsp;[Recherche en design (DSN201)]({{< ref "/teaching/DSN201.md" >}}) · [Pratiques reflexives (DSN202)]({{< ref "/teaching/DSN202.md" >}}) · [Compétences numériques pour la transition professionelle (TET007)]({{< ref "/teaching/TET007-M1.md" >}})
+{{<slashLink "Événements" "/events/">}}&nbsp;Séminaire de recherche [Médiums en design]({{< ref "/events/mediumsendesign.md" >}}) avec Annie Gentès de CY École de design
+{{<slashLink "Projets" "/projects/">}}&nbsp;[École du non-savoir]({{< ref "/projects/non-sapere24.md" >}}) avec Ruedi Baur et Civic City · [TransFabriC]({{< ref "/projects/transfabric.md" >}}) au CNAM
+
+
+{{<slashLink "Pierre Lévy" "/team/PLevy/">}}&nbsp; prof.dr.ing. Pierre Lévy, HDR / Professeur du CNAM (PRCM) au [Conservatoire National des Arts et Métiers, France](https://www.cnam.fr) · Titulaire de la Chaire design Jean Prouvé · Membre du laboratoire [Dicen-IDF](https://www.dicen-idf.org/) (EA 7339)
+{{<slashLink "Recherche" "/research/">}}&nbsp;Mon travail porte sur la création d'un [cadre théorique pour le design inspiré par la philosophie japonaise](/research/japanese_philosophy-inspired_design_framework/) pour penser la relation entre [le design et l'appropriation](/research/design-appropriation/), et contribuer aux [Pratiques Transformatives](/research/transformingpractices/).&nbsp;{{<slashLink "Publications" "/publications/">}}
