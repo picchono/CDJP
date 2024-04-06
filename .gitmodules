@@ -1,0 +1,3 @@
+[submodule "themes/CDJP"]
+	path = themes/CDJP
+	url = https://github.com/tomowang/hugo-theme-tailwind.git
