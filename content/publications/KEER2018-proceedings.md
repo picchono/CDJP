@@ -1,11 +1,11 @@
 ---
+members: ["PLevy"]
 slug: kansei-engineering-and-emotion-research-2018
 title: The Proceedings of the Kansei Engineering and Emotion Research International Conference 2018, KEER 2018
 layout: single
 searchFilter: Publication
 searchWeight: 8
 publitype: edition
-subsection: edition
 subsection: edition
 kansei: true
 research: 
@@ -16,6 +16,7 @@ institution:
     name: "Eindhoven University of Technology"
     web: "https://www.tue.nl/en/"
     colo: "#c72125"
+chaire: false
 date: 2018-03-22T23:44:38+01:00
 citation:
     editors:

@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: Special-issue-kansei-research-in-europe
 title: "Special issue: kansei research in Europe"
 tags: ['kansei', 'recherche_en_kansei']
@@ -15,6 +16,7 @@ institution:
     name: "Eindhoven University of Technology"
     web: "https://www.tue.nl/en/"
     colo: "#c72125"
+chaire: false
 date: 2012-05-25T21:30:22+02:00
 reference: "Lévy, P. (2012). Special issue: kansei research in Europe, presented at the Kansei Engineering and Emotion Research International Conference 2012, KEER2012, Penghu, Taiwan. May 22-25, 2012."
 abstract: "Many academic laboratories and companies in Europe have worked in kansei research. As on other continents, kansei engineering is the most important discipline, but is not the only one. The disciplines in Kansei Research in Europe are multiple, as are their origins. This multiplicity of disciplines and points-of-views creates a great opportunity for the development of the field in Europe.

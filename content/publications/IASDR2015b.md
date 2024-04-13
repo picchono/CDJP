@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: the-chatter-door-designing-for-in-between-spaces
 title: The Chatter Door, designing for in-between spaces
 layout: single
@@ -13,6 +14,7 @@ institution:
     name: "Eindhoven University of Technology"
     web: "https://www.tue.nl/en/"
     colo: "#c72125"
+chaire: false
 date: 2015-05-11T22:37:10+02:00
 citation:
     authors:

@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: passage
 title: "Passage"
 layout: single
@@ -15,6 +16,7 @@ institution:
     name: "Eindhoven University of Technology"
     web: "https://www.tue.nl/en/"
     colo: "#c72125"
+chaire: false
 date: 2012-09-03T16:27:15+02:00
 abstract: "Passage is a kansei design project on the in-between space carried out in 2012 by Gracia Goh, Chiyong Lim, and Kate Vermeyen at the Eindhoven University of Technology."
 frontphoto: "https://live.staticflickr.com/65535/50588356177_7cb3292ae0.jpg"

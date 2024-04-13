@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: when-movement-invites-to-experience-a-kansei-design-exploration-on-senses-qualities
 title: "When Movement Invites to Experience: a Kansei Design Exploration on Senses’ Qualities"
 layout: single
@@ -16,6 +17,7 @@ institution:
     name: "Eindhoven University of Technology"
     web: "https://www.tue.nl/en/"
     colo: "#c72125"
+chaire: false
 date: 2012-04-14T22:03:51+02:00
 citation:
     authors:

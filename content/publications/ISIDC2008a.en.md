@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: users-appreciation-of-engagement-in-service-design-the-case-of-food-service-design
 title: "User’s appreciation of engagement in service design: The case of food service design"
 layout: single
@@ -15,6 +16,7 @@ everyday: true
 researchpage: true
 research: 
     -  everyday
+chaire: false
 date: 2008-10-22T21:02:00+01:00
 citation:
     authors:

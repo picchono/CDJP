@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: ProVi-a-transforming-vision-emerging-from-reflective-practice
 title: "ProVi – a transforming vision emerging from reflective practice"
 layout: single
@@ -14,6 +15,7 @@ institution:
     name: "Conservatoire national des Arts et Métiers"
     web: "https://www.cnam.fr"
     colo: "#c1002a"
+chaire: true
 date: 2023-10-09T15:00:40+02:00
 citation:
     authors:

@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: designing-rituals
 title: "Designing rituals"
 institution:
@@ -7,6 +8,7 @@ institution:
     name: "Eindhoven University of Technology"
     web: "https://www.tue.nl/en/"
     colo: "#c72125"
+chaire: false
 date: 2014-11-03T16:27:15+02:00
 start: 2014
 end: 2016
@@ -14,7 +16,7 @@ draft: false
 layout: single
 searchFilter: Teaching
 chaire: false
-subsection: past-course
+subsection: ended
 everyday: true
 researchpage: true
 research: 

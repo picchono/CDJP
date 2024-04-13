@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 title: "Master CESAAP - PUDS01 / UE11 · Séminaire de recherche"
 institution:
     logo: cnam
@@ -37,6 +38,7 @@ collaboration:
         name: "École Supérieure des Arts Appliqués Duperré"
         web: "https://duperre.org"
         heig: 1.5
+chaire: true
 date: 2021-10-01T00:55:28+02:00
 draft: false
 layout: single
@@ -55,6 +57,6 @@ frontphoto: "https://live.staticflickr.com/65535/52036439015_8b0d8a9ccd.jpg"
 frontphotomini: "https://live.staticflickr.com/65535/52036439015_8b0d8a9ccd_m.jpg"
 ---
 
-**/ Enseignantes /** Marion Nielsen · Isabelle Sinclair · Marie Saby
+{{< slash "Enseignantes" >}} Marion Nielsen · Isabelle Sinclair · Marie Saby
 
 Le séminaire de recherche définit un thème associé à l'année de formation et au projet. Autour d'une thématique proposée cinq acteurs du champ de la création, de la production et de la culture rencontrent les étudiants à travers des présentations documentée de 2h. Celles-ci donnent lieu à des échanges et des discussions, un collectif d'étudiant est chargé d'accueillir et d'organiser la venue des intervenants invités. La session fait l'objet d'une captation audio-visuelle et textuelle. La thématique retenue entre en résonance avec le lieu de la résidence et les enjeux contemporains, par exemple : en résidence au Mobilier national "Faire collectif", "Mobilier-Immobilier", "La narration", "Nouvelles alchimies", "Hospitalité".

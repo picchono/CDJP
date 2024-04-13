@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 title: "TET007-M1/4. Wordpress"
 institution:
     logo: cnam
@@ -6,6 +7,7 @@ institution:
     name: "Conservatoire national des Arts et Métiers"
     web: "https://www.cnam.fr/"
     colo: "#c1002a"
+chaire: false
 date: 2021-10-01T00:55:28+02:00
 draft: false
 layout: single

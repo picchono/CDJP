@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: prospective-psychophysiological-approach-for-kansei-design-knowledge-sharing-between-psychophysiology-and-design
 title: "Prospective psychophysiological approach for Kansei design: knowledge sharing between psychophysiology and design"
 layout: single
@@ -15,6 +16,7 @@ institution:
     name: "University of Tsukuba"
 research: 
     -  kansei
+chaire: false
 date: 2009-09-22T21:28:01+02:00
 citation:
     authors:

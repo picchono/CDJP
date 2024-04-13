@@ -1,5 +1,7 @@
 ---
+members: ["PLevy"]
 title: "Design et appropriation"
+chaire: false
 date: 2020-10-16T20:04:12+02:00
 draft: false
 searchFilter: Research

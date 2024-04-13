@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 title: "Matter of Transformation"
 institution:
     logo: TUe
@@ -6,13 +7,14 @@ institution:
     name: "Eindhoven University of Technology"
     web: "https://www.tue.nl/en/"
     colo: "#c72125"
+chaire: false
 date: 2019-11-04T00:55:28+02:00
 start: 2019
 draft: false
 layout: single
 chaire: false
 searchFilter: Teaching
-subsection: past-course
+subsection: ended
 transformpractices: true
 researchpage: true
 research: 
@@ -128,6 +130,6 @@ Throughout the elective, students analyse the implication of these frameworks on
     
 This reflection will be supported by a frequential redesign of an everyday design, seen as an embodied experience of an aesthetical and ethical proposition.
 
-**/ Learning objectives /**
+{{< slash "Learning objectives" >}}
 - Identify, structure and illustrate relations between design (as aesthetical propositions) and other disciplinary fields within human and social sciences,
 - Reflect on the impact of design on society and on oneself.</ul>

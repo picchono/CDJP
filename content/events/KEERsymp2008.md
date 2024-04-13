@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: kansei-engineering-science-rrans-interdisciplinary-research
 title: "Kansei Engineering|Science, Trans|Interdisciplinary Research"
 tags: ['kansei', 'interdisciplinarité']
@@ -14,6 +15,7 @@ institution:
 kansei: true
 research: 
     -  kansei
+chaire: false
 date: 2008-10-02T21:03:50+02:00
 reference: "Lévy, P. (2008). Kansei Engineering|Science – Trans|Interdisciplinary Research, presented at the KEER International Symposium 2008, Taipei, Taiwan. October 2nd, 2008."
 ---

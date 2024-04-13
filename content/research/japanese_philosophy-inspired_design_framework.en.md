@@ -1,6 +1,8 @@
 ---
+members: ["PLevy"]
 title: "Japanese philosophy inspired design framework"
 slug: japanese_philosophy-inspired_design_framework
+chaire: false
 date: 2020-10-16T20:04:12+02:00
 draft: false
 searchFilter: Research
@@ -192,6 +194,7 @@ Je suis en désaccord avec cela. Certes, tenter de définir le design est un tra
 Cet axe de recherche tente donc d’ouvrir le territoire du quotidien et de ses valeurs, le territoire de nos vies dans ce qu’elles ont de plus réel, éloignées de ces expériences que l’on nous dit être extraordinaires parce qu’en fait inatteignables, et que l’on ne peut donc qu’en rêver. Ma proposition est de se pencher sur ce qui est là, tous les jours, et bien souvent oublié ou ignoré dans nos vies et dans le design (Pérec parle d’anesthésie). S’intéresser au design pour le quotidien, c’est chercher dans le banal, dans le commun, dans l’endotique ce qui est beau ou ce qui peut le devenir.
 
 {{< floatImg "https://live.staticflickr.com/65535/50588356067_12e3dd9d02_b.jpg" >}}
-**/ Le temps de l'expérience, enchanter le quotidien par le design /**
+
+
 La cérémonie japonaise du thé est un moment d’expérience esthétique et éthique du quotidien, une harmonie entre objets, êtres, lieux et pratiques. Elle nous rappelle que les objets du quotidien, cœur même de notre culture matérielle, sont d’une beauté profonde et porteur d’une éthique admirable, et passent pourtant le plus souvent inaperçus. À la croisée d’une réflexion sur une approche « japonaise » en design au travers de l’étude du kansei, et d’une réflexion sur le design en IHM portée par les théories de l’embodiment, cette recherche interroge d’abord l’hégémonie culturelle occidentale du design en IHM, et établie ensuite un décentrage culturel de la discipline en prenant la philosophie et la culture japonaise comme théorie. Il en résulte un nouveau regard sur le design, autant en réception qu’en production, porté par une éthique de la relation, une expérience de l’ainsité, et une esthétique de l’irrégularité. Ce regard invite le design à enchanter le quotidien, lui proposant de considérer les détails de la réalité telle qu’elle est vécue, et de créer des moments d’inattendus, sources d’étonnement et de nouveaux possibles. Invitant donc à un décentrage culturel du design, cette recherche propose une approche originale pour un design du quotidien, et contribue à voir en lui une source esthétique et éthique majeure, pour développement de l’être, de sa sensibilité, et de ses valeurs.
 

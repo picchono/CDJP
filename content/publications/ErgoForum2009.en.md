@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: methods-and-means-for-kansei-design
 title: "Methods and Means for Kansei Design"
 layout: single
@@ -12,6 +13,7 @@ institution:
     name: "Chiba University"
     web: "https://www.chiba-u.ac.jp/"
 kasne: true
+chaire: false
 date: 2009-06-23T21:19:56+02:00
 citation:
     authors:

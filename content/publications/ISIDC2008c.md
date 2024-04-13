@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: development-of-competences-for-service-design
 title: "Development of Competences for Service Design"
 layout: single
@@ -11,6 +12,7 @@ institution:
     short: 'Chiba U.'
     name: "Chiba University"
     web: "https://www.chiba-u.ac.jp/"
+chaire: false
 date: 2008-10-22T20:45:41+02:00
 citation:
     authors:

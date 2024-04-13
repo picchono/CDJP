@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: an-approach-on-functional-analysis-in-developing-guideline-for-designing-service-embedded-product
 title: "An Approach on Functional Analysis in Developing Guideline for Designing Service-embedded Product"
 layout: single
@@ -11,6 +12,7 @@ institution:
     short: 'Chiba U.'
     name: "Chiba University"
     web: "https://www.chiba-u.ac.jp/"
+chaire: false
 date: 2008-10-22T20:55:44+02:00
 citation:
     authors:

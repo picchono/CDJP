@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: towards-a-definition-of-kansei
 title: "Towards a definition of Kansei"
 layout: single
@@ -15,6 +16,7 @@ institution:
     short: 'U. of Tsukuba'
     web: "https://www.tsukuba.ac.jp/"
     name: "University of Tsukuba"
+chaire: false
 date: 2006-09-29T19:13:29+02:00
 citation:
     authors:

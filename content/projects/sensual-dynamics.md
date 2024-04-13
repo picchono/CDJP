@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: sensual-dynamics
 title: "Sensual Dynamics"
 institution:
@@ -7,6 +8,7 @@ institution:
     name: "Eindhoven University of Technology"
     web: "https://www.tue.nl/en/"
     colo: "#c72125"
+chaire: false
 date: 2013-09-03T16:27:15+02:00
 start: 2011
 end: 2013

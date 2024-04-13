@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: monty
 title: "Monty"
 layout: single
@@ -15,6 +16,7 @@ institution:
     name: "Eindhoven University of Technology"
     web: "https://www.tue.nl/en/"
     colo: "#c72125"
+chaire: false
 date: 2012-09-03T16:27:15+02:00
 abstract: "Due to its curious nature Monty might not always be focused on what you are doing. He can however be temporarily motivated to move towards a particular area on your desk.<br/>by Rens Alkemade"
 frontphoto: "https://live.staticflickr.com/65535/50588356187_5d84aee544.jpg"

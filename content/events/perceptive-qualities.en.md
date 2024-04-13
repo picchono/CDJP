@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: perceptive-qualities
 title: "Perceptive Qualities in System of Interactive Products"
 layout: single
@@ -15,6 +16,7 @@ institution:
     name: "Eindhoven University of Technology"
     web: "https://www.tue.nl/en/"
     colo: "#c72125"
+chaire: false
 date: 2013-05-23T16:27:15+02:00
 abstract: "On May 3rd 2013, Eva Deckers has received a Ph.D. degree CUM LAUDE on the topic of Perceptive Qualities in System of Interactive Products."
 frontphoto: "https://live.staticflickr.com/65535/50587487588_02e31ae420.jpg"

@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 title: "Composing Everyday Rituals"
 institution:
     logo: TUe
@@ -6,6 +7,7 @@ institution:
     name: "Eindhoven University of Technology"
     web: "https://www.tue.nl/en/"
     colo: "#c72125"
+chaire: false
 date: 2016-09-01T14:55:28+02:00
 start: 2016
 end: 2019
@@ -13,7 +15,7 @@ draft: false
 layout: single
 searchFilter: Teaching
 chaire: false
-subsection: past-course
+subsection: ended
 place: "TU/e, The Netherlands"
 level: "master"
 language: English
@@ -40,7 +42,7 @@ The aim of this course is to address these qualities embodied in rituals from an
 To address this course through a project, we will first focus on a personal everyday ritual, in order to find descriptive elements. We will then explore ways to enrich rituals through a project. Both will be used to contribute to the elaboration of a composing tools for rituals.
 The final day will close the module by a demonstration of the ritual with the newly designed series of artefacts.
 
-**/ Learning objectives /**
+{{< slash "Learning objectives" >}}
 - Describing rituals;
 - Implementing ritual-related interaction qualities;
 - Arguing the design decisions taken during implementation and their consequences;

@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: designing-for-transforming-practices-maps-and-journeys
 title: "Designing for Transforming Practices: Maps and Journeys"
 layout: single
@@ -13,6 +14,7 @@ institution:
     name: "Eindhoven University of Technology"
     web: "https://www.tue.nl/en/"
     colo: "#c72125"
+chaire: false
 date: 2021-10-21T12:29:52+02:00
 front: true
 frontdescription: "Un atlas collaboratif sur les TP"

@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 title: "Master CESAAP - PUDS05 / UE16 · Projet en design"
 institution:
     logo: cnam
@@ -37,6 +38,7 @@ collaboration:
         name: "École Supérieure des Arts Appliqués Duperré"
         web: "https://duperre.org"
         heig: 1.5
+chaire: true
 date: 2021-10-01T00:55:28+02:00
 draft: false
 layout: single
@@ -55,9 +57,9 @@ frontphoto: "https://live.staticflickr.com/65535/52036439015_8b0d8a9ccd.jpg"
 frontphotomini: "https://live.staticflickr.com/65535/52036439015_8b0d8a9ccd_m.jpg"
 ---
 
-**/ Enseignants /** JC Valleran · Antoine Fermey · Clémence Mergy
+{{< slash "Enseignants" >}} JC Valleran · Antoine Fermey · Clémence Mergy
 
-**/ Projets et accréditation /**
+{{< slash "Projets et accréditation" >}}
 1. préciser, élargir et actualiser
 2. se positionner individuellement et organiser les collaborations
 3. accréditation

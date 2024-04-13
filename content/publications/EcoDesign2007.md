@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: interdisciplinary-design-method-for-ecodesign-introducing-kansei-research-for-design-to-ecodesign
 title: "Interdisciplinary Design Method for EcoDesign, Introducing Kansei research for design to EcoDesign"
 layout: single
@@ -14,6 +15,7 @@ institution:
 kansei: true
 research: 
     -  kansei
+chaire: false
 date: 2007-10-02T19:37:01+02:00
 citation:
     authors:

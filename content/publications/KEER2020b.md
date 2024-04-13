@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: studying-requirements-for-designing-a-vitality-data-sharing-platform-from-a-multi-stakeholder-perspective
 title: "Studying requirements for designing a vitality data sharing platform from a multi-stakeholder perspective"
 institution:
@@ -7,6 +8,7 @@ institution:
     name: "Eindhoven University of Technology"
     web: "https://www.tue.nl/en/"
     colo: "#c72125"
+chaire: false
 date: 2020-08-29T16:39:07+02:00
 layout: single
 searchFilter: Publication

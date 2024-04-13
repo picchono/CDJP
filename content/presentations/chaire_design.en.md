@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: chaire-design-jean-prouve
 title: "Design Chaire Jean Prouvé"
 layout: presentation
@@ -9,6 +10,7 @@ institution:
     name: "Conservatoire national des Arts et Métiers"
     web: "https://www.cnam.fr/"
     colo: "#c1002a"
+chaire: true
 date: 2024-03-14T16:27:15+02:00
 frontphoto: "https://onedrive.live.com/embed?resid=50aeab3cfffe3174%212422141&authkey=%21AOk7cIPg0B9cAew&width=660"
 description: "A short presentation about the Design Chaire Jean Prouvé, reugularly updated."

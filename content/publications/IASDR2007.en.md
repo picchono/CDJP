@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: on-kansei-and-kansei-design-a-description-of-a-japanese-design-approach
 title: "On Kansei and Kansei Design: a Description of a Japanese Design Approach"
 layout: single
@@ -15,6 +16,7 @@ kansei: true
 researchpage: true
 research: 
     -  kansei
+chaire: false
 date: 2007-07-10T19:32:06+02:00
 citation:
     authors:

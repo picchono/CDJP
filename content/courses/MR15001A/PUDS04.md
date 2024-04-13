@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 title: "Master CESAAP - PUDS04 / UE17 & UE18 · Médiation du projet en design"
 institution:
     logo: cnam
@@ -37,6 +38,7 @@ collaboration:
         name: "École Supérieure des Arts Appliqués Duperré"
         web: "https://duperre.org"
         heig: 1.5
+chaire: true
 date: 2021-10-01T00:55:28+02:00
 draft: false
 layout: single
@@ -55,7 +57,7 @@ frontphoto: "https://live.staticflickr.com/65535/52036439015_8b0d8a9ccd.jpg"
 frontphotomini: "https://live.staticflickr.com/65535/52036439015_8b0d8a9ccd_m.jpg"
 ---
 
-**/ Enseignants /** JC Valleran · Antoine Fermey · Clémence Mergy · Marion Nielsen · Patrick Dos Santos
+{{< slash "Enseignants" >}} JC Valleran · Antoine Fermey · Clémence Mergy · Marion Nielsen · Patrick Dos Santos
 
 Temps d'élaboration et de production du projet de chaque collectif constitué. L'accompagnement
 s'organise sous la forme d'un double tutorat. Un enseignant de la Césaap, un tuteur extérieur

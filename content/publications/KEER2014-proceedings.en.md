@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: kansei-engineering-and-emotion-research-2014
 title: The Proceedings of the Kansei Engineering and Emotion Research International Conference 2014, KEER 2014
 layout: single
@@ -15,6 +16,7 @@ institution:
     name: "Eindhoven University of Technology"
     web: "https://www.tue.nl/en/"
     colo: "#c72125"
+chaire: false
 date: 2010-03-04T22:10:51+02:00
 citation:
     editors:

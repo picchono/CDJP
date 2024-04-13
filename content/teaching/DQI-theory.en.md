@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: DQI-theory
 title: "Designing Quality in Interaction theory"
 institution:
@@ -7,6 +8,7 @@ institution:
     name: "Eindhoven University of Technology"
     web: "https://www.tue.nl/en/"
     colo: "#c72125"
+chaire: false
 date: 2011-09-03T16:27:15+02:00
 start: 2011
 end: 2014
@@ -14,7 +16,7 @@ draft: false
 layout: single
 searchFilter: Teaching
 chaire: false
-subsection: past-course
+subsection: ended
 perceptq: true
 researchpage: true
 research: 
@@ -69,7 +71,7 @@ photogallery:
 ---
 In this two-week workshop, theories of interaction design are explained and explored through applications. The DQI approach to Interaction Design is theory informed. This means that theory inspires and even guides the way we look at interaction, and the way we design for interaction and experience.
 
-**/ Topics /**
+{{< slash "Topics" >}}
 - Phenomenology and experience (Merlau-Ponty and Dewey)  
 - Gibsonian theory of perception  
 - Models of interaction: Interaction Frogger  

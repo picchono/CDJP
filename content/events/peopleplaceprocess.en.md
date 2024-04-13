@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: people-place-process
 title: "People Place Process: A self-reflection tool to become a professional in design thinking, based on pedagogical action research"
 layout: single
@@ -15,6 +16,7 @@ institution:
     name: "Eindhoven University of Technology"
     web: "https://www.tue.nl/en/"
     colo: "#c72125"
+chaire: false
 date: 2017-05-23T16:27:15+02:00
 abstract: "The nature of design thinking projects requires a great capacity to solve situated-inquiry problems (versus technical problem solving – Schön). Design thinking requires practitioners to become reflective professionals. This piece of research provides a protocol and tools to guide their journey of self-reflection.<br/><i>Doctoral dissertation of Véronique Hillen</i>"
 frontphoto: "https://live.staticflickr.com/65535/50587487463_7b03cd97f3.jpg"

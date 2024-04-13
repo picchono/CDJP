@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: kansei-studies-description-and-mapping-through-kansei-studies-keywords
 title: "Kansei Studies Description and Mapping through Kansei Studies Keywords"
 layout: single
@@ -9,6 +10,7 @@ subsection: conference
 kansei: true
 research: 
     -  kansei
+chaire: false
 date: 2008-02-28T19:51:56+01:00
 citation:
     authors:

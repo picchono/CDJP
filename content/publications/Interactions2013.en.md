@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: matter-of-transformation-designing-an-alternative-tomorrow-inspired-by-phenomenology
 title: "Matter of transformation, designing an alternative tomorrow inspired by phenomenology"
 layout: single
@@ -16,6 +17,7 @@ institution:
     name: "Eindhoven University of Technology"
     web: "https://www.tue.nl/en/"
     colo: "#c72125"
+chaire: false
 date: 2013-09-10T20:07:29+02:00
 citation:
     authors:

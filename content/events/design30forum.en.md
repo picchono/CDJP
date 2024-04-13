@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: design-30-forum
 title: "Design 3.0 Forum"
 layout: single
@@ -12,11 +13,13 @@ institution:
     name: "Eindhoven University of Technology"
     web: "https://www.tue.nl/en/"
     colo: "#c72125"
+chaire: false
 date: 2019-09-03T16:27:15+02:00
 abstract: "Design 3.0 Forum aims to raise and discuss the challenging issues in design research, education and practice in this newly emerging paradigm we now face with new forms of end-user products such as intelligent products and services, DIY/fabrication tools, and IoTs. These new forms of products and services change the ways people interact with them and shape their everyday lives."
 frontphoto: "https://live.staticflickr.com/65535/50587487733_f59134e90a.jpg"
 ---
-**/ DESIGN 3.0 FORUM /**
+
+{{< slash "DESIGN 3.0 FORUM" >}}
 
 Introduction by **Dr. Ki-Young Nam, KAIST**  
 Congratulatory Remark by **Prof. Kun-pyo Lee**

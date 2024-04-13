@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: what-matters-for-ritual-visualization-towards-a-design-tool-for-the-description-and-the-composition-of-rituals
 title: "What matters for ritual visualization, towards a design tool for the description and the composition of rituals"
 layout: single
@@ -16,6 +17,7 @@ institution:
     name: "Eindhoven University of Technology"
     web: "https://www.tue.nl/en/"
     colo: "#c72125"
+chaire: false
 date: 2016-09-02T23:06:45+02:00
 citation:
     authors:

@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 title: "Designing for the everyday"
 institution:
     logo: TUe
@@ -6,6 +7,7 @@ institution:
     name: "Eindhoven University of Technology"
     web: "https://www.tue.nl/en/"
     colo: "#c72125"
+chaire: false
 date: 2018-09-04T00:55:28+02:00
 start: 2018
 end: 2019
@@ -13,7 +15,7 @@ draft: false
 layout: single
 searchFilter: Teaching
 chaire: false
-subsection: past-course
+subsection: ended
 place: "TU/e, The Netherlands"
 level: "bachelor"
 language: English
@@ -44,7 +46,7 @@ Make an inventory of your pockets, of your bag. Wonder about the origin, the use
 Question your tea spoons.  
 It matters little to me that these questions are fragmentary, barely indicative of a method, at most of a project. It matters a lot to me that they seem trivial and futile: that’s precisely what makes them as essential, if not more so, as so many others by which we have vainly tried to capture our truth.* (Perec, 1989)
 
-**/ Learning objectives /**
+{{< slash "Learning objectives" >}}
 - Describing everyday rituals and the everyday;
 - Implementing details related to the everyday through interaction design;
 - Arguing the design decisions taken during implementation and their consequences;

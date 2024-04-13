@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: lecon-inaugurale
 title: "Leçon inaugurale de la Chaire de design Jean Prouvé"
 layout: single
@@ -29,6 +30,7 @@ collaboration:
         name: "Chaire de Design Jean Prouvé"
         web: "https://www.chaire-design.fr"
         heig: 2.5
+chaire: true
 date: 2022-05-18T10:30:52+02:00
 reference: "Lévy, P. (2022). Le moment du design - Lecture inaugurale de la Chaire de Design Jean Prouvé, presented at Conservatoire National des Arts et Métiers, Paris, France. May 13th, 2022."
 frontphoto: "https://live.staticflickr.com/65535/51985038282_8c9b6bb8c9_c.jpg"
@@ -51,7 +53,7 @@ video:
 
 # Le moment du design</h1>
 
-{{<slash "Leçon inaugurale de la Chaire de Design Jean Prouvé, 18 mai 2022">}}
+**Leçon inaugurale de la Chaire de Design Jean Prouvé, 18 mai 2022**
 
 &nbsp;  
 Merci Ruedi pour cette introduction chaleureuse. Ton parrainage de la chaire ne peut être qu’un bon présage pour ce qu’elle peut et va devenir.
@@ -289,27 +291,29 @@ Marche doucement, car tu marches sur mes rêves.
 Je vous remercie.
 
 ## 6. Bibliographie
-- Peters, N. Prouvé. (Taschen, 2017).  
-- Hancock, T. & Bezold, C. Possible futures, preferable futures. Healthc. Forum J. 37, 23&mdash;29 (1994).  
-- Blackler, A. et al. Can We Define Design? Analyzing Twenty Years of Debate on a Large Email Discussion List. She Ji J. Des. Econ. Innov. 7, 41&mdash;70 (2021).  
-- Redström, J. Making design theory. (MIT Press, 2017).  
-- Lévy, P. Le temps de l'expérience, enchanter le quotidien par le design. (Université de Technologie de Compiègne, France, 2018).  
-- Lévy, P. Designing for the everyday through thusness and irregularity. in Proceedings of the International Association of Societies of Design Research Conference 2019, IASDR19 (Manchester Metropolitan University, 2019).  
-- Trotto, A. et al. Designing for Transforming Practices: Maps and Journeys. (Technische Universiteit Eindhoven, 2021).  
-- Sennett, R. Ce que sait la main: la culture de l'artisanat. (Albin Michel, 2010).  
-- Overbeeke, K. The aesthetics of the Impossible. Inaugural Lecture (Eindhoven University of Technology, 2007).  
-- Schön, D. A. The Reflective Practitioner: How Professionals Think In Action. (Basic Books, 1984).  
-- Dōgen. La présence au monde. (Le Promeneur, 1999).  
-- Arendt, H. Condition de l'homme moderne. (Librairie générale française, 2020).  
-- dix—milliards—humains. dix—milliards—humains. dix—milliards—humains [https://dix-milliards-humains.com/fr](https://dix-milliards-humains.com/fr) (2021).  
-- Yanagi, S. Artisan et inconnu, perception de la beauté dans l'esthétique japonaise. (Langues Et Mondes L'asiathèque, 1992).  
-- Stevens, B. Invitation à la philosophie japonaise: autour de Nishida. (CNRS, 2005).  
-- Yanagi, S. The Responsibility Of The Craftsman: And Mystery Of Beauty. (Literary Licensing, LLC, 2013).  
-- Lévy, P. & Yamada, S. 3D-modeling and 3D-printing Explorations on Japanese Tea Ceremony Utensils. in Proceedings of the Eleventh International Conference on Tangible, Embedded, and Embodied Interaction - TEI'17 283&mdash;288 (ACM Press, 2017).  [doi:10.1145/3024969.3024990](dl.acm.org/doi/10.1145/3024969.3024990).  
-- Bégout, B. La découverte du quotidien. (Éditions Allia, 2005).  
-- Perec, G. L'infra-ordinaire. (Seuil, 1989).  
-- Fukasawa, N. Micro consideration. MUJI無印良品: 無印良品とクリエイター (2015).  
-- Cox, A. L., Gould, S. J. J., Cecchinato, M. E., Iacovides, I. & Renfree, I. Design Frictions for Mindful Interactions: The Case for Microboundaries. in Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems 1389&mdash;1397 (ACM, 2016). [doi:10.1145/2851581.2892410](dl.acm.org/doi/10.1145/2851581.2892410).  
-- Lévy, P., Deckers, E. & Restrepo, M. C. When Movement Invites to Experience: a Kansei Design Exploration on Senses' Qualities. in Proceedings of the International Conference on Kansei Engineering and Emotion Research, KEER 2012 366&mdash;372 (National Cheng Kung University, 2012).  
-- Jonas, H. Le principe responsabilité&nbsp;  une éthique pour la civilisation technologique. (Flammarion, 1998).  
-- Yeats, W. B. La Rose et autres poèmes. (Seuil, 2008).
+
+1. Peters, N. Prouvé. (Taschen, 2017).
+2. Hancock, T. & Bezold, C. Possible futures, preferable futures. Healthc. Forum J. 37, 23&mdash;29 (1994).
+3. Blackler, A. et al. Can We Define Design? Analyzing Twenty Years of Debate on a Large Email Discussion List. She Ji J. Des. Econ. Innov. 7, 41&mdash;70 (2021).
+4. Redström, J. Making design theory. (MIT Press, 2017).
+5. Lévy, P. Le temps de l'expérience, enchanter le quotidien par le design. (Université de Technologie de Compiègne, France, 2018).
+6. Lévy, P. Designing for the everyday through thusness and irregularity. in Proceedings of the International Association of Societies of Design Research Conference 2019, IASDR19 (Manchester Metropolitan University, 2019).
+7. Trotto, A. et al. Designing for Transforming Practices: Maps and Journeys. (Technische Universiteit Eindhoven, 2021).
+8. Sennett, R. Ce que sait la main: la culture de l'artisanat. (Albin Michel, 2010).
+9. Overbeeke, K. The aesthetics of the Impossible. Inaugural Lecture (Eindhoven University of Technology, 2007).
+10. Schön, D. A. The Reflective Practitioner: How Professionals Think In Action. (Basic Books, 1984).
+11. Dōgen. La présence au monde. (Le Promeneur, 1999).
+12. Arendt, H. Condition de l'homme moderne. (Librairie générale française, 2020).
+13. dix—milliards—humains. dix—milliards—humains. dix—milliards—humains <a class="text-sm" href='https://dix-milliards-humains.com/fr' target="_blank" rel="noreferrer">https://dix-milliards-humains.com/fr</a> (2021).
+14. Yanagi, S. Artisan et inconnu, perception de la beauté dans l'esthétique japonaise. (Langues Et Mondes L'asiathèque, 1992).
+15. Stevens, B. Invitation à la philosophie japonaise: autour de Nishida. (CNRS, 2005).
+16. Yanagi, S. The Responsibility Of The Craftsman: And Mystery Of Beauty. (Literary Licensing, LLC, 2013).
+17. Lévy, P. & Yamada, S. 3D-modeling and 3D-printing Explorations on Japanese Tea Ceremony Utensils. in Proceedings of the Eleventh International Conference on Tangible, Embedded, and Embodied Interaction - TEI'17 283&mdash;288 (ACM Press, 2017). <a class="text-sm" href='dl.acm.org/doi/10.1145/3024969.3024990' target="_blank" rel="noreferrer">doi:10.1145/3024969.3024990</a>.
+18. Bégout, B. La découverte du quotidien. (Éditions Allia, 2005).
+19. Perec, G. L'infra-ordinaire. (Seuil, 1989).
+20. Fukasawa, N. Micro consideration. MUJI無印良品: 無印良品とクリエイター (2015).
+21. Cox, A. L., Gould, S. J. J., Cecchinato, M. E., Iacovides, I. & Renfree, I. Design Frictions for Mindful Interactions: The Case for Microboundaries. in Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems 1389&mdash;1397 (ACM, 2016). <a class="text-sm" href='dl.acm.org/doi/10.1145/2851581.2892410' target="_blank" rel="noreferrer">doi:10.1145/2851581.2892410.</a>
+22. Lévy, P., Deckers, E. & Restrepo, M. C. When Movement Invites to Experience: a Kansei Design Exploration on Senses' Qualities. in Proceedings of the International Conference on Kansei Engineering and Emotion Research, KEER 2012 366&mdash;372 (National Cheng Kung University, 2012).
+23. Jonas, H. Le principe responsabilité&nbsp;  une éthique pour la civilisation technologique. (Flammarion, 1998).
+24. Yeats, W. B. La Rose et autres poèmes. (Seuil, 2008).
+25.

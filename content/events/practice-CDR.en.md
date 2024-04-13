@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: practice-CDR
 title: "The Practice of Constructive Design Research"
 tags: ['Constructive_Design_Research', 'Research_through_Design', 'Umeå']
@@ -16,6 +17,7 @@ institution:
     name: "Eindhoven University of Technology"
     web: "https://www.tue.nl/en/"
     colo: "#c72125"
+chaire: false
 date: 2012-09-03T16:27:15+02:00
 abstract: "The Practice of Constructive Design Research is a conversation proposed by Stoffel Kuenen at the DRS2014 conference.</i>"
 frontphoto: "https://live.staticflickr.com/65535/50587487593_401ed67d43.jpg"

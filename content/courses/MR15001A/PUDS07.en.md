@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 title: "Master CESAAP - PUDS07 / UE 14 · Médiation en langue anglaise"
 institution:
     logo: cnam
@@ -37,6 +38,7 @@ collaboration:
         name: "École Supérieure des Arts Appliqués Duperré"
         web: "https://duperre.org"
         heig: 1.5
+chaire: true
 date: 2021-10-01T00:55:28+02:00
 draft: false
 layout: single
@@ -55,7 +57,7 @@ frontphoto: "https://live.staticflickr.com/65535/52036439015_8b0d8a9ccd.jpg"
 frontphotomini: "https://live.staticflickr.com/65535/52036439015_8b0d8a9ccd_m.jpg"
 ---
 
-**/ Enseignante /** Fabienne Bego
+{{< slash "Enseignante" >}} Fabienne Bego
 
 Accompagnement des différents collectifs de projet vers la médiation audiovisuelle des restitution
 de projet en langue anglaise. Production d'une capsule vidéo communicante afin de restituer la

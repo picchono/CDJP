@@ -1,5 +1,6 @@
 
 ---
+members: ["PLevy"]
 slug: the-eindhoven-school
 title: "Systems Design - The Eindhoven School"
 layout: single
@@ -12,6 +13,7 @@ institution:
     name: "Eindhoven University of Technology"
     web: "https://www.tue.nl/en/"
     colo: "#c72125"
+chaire: false
 date: 2012-12-12T16:27:15+02:00
 abstract: "While we are starting to understand how to design for interaction through the integrating of form, interaction and function, the next challenge is already in sight: designing for systems."
 frontphoto: "https://live.staticflickr.com/65535/50588233741_0d25b7c9d9.jpg"

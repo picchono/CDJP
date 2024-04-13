@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: exploring-constituents-for-kansei-design-towards-a-framework
 title: "Exploring constituents for kansei design, towards a framework"
 layout: single
@@ -16,6 +17,7 @@ institution:
     name: "Eindhoven University of Technology"
     web: "https://www.tue.nl/en/"
     colo: "#c72125"
+chaire: false
 date: 2013-09-12T22:31:09+02:00
 citation:
     authors:

@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: passage
 title: "Passage"
 layout: single
@@ -15,6 +16,7 @@ institution:
     name: "Eindhoven University of Technology"
     web: "https://www.tue.nl/en/"
     colo: "#c72125"
+chaire: false
 date: 2012-09-03T16:27:15+02:00
 abstract: "Passage est un projet de design kanasei réalisé en 2012 par Gracia Goh, Chiyong Lim, et Kate Vermeyen à l’Université de Technologie d’Eindhoven."
 frontphoto: "https://live.staticflickr.com/65535/50588356177_7cb3292ae0.jpg"

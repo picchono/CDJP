@@ -1,5 +1,5 @@
 baseURL = "https://chaire-design.fr"
-languageCode = "en"
+languageCode = "fr-FA"
 title = "Chaire design Jean Prouvé"
 theme = "CDJP"
 defaultContentLanguage = "fr"
@@ -52,13 +52,13 @@ merge = "deep"
 [languages]
   [languages.fr]
     languageName = "FR"
-    languageCode = "fr"
+    languageCode = "fr-FA"
     weight = 1
   [languages.en]
     languageName = "EN"
-    languageCode = "en"
+    languageCode = "en-GB"
     weight = 2
   [languages.jp]
     languageName = "JP"
-    languageCode = "jp"
+    languageCode = "jp-JA "
     weight = 3

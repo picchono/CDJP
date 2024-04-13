@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: haiku-cocoa
 title: "À peine hors du lit"
 layout: single
@@ -9,6 +10,7 @@ everyday: true
 researchpage: true
 research: 
     -  everyday
+chaire: false
 date: 2018-09-03T16:27:15+02:00
 abstract: "布団抜け匙にて点てるココアの茶"
 frontphoto: "https://live.staticflickr.com/65535/50588234511_901c2a5e0e.jpg"

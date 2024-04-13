@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: rite-de-transition
 title: "Rite de transition – a design choreographic exploration of cultural value exchange, through development of intercultural ritual artefacts"
 layout: single
@@ -15,6 +16,7 @@ institution:
     name: "Eindhoven University of Technology"
     web: "https://www.tue.nl/en/"
     colo: "#c72125"
+chaire: false
 date: 2014-08-13T22:41:15+02:00
 citation:
     authors:

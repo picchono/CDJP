@@ -1,6 +1,8 @@
 ---
+members: ["PLevy"]
 slug: mediums-in-design
 title: "Médiums en design"
+chaire: false
 date: 2021-12-11T20:04:12+02:00
 tags: ['séminaire', 'médiums', 'médialité', 'anthropologie_symétrique']
 draft: false

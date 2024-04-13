@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: kansei-science-and-kansei-value-creation-through-kansei-behavioral-and-Brain-Sciences
 title: "感性価値の高い化粧品開発にむけた手法と考え方感性認知脳科学的視点から考える感性価値創造"
 layout: single
@@ -16,6 +17,7 @@ institution:
     name: "Eindhoven University of Technology"
     web: "https://www.tue.nl/en/"
     colo: "#c72125"
+chaire: false
 date: 2010-09-10T21:18:00+02:00
 citation:
     authors:

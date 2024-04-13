@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 title: "Master CESAAP - PUDS05 / UE16 · Projet en design"
 institution:
     logo: cnam
@@ -37,6 +38,7 @@ collaboration:
         name: "École Supérieure des Arts Appliqués Duperré"
         web: "https://duperre.org"
         heig: 1.5
+chaire: true
 date: 2021-10-01T00:55:28+02:00
 draft: false
 layout: single
@@ -55,7 +57,7 @@ frontphoto: "https://live.staticflickr.com/65535/52036439015_8b0d8a9ccd.jpg"
 frontphotomini: "https://live.staticflickr.com/65535/52036439015_8b0d8a9ccd_m.jpg"
 ---
 
-**/ Enseignants /** Marion Nielsen · Patrick Dos Santos · Isabelle Sinclair · Marie Saby
+{{< slash "Enseignants" >}} Marion Nielsen · Patrick Dos Santos · Isabelle Sinclair · Marie Saby
 
 Conception de la revue Plateau. Celle-ci est coordonnée par l'équipe enseignante des séminaires
 de recherche UE11 et 15, elle s'appuie sur les productions écrites et iconographiques des

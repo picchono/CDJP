@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 title: "Master CESAAP - PUDS02 / UE12 · Critique et médiation du design"
 institution:
     logo: cnam
@@ -37,6 +38,7 @@ collaboration:
         name: "École Supérieure des Arts Appliqués Duperré"
         web: "https://duperre.org"
         heig: 1.5
+chaire: true
 date: 2021-10-01T00:55:28+02:00
 draft: false
 layout: single
@@ -55,7 +57,7 @@ frontphoto: "https://live.staticflickr.com/65535/52036439015_8b0d8a9ccd.jpg"
 frontphotomini: "https://live.staticflickr.com/65535/52036439015_8b0d8a9ccd_m.jpg"
 ---
 
-**/ Enseignants /** JC Valleran · Antoine Fermey · Clémence Mergy
+{{< slash "Enseignants" >}} JC Valleran · Antoine Fermey · Clémence Mergy
 
 Intitulé, intensif Welcome, l'UE vise à organiser le premier temps de la résidence dans une
 démarche d'acculturation. Les étudiants constituent des collectifs de travail qui, au travers de

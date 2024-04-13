@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: seminar-school-of-not-knowing
 title: "Seminar of the school of not-knowing"
 tags: ['not knowing', 'design']
@@ -23,6 +24,7 @@ collaboration:
         web: "https://www.cnam.fr/"
         colo: "#c1002a"
         heig: 1.5
+chaire: true
 date: 2023-10-16T14:00:00+02:00
 reference: "This seminar aims to launch the third session of the school of not-Knowing. The first began in September 2022 at the French Institute in Milan and culminated in the form of a first exhibition in the same place in January 2024."
 frontphoto: "https://civic-city.org/nonsapere/wp-content/uploads/2023/10/CNAM-question-mark-1.jpg"

@@ -1,4 +1,5 @@
 ---
+members: ["PLevy"]
 slug: developing-a-design-approach-exploring-resistance-and-ambiguity
 title: "Developing a design approach, exploring resistance and ambiguity"
 layout: single
@@ -17,6 +18,7 @@ institution:
     name: "Eindhoven University of Technology"
     web: "https://www.tue.nl/en/"
     colo: "#c72125"
+chaire: false
 date: 2012-04-14T21:52:14+02:00
 citation:
     authors:
