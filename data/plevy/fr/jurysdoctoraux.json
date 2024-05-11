@@ -1,11 +1,27 @@
 {
     "description": "Jurys de doctorat",
     "list": {
+        "Daniele Arets": {
+            "date": "2024-04-16",
+            "type": "Membre du jury de la défense doctorale",
+            "candidate": "Daniele Arets",
+            "place": "Université de Technologie d'Eindhoven, Pays-Bas",
+            "title": "Save the debate through adversarial design",
+            "language": "anglais"
+        },
+        "Laurent Mertz": {
+            "date": "2024-01-18",
+            "type": "Rapporteur and President of the jury of the doctoral defence",
+            "candidate": "Laurent Mertz",
+            "place": "Institut Polytechnique de Paris / Telecom Paris",
+            "title": "Représenter l'utilisateur et son expérience : conditions de production et d'évolution de documents dans un projet design",
+            "language": "français"
+        },
         "Diane Beaulieu": {
             "date": "2023-02-16",
             "type": "Président du jury de la défense doctorale",
             "candidate": "Diane Beaulieu",
-            "place": "École doctorale Abbé Grégoire, Hésam Univerité",
+            "place": "École doctorale Abbé Grégoire, Hésam Université",
             "title": "Anticipation par le design. Contributions de l’approche design et de la conception de dispositifs de médiation à la prospective — une approche pour favoriser l’engagement des acteurs vers des futurs souhaitables",
             "language": "français"
         },

@@ -13,4 +13,5 @@ front: true
 frontphoto: "https://live.staticflickr.com/65535/50697812518_d1292b5cce.jpg"
 frontphotomini: "https://live.staticflickr.com/65535/50697812518_d1292b5cce_q.jpg"
 ---
+
 intro

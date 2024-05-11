@@ -27,7 +27,7 @@ video:
     video2:
         vimeo: "99952357"
 link:
-    website: "http://murmurations.kuenen.org/2014/07/07/the-practice-of-constructive-design-research"
+    1: ["site web", "website", "http://murmurations.kuenen.org/2014/07/07/the-practice-of-constructive-design-research"]
 ---
 
 ***The Practice of Constructive Design Research*** *is a conversation proposed by Stoffel Kuenen at the DRS2014 conference.*

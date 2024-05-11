@@ -19,7 +19,7 @@ noPagesearch: true
 comment: false
 ---
 
-{{<slashLink "Leçon inaugurale" "/events/lecon-inaugurale/">}}
+{{<slashLink "Inaugural lecture" "/events/lecon-inaugurale/">}}
 
 &nbsp;  
 {{<slashLink "Recent writings" "/writings/">}}[La diversité dans l'enseignement du design et des métiers d'art doit faire école]({{< ref "/writings/PLevy_PIA23" >}})

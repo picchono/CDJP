@@ -19,9 +19,9 @@ institution:
     web: "https://www.cnam.fr/"
     colo: "#c1002a"
 frontphoto: "https://images.unsplash.com/reserve/LJIZlzHgQ7WPSh5KVTCB_Typewriter.jpg?q=80&w=5196&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-frontphotomini: "https://images.unsplash.com/reserve/LJIZlzHgQ7WPSh5KVTCB_Typewriter.jpg?q=80&w=5196&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+frontphotomini: "https://images.unsplash.com/reserve/LJIZlzHgQ7WPSh5KVTCB_Typewriter.jpg?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 link:
-    website: "https://formation.cnam.fr/rechercher-par-discipline/master-arts-lettres-langues-mention-design-parcours-creation-projets-transdisciplinarite-1085664.kjsp"
+    1: ["page institutionelle", "institutional", "https://formation.cnam.fr/rechercher-par-discipline/master-arts-lettres-langues-mention-design-parcours-creation-projets-transdisciplinarite-1085664.kjsp"]
 Parcours:
     MR15001A:
         code: MR15001A

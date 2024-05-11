@@ -44,7 +44,7 @@ photogallery:
         img: "https://live.staticflickr.com/65535/51986700870_d4d90c5cd6_o.jpg"
         link: "https://www.flickr.com/photos/27221668@N05/51986700870/in/album-72157719756961069/"
 link:
-    transcription: "https://1drv.ms/b/s!AnQx_v88q65QgYawMK3nZYHEkftf1js?e=F3cxn4"
+    1: ["transcription", "book", "https://1drv.ms/b/s!AnQx_v88q65QgYawMK3nZYHEkftf1js?e=F3cxn4"]
 video:
     video1:
         youtube: "2iE0PFu51CM"

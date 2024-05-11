@@ -17,7 +17,7 @@ publitype: inbook
 subsection: book-section
 citation:
     authors:
-        1: ["Trotto", "Pierre", "P."]
+        1: ["Trotto", "Ambra", "A."]
         2: ["Hummels", "Caroline", "C.C.M."]
         3: ["Peeters", "Jeroen", "J.P.A."]
         4: ["Yoo", "Daisy", "D."]

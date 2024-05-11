@@ -62,6 +62,14 @@
             }
         },
         "activities": {
+            "ecoletransition": {
+                "order": 6,
+                "start": "2024",
+                "end": "none",
+                "title": "Member of the pedagogical and scientific committees off the <a href='https://formation.cnam.fr/actualites-de-la-formation/ecole-des-transitions-ecologiques-1427875.kjsp' target='_blank' rel='noreferrer' title='School of Ecological Transitions'>School of Ecological Transitions</a> at Cnam",
+                "comment": "The School of Ecological Transitions offers high-level expertise on the challenges of ecological transition and sustainable development, as well as a multi-disciplinary training program (35 training courses and over fifty teaching units).",
+                "main": false
+            },
             "DNMADE": {
                 "order": 5,
                 "start": "2022",

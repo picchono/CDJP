@@ -22,8 +22,8 @@ date: 2018-10-09T16:27:15+02:00
 abstract: "Preceeding the inaugural lecture of prof. Stephan Wensveen, you are cordially invited to attend the Kees Overbeeke symposium at the Senaatszaal in the Auditorium, on Friday, October 19, 2018.<br/><i>On the legacy of Prof. Kees Overbeeke</i>"
 frontphoto: "https://live.staticflickr.com/65535/50587487628_cabb76f433.jpg"
 link:
-    presentation: "/publications/contemplating-the-impossible/"
-    programme: "https://1drv.ms/b/s!AnQx_v88q65Q1-tOF82yeT5mikXnBw"
+    1: ["presentation", "presentation", "/publications/contemplating-the-impossible/"]
+    2: ["programme", "programme", "https://1drv.ms/b/s!AnQx_v88q65Q1-tOF82yeT5mikXnBw"]
 ---
 
 Stephan was appointed full professor of ‘Constructive Design Research in Smart Products, Services and Systems’ in the Department of Industrial Design on May 1, 2017. He will deliver his inaugural lecture ‘Constructive Design Research’ at 16:00.

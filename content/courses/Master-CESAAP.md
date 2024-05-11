@@ -96,8 +96,8 @@ lectures:
         link: "UAIP11"
         title: "UAIP11 / UE19 · Stage en entreprise"
 link:
-    1: ["website", "website", "https://formation.cnam.fr/rechercher-par-discipline/master-arts-lettres-langues-mention-design-parcours-creation-projets-transdisciplinarite-1085664.kjsp"]
-    7: ["guide", "guide", "https://ensaama.net/site/content/1-home/pdf-reserve/m2_masterdesign_academie_du_climat.pdf"]
+    1: ["site web", "website", "https://formation.cnam.fr/rechercher-par-discipline/master-arts-lettres-langues-mention-design-parcours-creation-projets-transdisciplinarite-1085664.kjsp"]
+    2: ["guide", "guide", "https://ensaama.net/site/content/1-home/pdf-reserve/m2_masterdesign_academie_du_climat.pdf"]
 video:
     video1:
         vimeo: "504830775" 

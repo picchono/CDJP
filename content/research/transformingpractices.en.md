@@ -18,4 +18,5 @@ quote:
     quoteauthor: "Dewey"
     quotedate: "2015:35"
 ---
-intro
+
+**The aim of our research program is to foster social resilience by focusing on transforming practices and societies. We do so by designing and evaluating in complex socio-technical systems.**

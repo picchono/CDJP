@@ -1,11 +1,27 @@
 {
     "description": "Doctoral thesis jury",
     "list": {
+        "Daniele Arets": {
+            "date": "2024-04-16",
+            "type": "Membre of the doctoral defence",
+            "candidate": "Daniele Arets",
+            "place": "Eindhoven University of Technology, the Netherlands",
+            "title": "Save the debate through adversarial design",
+            "language": "English"
+        },
+        "Laurent Mertz": {
+            "date": "2024-01-18",
+            "type": "Rapporteur and President of the jury of the doctoral defence",
+            "candidate": "Laurent Mertz",
+            "place": "Institut Polytechnique de Paris / Telecom Paris, France",
+            "title": "Représenter l'utilisateur et son expérience : conditions de production et d'évolution de documents dans un projet design",
+            "language": "French"
+        },
         "Diane Beaulieu": {
             "date": "2023-02-16",
             "type": "President of the jury of the doctoral defence",
             "candidate": "Diane Beaulieu",
-            "place": "École doctorale Abbé Grégoire, Hésam Univerité",
+            "place": "École doctorale Abbé Grégoire, Hésam Université, France",
             "title": "Anticipation par le design. Contributions de l’approche design et de la conception de dispositifs de médiation à la prospective — une approche pour favoriser l’engagement des acteurs vers des futurs souhaitables",
             "language": "French"
         },
@@ -13,7 +29,7 @@
             "date": "2023-01-24",
             "type": "Membre of the doctoral defence",
             "candidate": "Dominique Deuff",
-            "place": "Nantes Université",
+            "place": "Nantes Université, France",
             "title": "Vivre ensemble avec les objets à comportements. Une approche pluridisciplinaire pour questionner, modéliser et proposer une nouvelle écologie pour les jeunes retraités",
             "language": "French"
         },
@@ -21,7 +37,7 @@
             "date": "2022-04-15",
             "type": "President of the jury of the doctoral defence",
             "candidate": "Dorian Reunkrilerk",
-            "place": "Telecom Paris / Strate",
+            "place": "Telecom Paris / Strate, France",
             "title": "LA FORCE DU SIGNE FAIBLE. Rôle des médias pour lintégration du design au sein des organisations : une contribution sémio-pragmatique de la médiation au design",
             "language": "French"
         },
@@ -29,7 +45,7 @@
             "date": "2021-10-11",
             "type": "President of the jury of the doctoral defence",
             "candidate": "Niklas Henke",
-            "place": "Université Grenoble Alpes",
+            "place": "Université Grenoble Alpes, France",
             "title": "La corporéité des affects selon le design dans les projets d'innovation : approche critique, analyse des pratiques et perspectives",
             "language": "French"
         },

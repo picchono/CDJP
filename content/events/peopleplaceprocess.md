@@ -22,7 +22,7 @@ abstract: "The nature of design thinking projects requires a great capacity to s
 frontphoto: "https://live.staticflickr.com/65535/50587487463_7b03cd97f3.jpg"
 link:
     5: ["dissertation", "dissertation", "https://research.tue.nl/files/65720264/20170523_Hillen.pdf"]
-    2: ["website", "website", "https://research.tue.nl/en/publications/people-place-process-a-self-reflection-tool-to-become-a-professio"]
+    2: ["site web", "website", "https://research.tue.nl/en/publications/people-place-process-a-self-reflection-tool-to-become-a-professio"]
 photogallery:
     image1:
         order: 1

@@ -30,7 +30,8 @@ frontphoto: "https://live.staticflickr.com/65535/52427464765_8fe12aeeee_h.jpg"
 
 ### L'internet, le web
 
-[The Web Is Not The Net](https://www.youtube.com/watch?v=scWj1BMRHUA)
+{{<linkBox "The Web Is Not The Net" "https://www.youtube.com/watch?v=scWj1BMRHUA" "http://i3.ytimg.com/vi/scWj1BMRHUA/hqdefault.jpg">}}
+
 
 Internet signifie International Network (un réseau international), un réseau sur quel des ordinateurs peuvent échanger des informations entre eux. C’est un réseau global sur lequel il est possible de faire des visioconférences, télécharger de la musique et des films, etc.
 
@@ -40,7 +41,8 @@ Vous accédez à ces données grâce à un processus impliquant deux acteurs pri
 
 ### Le navigateur
 
-[Évolution de l'usage des navigateurs web - Wikipédia](https://fr.wikipedia.org/wiki/%C3%89volution_de_l%27usage_des_navigateurs_web)
+{{<linkBox "Évolution de l'usage des navigateurs web - Wikipédia" "https://fr.wikipedia.org/wiki/%C3%89volution_de_l%27usage_des_navigateurs_web" "https://www.fredzone.org/wp-content/uploads/2022/03/Best-Chromium-Based-Browsers-1200x720-1.jpeg">}}
+
 
 Des machines (ou programmes) qui ont pour rôle d'envoyer les données du site web à son client dans un langage informatique.
 
@@ -49,7 +51,7 @@ Exemples de navigateurs: Safari, Chrome, Opera, Safari, Edge...
 
 ### HTTP(S)
 
-[HTTP vs HTTPS: quelle est la différence? - Journal du Tech](https://journaldutech.com/http-vs-https-quelle-est-la-difference/)
+{{<linkBox "HTTP vs HTTPS: quelle est la différence? - Journal du Tech" "https://journaldutech.com/http-vs-https-quelle-est-la-difference/" "https://journaldutech.com/wp-content/uploads/2020/09/Antivirus.jpg">}}
 
 HTTP (Hypertext Transfer Protocol) est un protocole qui permet le transfer d'hypertext, c'est-à-dire les ressources distribuées sur le web, du serveur au client (l'ordinateur).
 
@@ -57,9 +59,11 @@ HTTPS est un protocole plus avancé et plus sécurisé que le HTTP. Il fonctionn
 
 ### HTML
 
-[Commencer avec le HTML - Apprendre le développement web | MDN](https://developer.mozilla.org/fr/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
+{{<linkBox "Commencer avec le HTML - Apprendre le développement web | MDN" "https://developer.mozilla.org/fr/docs/Learn/HTML/Introduction_to_HTML/Getting_started" "https://developer.mozilla.org/mdn-social-share.cd6c4a5a.png">}}
 
 {{<linkBox "Tryit Editor v3.7" "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_document" "https://www.w3schools.com/images/w3schools_logo_436_2.png">}}
+
+[]()
 
 Le HTML (HyperText Markup Language) est, pour faire simple, le language informatique qui indique au navigateur ce qui doit être affiché (texte, image, video...) et comment. C'est ensuite le rôle du navigateur de "traduire" le HTML en une forme intelligible pour l'utilisateur.
 
@@ -67,11 +71,11 @@ Le HTML (HyperText Markup Language) est, pour faire simple, le language informat
 
 "markup" renvoie au fait que le language est structuré par des balises qui permettent de structurer le contenu et le comportement de la page.
 
-## Installation de Visual Studio Code
+## Installation de Visual Studio Codium
 
-[Visual Studio: IDE and Code Editor for Software Developers and Teams](https://visualstudio.microsoft.com/)
+{{<linkBox "Visual Studio: IDE and Code Editor for Software Developers and Teams" "https://vscodium.com/" "https://vscodium.com/img/vscodium.png">}}
 
-*Visual studio code is "a source-code editor that can be used with a variety of programming languages" under  MIT License (for the source code) and Microsoft proprietary software license for the binary built.*
+*VSCodium is a community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code. It is the Free/Libre Open Source Software Binaries of VS Code.*
 
 ## HTML
 
@@ -82,6 +86,7 @@ Le HTML (HyperText Markup Language) est, pour faire simple, le language informat
 {{<linkBox "Liste de toutes les balises HTML" "https://facemweb.com/creation-site-internet/liste-balises-html" "https://facemweb.com/wp-content/uploads/2019/02/Image-facebook-balises-html.jpg">}}
 
 {{<linkBox "Liste des balises HTML" "https://jaetheme.com/balises-html5/" "https://jaetheme.com/wp-content/themes/paris/dist/img/liste-balises-html5.jpg">}}
+
 
 &nbsp;
 #### Le document HTML

@@ -20,8 +20,7 @@ abstract: "Cette UE forme à une culture numérique permettant de s'engager dans
 frontphoto: "https://live.staticflickr.com/65535/52427464795_ba3f91d0d1_h.jpg"
 frontphotomini: "https://live.staticflickr.com/65535/52427464795_85db7912a3_n.jpg"
 link:
-    institutional: "https://formation.cnam.fr/rechercher-par-discipline/recherche-d-informations-theorie-et-pratique-sur-le-web-208885.kjsp?RF="
-    course: "https://chaire-design.fr/teaching/TET007-RNCP/"
+    1: ["institutional page", "institutional", "https://formation.cnam.fr/rechercher-par-discipline/recherche-d-informations-theorie-et-pratique-sur-le-web-208885.kjsp?RF="]
 ---
 {{< slash "Compétences visées" >}}
 
