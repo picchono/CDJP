@@ -10,4 +10,5 @@ nofollow: true
 notEverything: true
 notListed: true
 comment: false
+allinfo: false
 ---
