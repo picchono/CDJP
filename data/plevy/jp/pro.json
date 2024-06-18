@@ -56,7 +56,7 @@
         "start": "2009",
         "end": "2021",
         "title": "助教",
-        "description": "工業デザイン学部・DQI研究所(2009~2017)・Systemic Change研究所(2018~)",
+        "comment": "工業デザイン学部・DQI研究所(2009~2017)・Systemic Change研究所(2018~)",
         "institution": "<a href='https://www.tue.nl' target='_blank' title='Eindhoven University of Technology' rel='noreferrer'>アイントホーフェン工科大学 (TU/e)</a>",
         "faculty": "Faculty of Industrial Design",
         "researchgroup": "<i>Systemic Change</i> research group",
@@ -140,7 +140,7 @@
         "start": "2006",
         "end": "2023",
         "title": "感性学の国際コミュニティーにおける貢献",
-        "description": "kansei",
+        "comment": "kansei",
         "main": false,
         "associations": {
             "KEER steering coord": {
@@ -183,7 +183,7 @@
         "start": "2008",
         "end": "2009",
         "title": "講師",
-        "description": "「Service Product Design」修士課程における教育活動",
+        "comment": "「Service Product Design」修士課程における教育活動",
         "institution": "千葉大学工学部",
         "country": "日本",
         "main": false
@@ -192,7 +192,7 @@
         "start": "2006",
         "end": "2008",
         "title": "ポスドク研究員",
-        "description": "21世紀COEプログラム研究員",
+        "comment": "21世紀COEプログラム研究員",
         "institution": "筑波大学",
         "country": "日本",
         "main": false
@@ -201,7 +201,7 @@
         "start": "2000",
         "end": "2002",
         "title": "開発部門エンジニア",
-        "description": "日本事務所研究開発担当",
+        "comment": "日本事務所研究開発担当",
         "institution": "デカトロンジャポン(Decathlon Japon, became Oxylane)",
         "country": "日本・フランス",
         "main": false
@@ -210,7 +210,7 @@
         "start": "1999",
         "end": "2000",
         "title": "メンテナンス技術者",
-        "description": "振動解析を用いた保守整備の計画準備(インターンシップ)",
+        "comment": "振動解析を用いた保守整備の計画準備(インターンシップ)",
         "institution": "エリダニア・ベガン・セイ（Éridania Béghin-Say, became Thereos)",
         "country": "フランス",
         "main": false

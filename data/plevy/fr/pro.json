@@ -68,7 +68,7 @@
                 "start": "2024",
                 "end": "none",
                 "title": "Membre des comités pédagogique et scientifique de l'<a href='https://formation.cnam.fr/actualites-de-la-formation/ecole-des-transitions-ecologiques-1427875.kjsp' target='_blank' rel='noreferrer' title='École des transitions écologiques'>École des transitions écologiques</a> du Cnam",
-                "comment": "L’École des transitions écologiques propose une expertise de haut niveau sur les enjeux de la transition écologique et du développement durable, et une offre de formation multidisciplinaire (35 parcours de formation et plus de 50 unités d’enseignement).",
+                "comment": "L’École des transitions écologiques propose une expertise de haut niveau sur les enjeux de la transition écologique et du développement durable, et une offre de formation multidisciplinaire.",
                 "main": false
             },
             "DNMADE": {
@@ -94,13 +94,6 @@
                 "comment": "L'objectif de ce master est de former des créateurs capables de concevoir leur projet professionnel, d'inventer leur pratique de design de manière prospective en intégrant l'évolution des sociétés et des contextes culturels et techniques sans cesse redéfinis.",
                 "main": true
             },
-            "jhtr": {
-                "order": 3,
-                "start": "2022",
-                "end": "none",
-                "title": "Membre du Comité consultatif de rédaction du <a href='https://ojs.utwente.nl/index.php/jhtr/' target='_blank' rel='noreferrer' data-tooltip='Journal of Human-Technology Relations' title='Journal of Human-Technology Relations'>JHTR</a>",
-                "main": true
-            },
             "docschool": {
                 "order": 5,
                 "start": "2022",
@@ -121,7 +114,14 @@
                 "order": 3,
                 "start": "2022",
                 "end": "none",
-                "title":"Membre du jury d'agrégation des métiers d'art et du design",
+                "title":"Membre du jury d'<a href='https://www.devenirenseignant.gouv.fr/les-epreuves-de-l-agregation-externe-section-design-et-metiers-d-arts-865' target='_blank' rel='noreferrer' title='agrégation des métiers d'art et du design'>agrégation des métiers d'art et du design</a>",
+                "main": true
+            },
+            "jhtr": {
+                "order": 3,
+                "start": "2022",
+                "end": "none",
+                "title": "Membre du Comité consultatif de rédaction du <a href='https://ojs.utwente.nl/index.php/jhtr/' target='_blank' rel='noreferrer' data-tooltip='Journal of Human-Technology Relations' title='Journal of Human-Technology Relations'>JHTR</a>",
                 "main": true
             }
         }
@@ -130,7 +130,7 @@
         "start": "2009",
         "end": "2021",
         "title": "Maître de conférence (full-time tenured assistant professor)",
-        "description": "Membre du groupe de recherche <i>Designing Quality of Interaction</i> (2009-2017), puis <i>Systemic Change</i> (2018 - 2021)",
+        "comment": "Membre du groupe de recherche <i>Designing Quality of Interaction</i> (2009-2017), puis <i>Systemic Change</i> (2018 - 2021)",
         "institution": "<a href='https://www.tue.nl' target='_blank' title='Eindhoven University of Technology' rel='noreferrer'>Université de Technologie d'Eindhoven</a>",
         "faculty": "Faculté de Design Industriel",
         "researchgroup": "Groupe de recherche <i>Systemic Change</i>",
@@ -206,7 +206,9 @@
                 "title": "Directeur du groupe de projets <i>Wearable Senses</i>",
                 "comment": "Direction d'un groupe ayant des charges éducatives, de recherche et administrative autour du thème des textiles intelligents et des ‘technologies près du corps'",
                 "main": false
-            },
+            }
+        },
+        "minors": {
             "dschool": {
                 "start": "2016",
                 "end": "2018",
@@ -226,7 +228,7 @@
         "start": "2008",
         "end": "2009",
         "title": "Enseignent et chercheur",
-        "description": "Responsable de l'enseignement et des activités du programme de master <i>Service Product Design</i>",
+        "comment": "Responsable de l'enseignement et des activités du programme de master <i>Service Product Design</i>",
         "institution": "Université de Chiba",
         "country": "Japon",
         "main": false
@@ -235,7 +237,7 @@
         "start": "2006",
         "end": "2008",
         "title": "Chercheur postdoctoral",
-        "description": "Recherche postdoctorale pour le <i>21st Century COE Program for the Promotion of Kansei Science for Understanding the Mechanism of Mind and Heart</i>, financé by par le Ministère Japonais de l'Éducation, de la Culture, des Sports, de la Science and de la Technologie (MEXT)",
+        "comment": "Recherche postdoctorale pour le <i>21st Century COE Program for the Promotion of Kansei Science for Understanding the Mechanism of Mind and Heart</i>, financé by par le Ministère Japonais de l'Éducation, de la Culture, des Sports, de la Science and de la Technologie (MEXT)",
         "institution": "Université de Tsukuba",
         "country": "Japon",
         "main": false
@@ -244,7 +246,7 @@
         "start": "2000",
         "end": "2002",
         "title": "Ingénieur/designer, responsable de la R&D au Japon",
-        "description": "Mise en place d'une antenne japnoaise d'innovation et projets d'innovation en collaboration avec des partenaires japonais",
+        "comment": "Mise en place d'une antenne japnoaise d'innovation et projets d'innovation en collaboration avec des partenaires japonais",
         "institution": "Decathlon in Japon (devenu Oxylane)",
         "country": "Japon",
         "main": false
@@ -253,7 +255,7 @@
         "start": "1999",
         "end": "2000",
         "title": "Technicien de maintenance en analyse vibratoire",
-        "description": "Mise en place système de maintenance par l'analyse vibratoire",
+        "comment": "Mise en place système de maintenance par l'analyse vibratoire",
         "institution": "Éridania Béghin-Say (devenu Thereos)",
         "country": "France",
         "main": false

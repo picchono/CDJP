@@ -1,13 +1,6 @@
 {
-    "description": "Ph.D promotions (past et on-going)",
+    "description": "Ph.D promotions",
     "list": {
-        "Adahe": {
-            "date": "2022",
-            "ongoing": true,
-            "position": "Thesis director",
-            "candidate": "Adahé Saban",
-            "title": "Redéfinition des critères d’acceptabilité et d’acceptation des nouvelles technologies dans une réalité virtuelle (Thèse Cifre avec Onepoint)"
-        },
         "Cesar": {
             "date": "2021",
             "ongoing": true,

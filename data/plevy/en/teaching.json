@@ -7,7 +7,7 @@
 			"ordre": 1,
 			"place": "CNAM",
 			"domaine": "Double domain in Science, Technology, Health & Arts, Literature, Languages",
-			"description": "The Master in Design of Cnam aims to train designers capable of contributing to reflective and transforming practices through projects in design, engineering and arts&crafts."
+			"comment": "The Master in Design of Cnam aims to train designers capable of contributing to reflective and transforming practices through projects in design, engineering and arts&crafts."
 		},
 		"MR15001A": {
 			"title": "Master Design, specialty Création, projets, transdisciplinarité (MR15001A)",
@@ -16,7 +16,7 @@
 			"ordre": 2,
 			"place": "CNAM",
 			"language": "français",
-			"description": "The aim of this course is to develop critical thinking and practice aiming to helping to formulate and define the challenges of contemporary design."
+			"comment": "The aim of this course is to develop critical thinking and practice aiming to helping to formulate and define the challenges of contemporary design."
 		},
 		"ED546": {
 			"title": "Responsabilité de la spécialité Arts, Design et Société du doctorat Sciences humaines et humanités nouvelles (DOC7200A)",
@@ -25,7 +25,7 @@
 			"ordre": 3,
 			"place": "École doctorale Abbé Grégoire (ED 546), CNAM",
 			"language": "français",
-			"description": "This specialisation adheres with the CNAM's centuries-old tradition of crafts and technical professions, design and innovation, culture and creation, and with contemporary developments in these fields linked to the growing focus on social and ecological innovation both in France and internationally."
+			"comment": "This specialisation adheres with the CNAM's centuries-old tradition of crafts and technical professions, design and innovation, culture and creation, and with contemporary developments in these fields linked to the growing focus on social and ecological innovation both in France and internationally."
 		}
 	},
 	"bachelor": {
@@ -36,7 +36,7 @@
 			"place": "TU/e, The Netherlands",
 			"language": "English",
 			"ects": "5",
-			"description": "Creating one's own perspective on design and shaping a manifesto"
+			"comment": "Creating one's own perspective on design and shaping a manifesto"
 		},
 		"PoA": {
 			"title": "Perspectives on Aesthetics",
@@ -45,7 +45,7 @@
 			"place": "TU/e, The Netherlands",
 			"language": "English",
 			"ects": "5",
-			"description": "Creating one's own perspective on design and shaping a manifesto"
+			"comment": "Creating one's own perspective on design and shaping a manifesto"
 		},
 		"PoA": {
 			"title": "Perspectives on Aesthetics",
@@ -54,7 +54,7 @@
 			"place": "TU/e, The Netherlands",
 			"language": "English",
 			"ects": "5",
-			"description": "Creating one's own perspective on design and shaping a manifesto"
+			"comment": "Creating one's own perspective on design and shaping a manifesto"
 		},
 		"DD": {
 			"title": "Design for Debate",
@@ -63,7 +63,7 @@
 			"place": "TU/e, The Netherlands",
 			"language": "English",
 			"ects": "5",
-			"description": "Logic (and fallacies) and discourse in design"
+			"comment": "Logic (and fallacies) and discourse in design"
 		},
 		"DfHN2": {
 			"title": "Designing for the Here and the Now 2",
@@ -72,7 +72,7 @@
 			"place": "TU/e, The Netherlands",
 			"language": "English",
 			"ects": "5",
-			"description": "Reflection-in-action focusing on telepresence"
+			"comment": "Reflection-in-action focusing on telepresence"
 		},
 		"FItD": {
 			"title": "From Idea to Design",
@@ -81,7 +81,7 @@
 			"place": "TU/e, The Netherlands",
 			"language": "English",
 			"ects": "5",
-			"description": "Overview of the entire design process"
+			"comment": "Overview of the entire design process"
 		},
 		"DfHN": {
 			"title": "Designing for the Here and the Now",
@@ -90,7 +90,7 @@
 			"place": "TU/e, The Netherlands",
 			"language": "English",
 			"ects": "5",
-			"description": "Exploration of the notion of affordance through prototyping"
+			"comment": "Exploration of the notion of affordance through prototyping"
 		},
 		"KD": {
 			"title": "Kansei Design: exploring values in experience",
@@ -99,7 +99,7 @@
 			"place": "TU/e, The Netherlands",
 			"language": "English",
 			"ects": "3",
-			"description": "Application of Japanese notions in interaction design"
+			"comment": "Application of Japanese notions in interaction design"
 		},
 		"voyage": {
 			"title": "A Voyage, provoking a cultural clash to inspire design",
@@ -108,7 +108,7 @@
 			"place": "TU/e, The Netherlands",
 			"language": "English",
 			"ects": "3",
-			"description": "Using a cultural clash as a source of inspiration for design"
+			"comment": "Using a cultural clash as a source of inspiration for design"
 		}
 	},
 	"master": {
@@ -119,7 +119,7 @@
 			"place": "CNAM",
 			"language": "français",
 			"ects": "4",
-			"description": "Introduction, installation and use of digital tools for digital practice and research and organization of information"
+			"comment": "Introduction, installation and use of digital tools for digital practice and research and organization of information"
 		},
 		"MoT": {
 			"title": "Matter of Transformation",
@@ -128,7 +128,7 @@
 			"place": "TU/e, The Netherlands",
 			"language": "English",
 			"ects": "5",
-			"description": "How the interweaving between design, philosophy and human & social sciences impacts practices, societies and individuals"
+			"comment": "How the interweaving between design, philosophy and human & social sciences impacts practices, societies and individuals"
 		},
 		"DfSI": {
 			"title": "Design for social innovation",
@@ -137,7 +137,7 @@
 			"place": "TU/e, The Netherlands",
 			"language": "English",
 			"ects": "5",
-			"description": "Introducing the Transformative Practices Innovation framework for social innovation"
+			"comment": "Introducing the Transformative Practices Innovation framework for social innovation"
 		},
 		"Drituals": {
 			"title": "Designing (for) rituals",
@@ -146,7 +146,7 @@
 			"place": "TU/e, The Netherlands",
 			"language": "English",
 			"ects": "5",
-			"description": "Exploration the complexity of nested temporality in interaction design through everyday rituals"
+			"comment": "Exploration the complexity of nested temporality in interaction design through everyday rituals"
 		},
 		"DQI-theory": {
 			"title": "Designing Quality in Interaction (DQI) Theory",
@@ -155,7 +155,7 @@
 			"place": "TU/e, The Netherlands",
 			"language": "English",
 			"ects": "5",
-			"description": "Introduction to theories and frameworks related to interaction design"
+			"comment": "Introduction to theories and frameworks related to interaction design"
 		},
 		"Glow": {
 			"title": "Glow festival workshop",
@@ -164,7 +164,7 @@
 			"place": "TU/e, The Netherlands",
 			"language": "English",
 			"ects": "5",
-			"description": "Creation of an interactive installation for the GLOW light festival"
+			"comment": "Creation of an interactive installation for the GLOW light festival"
 		},
 		"SD": {
 			"title": "Sensual dynamics",
@@ -173,7 +173,7 @@
 			"place": "TU/e, The Netherlands",
 			"language": "English",
 			"ects": "5",
-			"description": "Behaviour design based on perceptive qualities"
+			"comment": "Behaviour design based on perceptive qualities"
 		},
 		"SPD": {
 			"title": "Service Product Design",
@@ -182,7 +182,7 @@
 			"place": "Chiba University, Japan",
 			"language": "Japanese",
 			"ects": "",
-			"description": "Coaching projects and teaching tools for service design"
+			"comment": "Coaching projects and teaching tools for service design"
 		},
 		"PD-methods": {
 			"title": "Product design methods",
@@ -191,7 +191,7 @@
 			"place": "University of Tsukuba, Japan",
 			"language": "Japanese",
 			"ects": "",
-			"description": "Introduction to user-centred design methods"
+			"comment": "Introduction to user-centred design methods"
 		}
 	},
 	"pro": {
@@ -202,7 +202,7 @@
 			"place": "CNAM",
 			"language": "French",
 			"ects": "4",
-			"description": "For a reflexive approach to situated practice, i.e. practice lived in a real context, this course provides tools from the fields of design for the transformative reflection of professional or everyday practices"
+			"comment": "For a reflexive approach to situated practice, i.e. practice lived in a real context, this course provides tools from the fields of design for the transformative reflection of professional or everyday practices"
 		},
 		"DSN201": {
 			"title": "Research practices in design, art and creation",
@@ -211,7 +211,7 @@
 			"place": "CNAM",
 			"language": "French",
 			"ects": "4",
-			"description": "Overview and contextualisation of research practices in design, art and creation. It is about providing resources (knowledge, tools, methodologies, networks...) and putting them into practice"
+			"comment": "Overview and contextualisation of research practices in design, art and creation. It is about providing resources (knowledge, tools, methodologies, networks...) and putting them into practice"
 		},
 		"TET007-RNCP": {
 			"title": "Approche pratique du numérique et la recherche d'information (RNCP)",
@@ -220,7 +220,7 @@
 			"place": "CNAM",
 			"language": "French",
 			"ects": "4",
-			"description": "Digital literacy allowing to engage in information research and synthesis useful for professional life on the web"
+			"comment": "Digital literacy allowing to engage in information research and synthesis useful for professional life on the web"
 		}
 	},
 	"doctoral": {
@@ -231,7 +231,7 @@
 			"place": "University of Tsukuba, Japan",
 			"language": "English",
 			"ects": "",
-			"description": "Application of psychophysiology in interaction design"
+			"comment": "Application of psychophysiology in interaction design"
 		}
 	},
 	"project": {
@@ -242,7 +242,7 @@
 			"place": "CNAM",
 			"language": "English",
 			"ects": "4",
-			"description": "Supervision of students' projects in design and engineering"
+			"comment": "Supervision of students' projects in design and engineering"
 		},
 		"TUe-coaching": {
 			"title": "Design project coaching",
@@ -251,7 +251,7 @@
 			"place": "TU/e, The Netherlands",
 			"language": "English",
 			"ects": "15~45",
-			"description": "Bachelor and Master levels at TU/e"
+			"comment": "Bachelor and Master levels at TU/e"
 		},
 		"ME310": {
 			"title": "Design thinking project coaching for ME310",
@@ -260,7 +260,7 @@
 			"place": "École des Ponts ParisTech and d.school Paris, France",
 			"language": "French and English",
 			"ects": "",
-			"description": "Lecturing and supervising master-level design thinking projects"
+			"comment": "Lecturing and supervising master-level design thinking projects"
 		}
 	}
 }
