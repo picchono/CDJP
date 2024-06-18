@@ -40,6 +40,7 @@ reference: "L'École du non-savoir repose sur la conviction que le dialogue entr
 frontphoto: "https://civic-city.org/nonsapere/wp-content/uploads/2024/01/post-HOME-ESTIENNE5.jpg"
 link:
     1: ["website", "website", "https://civic-city.org/nonsapere"]
+    2: ["cahier", "book", "https://civic-city.org/nonsapere/cahier-civic-city-3"]
 photogallery:
     image4:
         order: 4
