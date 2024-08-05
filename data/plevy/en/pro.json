@@ -56,7 +56,7 @@
                 "start": "2022",
                 "end": "none",
                 "title": "Elected member of the Education Council (Conseil des formations)",
-                "comment": "The Education Council is mainly consulted on the content of the national education offer, applications for accreditation to award national diplomas and projects related to professional certificates, and the pedagogical projects for the coming year",
+                "comment": "The Education Council of Cnam determines and implements Cnam's training offer.",
                 "main": false
             },
             "masterDesignCreation": {
@@ -102,8 +102,16 @@
         "country": "France",
         "main": false,
         "activities": {
-            "Compagnons": {
+            "Conseildoctoral": {
                 "order": 1,
+                "start": "2023",
+                "end": "2024",
+                "title": "Member of Doctoral College Board of HESAM Université",
+                "comment": "Le Collège doctoral est l’instance interne d’HESAM Université, qui fédère les structures volontaires concourant à la formation doctoral: l'<a href='https://recherche.cnam.fr/ecole-doctorale-abbe-gregoire/ecole-doctorale-abbe-gregoire-ed-546--470086.kjsp?RH=rech_eco' target='_blank' rel='noreferrer' title='École doctorale Abbé-Grégoire - ED 546'>École doctorale Abbé-Grégoire (ED 546)</a> et l'<a href='https://edsmi.hesam.eu/' target='_blank' rel='noreferrer' title='École doctorale Sciences des Métiers de l'Ingénieur, SMI - ED432'>École doctorale Sciences des Métiers de l'Ingénieur, SMI (ED 432)</a>.",
+                "main": false
+            },
+            "Compagnons": {
+                "order": 4,
                 "start": "2023",
                 "end": "none",
                 "title": "Member of the Strategic Committee of the <a href='https://compagnons-du-devoir.com/formations-en-alternance/executive-master-responsable-de-projets/' target='_blank' rel='noreferrer' title='Executive Master Responsable de projets' data-tooltip='Executive Master Responsable de projets'>Compagnons du Devoir's Executive Master in Project</a>",
@@ -111,7 +119,7 @@
                 "main": false
             },
             "NCUHESAM2030": {
-                "order": 1,
+                "order": 2,
                 "start": "2023",
                 "end": "none",
                 "title": "Member of the Steering Committee of <a href='https://www.hesam.eu/hesam2030' target='_blank' rel='noreferrer' title='NCU - HESAM 2030' data-tooltip='ESAM 2030 - Construisons nos Métiers !'>NCU - HESAM 2030</a>",
@@ -119,7 +127,7 @@
                 "main": false
             },
             "ENSAPLV": {
-                "order": 1,
+                "order": 3,
                 "start": "2023",
                 "end": "none",
                 "title": "Member of the Steering Committee of the <a href='http://www.paris-lavillette.archi.fr/index.php?page=dpea-recherche' target='_blank' rel='noreferrer' title='NCU - HESAM 2030' data-tooltip='Post-master Recherches en Architecture - HESAM Université'>Post-master in Architecture research - HESAM Université at ENSAPLV</a>",
