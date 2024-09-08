@@ -1,7 +1,7 @@
 baseURL = "https://chaire-design.fr"
 languageCode = "fr-FA"
 title = "Chaire design Jean Prouvé"
-theme = "CDJP"
+theme = "CDJP_simple"
 defaultContentLanguage = "fr"
 ignoreErrors = ["error-disable-taxonomy"]
 
