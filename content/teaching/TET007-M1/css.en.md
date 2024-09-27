@@ -29,10 +29,9 @@ frontphoto: "https://live.staticflickr.com/65535/52427464765_8fe12aeeee_h.jpg"
 ## CSS
 ### CSS3
 
-Le CSS (cascade style sheet) est un language transformant l'apparence d'une page écrite dans un language de balisage. 
-La version actuelle est le CSS3.
+Le CSS (cascade style sheet) est un language transformant l'apparence d'une page écrite dans un language de balisage. La version actuelle est le CSS3.
 
-Dans le cadre de ce cours, il va permettre de styliser nos pages HTML. Le code CSS peut se mettre soit entre les balises \<style\>...\</style\> elles-mêmes placées entre les balises \<head\>...\</head\>, soit dans un autre fichier (e.g., style.css) dont le fichier html doit appeler. C'est cette deuxième approche que nous utilisons.
+Dans le cadre de ce cours, il va permettre de styliser nos pages HTML. Le code CSS peut se mettre soit entre les balises \<style\>...\</style\> elles-mêmes placées entre les balises \<head\>...\</head\>, soit dans un autre fichier (e.g., style.css) que le fichier html doit appeler. C'est cette deuxième approche que nous utilisons.
 
 ### Appel du fichier CSS
 

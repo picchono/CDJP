@@ -68,6 +68,14 @@ a:hover {
   @apply border-none;
 }
 
+/*basic table */
+table {
+  @apply border-spacing-2 border-4 border-primary-text my-7;
+}
+table td, table th {
+  @apply p-3 border align-top;
+}
+
 /* small links */
 #home .frontPosts a,
 #Research a,
@@ -96,7 +104,7 @@ a.titlePL:hover,
 a.collab:hover,
 a.doclinkButton:hover,
 a.boxA:hover {
-  @apply bg-primary-bg;
+  @apply bg-zinc-200;
   filter: drop-shadow(var(--st-dropshadow));
 }
 
@@ -1652,11 +1660,11 @@ div.highlight pre {
 
 /* linkBox */
 a.linkBox {
-  @apply flex justify-between h-24 w-full lg:w-2/3 p-1 my-4 rounded border border-solid border-zinc-200 text-primary-text bg-primary-bg transition-all duration-700 ease-in-out;
+  @apply flex justify-between h-24 w-full lg:w-2/3 p-1 my-4 rounded border border-solid border-zinc-200 text-primary-text bg-zinc-200 transition-all duration-700 ease-in-out;
 }
 
 a.linkBox:hover {
-  @apply bg-primary-bg border-transparent shadow-xl text-primary-text;
+  @apply bg-zinc-300 border-transparent shadow-xl text-primary-text;
   filter: drop-shadow(var(--st-dropshadow));
 }
 
