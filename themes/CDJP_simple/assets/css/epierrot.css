@@ -1580,7 +1580,7 @@ legend.svelte-1v2r7ls.svelte-1v2r7ls {
 .sidenav,
 .sidenav__item,
 li:last-child {
-  @apply list-none mb-0 text-sm;
+  @apply mb-0;
 }
 
 .sidenav {
