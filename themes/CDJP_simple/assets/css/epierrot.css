@@ -31,9 +31,9 @@ body {
   --color-tertiary-bg: #2c3132;
   --color-primary-text: #FCFAF2;
   --color-secondary-text: rgba(87, 83, 78);
-  --color-epierrot: #DEC67F;
-  --tw-gradient-from: #3d6367;
-  --tw-gradient-to: rgb(12, 12, 13);
+  --color-epierrot: #accaf8;
+  --tw-gradient-from: #4b637c;
+  --tw-gradient-to: #14263a;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
 }
