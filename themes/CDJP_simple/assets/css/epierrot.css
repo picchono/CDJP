@@ -26,14 +26,14 @@ body {
 }
 
 body {
-  --color-primary-bg: rgb(203, 203, 198);
+  --color-primary-bg: #ebe7dd;
   --color-secondary-bg: rgb(216, 216, 208);
-  --color-tertiary-bg: #d0dae1;
+  --color-tertiary-bg: #e6e2d7;
   --color-primary-text: #000000;
   --color-secondary-text: rgba(87, 83, 78);
-  --color-epierrot: rgb(31, 126, 152);
-  --tw-gradient-from: #fff;
-  --tw-gradient-to: var(--color-secondary-bg);
+  --color-epierrot: #0089A7;
+  --tw-gradient-from: #ebe7dd;
+  --tw-gradient-to: #d4cfc2;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
 }
@@ -104,7 +104,7 @@ a.titlePL:hover,
 a.collab:hover,
 a.doclinkButton:hover,
 a.boxA:hover {
-  @apply bg-zinc-200;
+  @apply bg-tertiary-bg;
   filter: drop-shadow(var(--st-dropshadow));
 }
 
@@ -1660,7 +1660,7 @@ div.highlight pre {
 
 /* linkBox */
 a.linkBox {
-  @apply flex justify-between h-24 w-full lg:w-2/3 p-1 my-4 rounded border border-solid border-zinc-200 text-primary-text bg-zinc-200 transition-all duration-700 ease-in-out;
+  @apply flex justify-between h-24 w-full lg:w-2/3 p-1 my-4 rounded border border-solid border-tertiary-bg text-primary-text bg-tertiary-bg transition-all duration-700 ease-in-out;
 }
 
 a.linkBox:hover {
