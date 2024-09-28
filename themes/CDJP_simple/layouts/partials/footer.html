@@ -21,13 +21,13 @@
 
             {{ $related := append $backlinks $forwardlinks }}
             {{ if compare.Gt ($related | len)  1}}
-            <div class="my-10 p-5">
-            </div><h3 class="m-0 p-0">{{ i18n "backlinks" }}</h3>
+            <div class="my-10 p-5 bg-secondary-bg rounded-xl">
+            <h3 class="m-0 p-0">{{ i18n "backlinks" }}</h3>
             {{ $count := 0}}
             {{ range sort $related "Date" "desc" }}
                 {{ $count = add $count 1 }}
                 {{- partial "box.html" ( dict "context" . "cou" $count ) -}}
-            {{ end }}</div>{{ end }}
+            {{ end }}</div>{{ end }}</div>
         {{ end }}
         {{ if ne .Params.comment false }}
         <div class="mt-30 mb-10">

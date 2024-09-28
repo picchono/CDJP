@@ -10,7 +10,7 @@ institution:
     short: Cnam
     name: "Conservatoire national des Arts et Métiers"
     web: "https://www.cnam.fr/"
-    colo: "#c1002a"
+    colo: "var(--text-primary-text)"
 collaboration:
     partner1:
         logo: civiccity
@@ -22,7 +22,7 @@ collaboration:
         short: Cnam
         name: "Conservatoire national des Arts et Métiers"
         web: "https://www.cnam.fr/"
-        colo: "#c1002a"
+        colo: "var(--text-primary-text)"
         heig: 1.5
 chaire: true
 date: 2023-10-16T14:00:00+02:00
