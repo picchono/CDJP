@@ -314,4 +314,3 @@ Thank you.
 22. Lévy, P., Deckers, E. & Restrepo, M. C. When Movement Invites to Experience: a Kansei Design Exploration on Senses' Qualities. in Proceedings of the International Conference on Kansei Engineering and Emotion Research, KEER 2012 366&mdash;372 (National Cheng Kung University, 2012).
 23. Jonas, H. Le principe responsabilité&nbsp;  une éthique pour la civilisation technologique. (Flammarion, 1998).
 24. Yeats, W. B. La Rose et autres poèmes. (Seuil, 2008).
-25.

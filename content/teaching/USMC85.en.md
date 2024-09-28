@@ -42,9 +42,8 @@ The major aim of this course is to improve students' scientific or technical pre
 - acquiring techniques for structuring and performing a presentation,
 - using and adapting different media for presenting,
 - using relevant resources to continue progressing independently.The development of these skills will be based on projects selected by the learners (their own or chosen projects).
--
-&nbsp;
 
+&nbsp;
 
 {{< slash "Requirements" >}}
 Be enrolled in one of the international Masters programs of the scientifiques and technology departments at Cnam proposing this course. This course is entirely taught in English. Hence a fluent level of English is expected.
@@ -74,4 +73,3 @@ Be enrolled in one of the international Masters programs of the scientifiques an
 - 06 January 2024 · 09:00-12:00 (IOT) - presenting
 - 07 January 2024 · 09:00-12:00 (TLC) - presenting
 - 10 January 2024 · 09:00-12:00 (MECA) - presenting
-- 

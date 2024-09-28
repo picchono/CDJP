@@ -27,12 +27,12 @@ body {
 
 body {
   --color-primary-bg: rgb(39,39,42);
-  --color-secondary-bg: rgb(82,82,91);
-  --color-tertiary-bg: rgb(39,39,42);
+  --color-secondary-bg: #303a3d;
+  --color-tertiary-bg: #2c3132;
   --color-primary-text: #FCFAF2;
   --color-secondary-text: rgba(87, 83, 78);
-  --color-epierrot: #78C2C4;
-  --tw-gradient-from: rgb(39,39,42);
+  --color-epierrot: #DEC67F;
+  --tw-gradient-from: #3d6367;
   --tw-gradient-to: rgb(12, 12, 13);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
@@ -104,8 +104,7 @@ a.titlePL:hover,
 a.collab:hover,
 a.doclinkButton:hover,
 a.boxA:hover {
-  @apply bg-gray-100;
-  filter: drop-shadow(var(--st-dropshadow));
+  @apply bg-tertiary-bg;
 }
 
 #home .frontPosts a::before,
@@ -1613,11 +1612,11 @@ pre {}
 
 div.highlight {
   @apply rounded-md p-4;
-  background-color: var(--color-primary-text) !important;
+  background-color: var(--color-primary-bg) !important;
 }
 
 div.highlight pre {
-  background-color: var(--color-primary-text) !important;
+  background-color: var(--color-primary-bg) !important;
   white-space: normal !important;
 }
 

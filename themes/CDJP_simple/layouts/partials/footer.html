@@ -1,7 +1,7 @@
 <div id="footer" class="w-full overflow-hidden flex flex-col md:flex-row mb-6 lg:mb-20">
     <div class="w-1/6 pl-5 lg:pr-20 self-end">&nbsp;</div>
     <div class="max-w-3xl w-full px-5">
-        {{ if not .IsHome }}<div class="my-10 rounded border border-solid border-tertiary-bg bg-tertiary-bg p-5">
+        {{ if not .IsHome }}
             {{ $currRellink := substr .RelPermalink 0 -1 }}
             {{ $currContent := .Content }}
             {{ $backlinks := slice }}
@@ -19,16 +19,20 @@
             {{ end }}
             {{ end }}
 
-            <h3 class="m-0 p-0">{{ i18n "backlinks" }}</h3>
             {{ $related := append $backlinks $forwardlinks }}
-            <ul>{{ range sort $related "Date" "desc" }}
-            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-            {{ end }}</ul>
-        </div>{{ end }}
+            {{ if compare.Gt ($related | len)  1}}
+            <div class="my-10 p-5">
+            </div><h3 class="m-0 p-0">{{ i18n "backlinks" }}</h3>
+            {{ $count := 0}}
+            {{ range sort $related "Date" "desc" }}
+                {{ $count = add $count 1 }}
+                {{- partial "box.html" ( dict "context" . "cou" $count ) -}}
+            {{ end }}</div>{{ end }}
+        {{ end }}
         {{ if ne .Params.comment false }}
         <div class="mt-30 mb-10">
             <script src="https://utteranc.es/client.js" repo="picchono/CDJPfr" issue-term="pathname"
-                theme="github-light" crossorigin="anonymous" async="async"></script>
+                theme="github-dark" crossorigin="anonymous" async="async"></script>
         </div>
         {{ end }}
     </div>

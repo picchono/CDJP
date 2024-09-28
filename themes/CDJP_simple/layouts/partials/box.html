@@ -12,10 +12,10 @@
                     {{ if isset .context.Params "institution" }}
                     <div class="block -px-px pb-3">
                         {{ partial "icons.html" (dict "ico" .context.Params.institution.logo "hei" 0.6 "colo"
-                        "--color-primary-text)") -}}
+                        "var(--color-primary-text)") -}}
                     </div>
                     {{ end }}
-                    <div class="inline-block text-xs text-secondary-text">
+                    <div class="inline-block text-xs">
                         <span class="text-xs font-bold">{{ i18n .context.Params.Subsection }}</span><br>
                         {{ dateFormat "02 Jan 2006" .context.Date }}
                     </div>
@@ -41,7 +41,7 @@
                     {{ else }}
                     <div class="w-full">
                         {{ end }}
-                        <p class="block text-sm overflow-ellipsis overflow-hidden ... text-secondary-text">
+                        <p class="block text-sm overflow-ellipsis overflow-hidden ...">
                             {{ if .context.Params.citation }}
                             {{ partial "box-citation.html" .context }}
                             {{ else }}
