@@ -1525,7 +1525,7 @@ legend.svelte-1v2r7ls.svelte-1v2r7ls {
 }
 
 .pagefind-ui__drawer.svelte-e9gkc3 {
-  @apply bg-white shadow-md;
+  @apply bg-primary-bg shadow-md;
   gap: calc(60px * var(--pagefind-ui-scale));
   display: flex;
   flex-direction: row;
