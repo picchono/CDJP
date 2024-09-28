@@ -1664,7 +1664,7 @@ a.linkBox {
 }
 
 a.linkBox:hover {
-  @apply bg-zinc-300 border-transparent shadow-xl text-primary-text;
+  @apply border-transparent shadow-xl text-primary-text;
   filter: drop-shadow(var(--st-dropshadow));
 }
 
