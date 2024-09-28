@@ -66,7 +66,6 @@ de recherche UE11 et 15, elle s'appuie sur les productions écrites et iconograp
 - collectivement : restitution de l'intensif Welcome (UE12) et des séminaires de recherche (UE11
 et 15)
 - collectivement : restitution d'articles dédiés au projet en design (UE17)
--
 
 Le comité de rédaction est constitué par les étudiants et les enseignants. Un enseignant en
 édition et design graphique accompagné le projet éditorial jusqu'à la fabrication matérielle de la

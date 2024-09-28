@@ -40,7 +40,6 @@ Ce positionnement impose certaines considérations pratiques et organisationnell
 - Il est nécessaire de pouvoir situer l’activité de la recherche dans le contexte où s’inscrit la démarche pratique (pouvant aller de l’atelier, aux laboratoires de recherche, jusqu’à la ville et au territoire).
 - En plus des règles normales pour la composition d’une équipe encadrante, celle-ci inclura au moins un praticien ou acteur responsable du contexte où s’inscrit la démarche pratique impliquée dans le projet de recherche. De même le jury sera composé d’au moins un praticien expérimenté en tant qu’examinateur dans la mesure du possible, ou sinon en tant qu’invité.
 - Cette recherche relevant un défi épistémologique pluridisciplinaire et disséminable, le mémoire de thèse, dont le format respecte le règlement intérieur de l’École doctorale Abbé Grégoire, est la “pièce” principale autour de laquelle la soutenance s’articule. Si un ou plusieurs artefacts sont réalisés dans le cadre de la recherche au travers de la pratique, ces derniers (1) doivent être décrits visuellement et textuellement dans le mémoire – ainsi que leur processus de conception et de fabrication – et (2) peuvent être exposés avant ou pendant la soutenance doctorale. Une attention particulière sera portée à la réflexion théorique ou méthodologique portée sur la pratique par lesquels ces artefacts sont produits. On ne saurait se satisfaire d’une simple explication ou description du travail effectué par la pratique comme unique perspective dans le travail doctoral.
-- 
 
 &nbsp;
 
@@ -50,7 +49,6 @@ Finalement, considérant la relative jeunesse de la recherche en design et en m�
 - L’étudiant issu d’un master 2 d’une formation en architecture, en design ou en métiers d’arts. Celui-ci pourra éventuellement inscrire sa recherche dans la continuité des sujets et des démarches déjà abordés dans le cadre du master,
 - Le praticien professionnel, possédant le grade de master (e.g., obtenue via une VAE), qui posera un sujet de recherche construit sur l’expérience et la pratique professionnelle qui lui sont propres,
 - Et, non le moindre, l’enseignant ou formateur en design, architecture ou métiers d’art, qui non seulement invoquera sa pratique et son expérience d’enseignement pour établir un sujet de recherche pertinent, mais qui aura pour vocation de contribuer par la suite à la formation à la recherche de ses étudiants et auditeurs.
--
 
 &nbsp;
 
