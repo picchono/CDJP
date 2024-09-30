@@ -66,7 +66,7 @@ lectures:
     PUDS02:
         order: 2
         link: "PUDS02"
-        title: "PUDS02"
+        title: "PUDS02 · Critique et médiation par le design"
     DSN202:
         order: 3
         redirect: "/teaching/pratiques-reflexives/"

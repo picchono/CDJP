@@ -63,7 +63,6 @@ frontphotomini: "https://live.staticflickr.com/65535/52036439015_8b0d8a9ccd_m.jp
 1. préciser, élargir et actualiser
 2. se positionner individuellement et organiser les collaborations
 3. accréditation
-4.
 
 &nbsp;
 
@@ -76,4 +75,3 @@ L'intensif Welcome UE12 a permis d'expérimenter les collaborations et de défin
 - les nécessités matérielles et les ressources (atelier des écoles, soutien technique, gisements de matières d'œuvre, etc)
 - les modalités de restitution du projet
 - les perspectives de stages en fonction du projet et/ou du parcours de professionnalisation
-- 

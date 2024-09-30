@@ -31,9 +31,9 @@ body {
   --color-tertiary-bg: #2c3132;
   --color-primary-text: #FCFAF2;
   --color-secondary-text: rgba(87, 83, 78);
-  --color-epierrot: #accaf8;
-  --tw-gradient-from: #4b637c;
-  --tw-gradient-to: #14263a;
+  --color-epierrot: #BBD89D;
+  --tw-gradient-from: #B54434;
+  --tw-gradient-to: #C53E2B;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
 }
@@ -104,7 +104,7 @@ a.titlePL:hover,
 a.collab:hover,
 a.doclinkButton:hover,
 a.boxA:hover {
-  @apply bg-tertiary-bg;
+  @apply bg-tertiary-bg text-primary-bg;
 }
 
 #home .frontPosts a::before,
@@ -1621,7 +1621,7 @@ div.highlight pre {
 }
 
 .copy-code-button {
-  color: var(--color-primary-bg);
+  color: var(--color-primary-text);
   background-color: transparent;
   border-radius: 3px 3px 0px 0px;
 
@@ -1637,7 +1637,6 @@ div.highlight pre {
 
 .copy-code-button:hover {
   cursor: pointer;
-  background-color: #F2F2F2;
 }
 
 .copy-code-button:focus {
