@@ -8,6 +8,11 @@
   --lineHeight: 1.7;
 }
 
+input::-moz-placeholder,textarea::-moz-placeholder, input::placeholder,textarea::placeholder{
+  opacity:1;
+  color: var(--color-primary-text);
+}
+
 *,
 html,
 body {
@@ -31,11 +36,12 @@ body {
   --color-tertiary-bg: #2c3132;
   --color-primary-text: #FCFAF2;
   --color-secondary-text: rgba(87, 83, 78);
-  --color-epierrot: #BBD89D;
-  --tw-gradient-from: #B54434;
-  --tw-gradient-to: #C53E2B;
+  --color-epierrot: #006284;
+/*  --tw-gradient-from: #91B493;
+  --tw-gradient-to: #4C674D;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
-  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops)); */
+  background-color: #1C1C1C;
 }
 
 box {
@@ -61,7 +67,7 @@ a {
 }
 
 a:hover {
-  @apply text-primary-bg bg-epierrot border-epierrot;
+  @apply text-primary-text bg-epierrot border-epierrot;
 }
 
 #languageMode a {
@@ -104,7 +110,7 @@ a.titlePL:hover,
 a.collab:hover,
 a.doclinkButton:hover,
 a.boxA:hover {
-  @apply bg-tertiary-bg text-primary-bg;
+  @apply bg-tertiary-bg text-primary-text;
 }
 
 #home .frontPosts a::before,
@@ -154,7 +160,7 @@ a.slashLink {
 }
 
 a.slashLink:hover {
-  @apply bg-epierrot text-primary-bg;
+  @apply bg-epierrot text-primary-text;
 }
 
 #lightgallery>a {
@@ -222,7 +228,7 @@ button:focus {
   outline: none;
 }
 
-:selection {
+::selection {
   @apply bg-primary-text text-primary-bg;
 }
 
