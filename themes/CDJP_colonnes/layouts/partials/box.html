@@ -1,5 +1,5 @@
 {{ if ne (dateFormat "2006" .context.Date) "0001" }}
-<div class='it{{- int .cou }} h-auto w-full p-3 my-4 {{- if eq .context.Params.Subsection "ended" }} bg-tertiary-bg{{ end -}}'
+<div class='it{{- int .cou }} h-auto w-full p-3 my-3 {{- if eq .context.Params.Subsection "ended" }} bg-tertiary-bg{{ end -}}'
     aria-label="{{- .context.Title |safeHTML -}}">
     <a class="boxA text-primary-text transition-all duration-700 ease-in-out justify-center flex flex-col w-full p-4"
         href="{{ .context.Permalink }}">
@@ -16,7 +16,7 @@
         {{ end }}
         <h5 class='block w-full font-bold text-base mt-2 p-2'>{{- .context.Title |safeHTML -}}</h5>
         <div class="w-full flex flex-col">
-            <p class="block p-2 text-sm overflow-ellipsis overflow-hidden ...">
+            <p class="block p-2 m-0 mb-2 text-sm overflow-ellipsis overflow-hidden ...">
                 {{ if .context.Params.citation }}
                 {{ partial "box-citation.html" .context }}
                 {{ else }}
