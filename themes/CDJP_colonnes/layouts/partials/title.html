@@ -1,0 +1,43 @@
+<section>
+    <div class="p-5">
+    <div id="CDJPlogo" class="logosign">
+        <a class="text-primary-text " href="{{ .Site.BaseURL | absURL }}"
+            aria-label="Logo of the Design Chaire Jean Prouvé">{{ partial "icons.html" (dict "ico" "jprouve" "hei" 2
+            "colo" "#FCFAF2") -}}</a>
+    </div>
+    {{ partial "international.html" . }}
+    {{ partial "search.html" . }}
+    </div>
+    <div class="px-5">
+        <div class="text-left items-start">
+            <h1 class="text-4xl font-bold m-0" {{if .Params.searchWeight }}
+                data-pagefind-weight="{{- .Params.searchWeight -}}" {{ end }}>{{ .Params.title |safeHTML }}</h1>
+            {{ if .Params.authors }}
+            <p class="italic">{{ .Params.authors }},
+                {{ dateFormat "02 Jan 2006" .Date }}</p>
+            {{ end }}
+        </div>
+        {{ if .Params.updating }}
+        <div class="my-10">
+            <p class="italic text-epierrot">Currently updating</p>
+        </div>
+        {{ end }}
+        <div class="py-5">
+            <p>{{ .Params.description |safeHTML }}</p>
+        </div>    
+    </div>
+    <div class="p-5 flex">
+        <div class="logosign flex flex-col">
+            <div class="flex flex-row w-full mb-3">
+                <a href="https://gohugo.io/" aria-label="Go to cnam website">{{ partial "icons.html" (dict "ico" "hugo"
+                    "hei" 1 "colo" "#FCFAF2") -}}</a>
+                <a href="https://github.com/picchono/CDJPfr" aria-label="Go to github">{{ partial "icons.html" (dict
+                    "ico" "github" "hei" 1 "colo" "#FCFAF2") -}}</a>
+                <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" aria-label="Go to cc">{{
+                    partial "icons.html" (dict "ico" "cc" "hei" 1 "colo" "#FCFAF2") -}}</a>
+            </div>
+            <a href="https://www.cnam.fr" aria-label="Go to cnam website">{{ partial "icons.html" (dict "ico" "cnam"
+                "hei" 1 "colo" "#FCFAF2") -}}</a>
+        </div>
+    </div>
+</section>

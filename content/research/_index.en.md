@@ -10,6 +10,7 @@ notEverything: true
 notListed: true
 comment: false
 tags: ['Pierre', 'Lévy', 'design','research', 'transforming_practices', 'everyday', 'kansei']
+zone: "research"
 ---
 
 ## Japanese phylosophy inspired design

@@ -1,0 +1,83 @@
+<section>
+    {{ if .Params.quote }}
+    <div class="p-5">
+        <p>{{ .Params.quote.quoteline |safeHTML}}<br /><span class="text italic">
+                -
+                {{ .Params.quote.quoteauthor }}
+                ({{ .Params.quote.quotedate }})</span>
+        </p>
+    </div>
+    {{ end }}
+
+    {{ if .Params.citation }}
+    <div class="p-5">
+        {{ partial "citation.html" . }}
+    </div>
+    {{ end }}
+    {{ if .Params.diploma}}
+    <div class="flex flex-row items-start justify-start p-5">
+        <p class="mr-4 flex-grow flex-shrink">
+            {{ range sort .Params.diploma }}
+            <b>{{ .type }}</b>
+            <br>
+            {{ end }}
+        </p>
+        <p class="flex-grow">
+            {{ range sort .Params.diploma }}
+            {{ .name }}<br>
+            {{ end }}
+        </p>
+    </div>
+    {{ end }}
+    {{ if .Params.description }}
+    <div class="p-5">
+        <p>{{ .Params.description |safeHTML }}</p>
+    </div>
+    {{ end }}
+    {{ if and (.Params.reference) (ne .File.Section "publications") }}
+    <div class="p-5">
+        <p>{{ .Params.reference |safeHTML }}</p>
+    </div>
+    {{ end }}
+    {{ if .Params.link }}
+    <div class="p-5">{{ partial "doclink.html" . }}</div>
+    {{ end }}
+
+    {{ if .Params.abstract }}
+    <div class="h-auto my-10">
+        <p>
+            <b class="text-epierrot">{{ partial "slash.html" (dict "txt" (i18n "abstract")) }}</b>
+            {{ .Params.abstract |safeHTML }}
+        </p>
+    </div>
+    {{ end }}
+    {{ if .Params.schedule }}
+    <div class="h-144 p-5">
+        <p>{{ .Params.schedule |safeHTML }}</p>
+    </div>
+    {{ end }}
+    {{ if .Params.executive}}
+    <div class="italic text-sm p-5">
+        <p>{{ .Params.executive }}</p>
+    </div>
+    {{ end }}
+    {{ if .Params.collaboration }}
+    <div class="flex flex-wrap items-center p-5">
+        {{ range sort .Params.collaboration }}
+        <a href="{{ .web }}" target="_blank" class="collab mr-4 my-8 p-4">
+            {{ if .colo }}
+            {{ partial "icons.html" (dict "ico" .logo "hei" .heig "colo" .colo) -}}
+            {{else}}
+            {{ partial "icons.html" (dict "ico" .logo "hei" .heig "colo" "var(--color-primary-text)") -}}
+            {{ end }}
+        </a>
+        {{ end }}
+    </div>
+    {{ end }}
+    {{ if .Params.photogallery }}
+    {{ partial "photogallery.html" . }}
+    {{ end }}
+    {{ if .Params.video}}
+    {{ partial "video.html" . }}
+    {{ end }}
+</section>

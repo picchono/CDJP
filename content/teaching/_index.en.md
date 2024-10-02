@@ -11,4 +11,5 @@ layout: list
 comment: false
 tags: ['Pierre', 'Lévy', 'teaching']
 zone: "teaching"
+description: "description teaching"
 ---

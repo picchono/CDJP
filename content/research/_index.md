@@ -10,6 +10,7 @@ notEverything: true
 notListed: true
 comment: false
 tags: ['Pierre', 'Lévy', 'design','Recherche', 'pratiques_transformatives', 'quotidien', 'kansei']
+zone: "research"
 ---
 ## Design inspiré par la philosophie japonaise
 

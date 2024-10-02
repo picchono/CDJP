@@ -5,7 +5,7 @@
 :root {
   @apply font-sans text-primary-text leading-6 box-border;
   --st-dropshadow: 7px 7px 8px #00000044;
-  --lineHeight: 1.7;
+  --lineHeight: 1.75;
 }
 
 input::-moz-placeholder,textarea::-moz-placeholder, input::placeholder,textarea::placeholder{
@@ -16,7 +16,7 @@ input::-moz-placeholder,textarea::-moz-placeholder, input::placeholder,textarea:
 *,
 html,
 body {
-  font-size: 18px;
+  font-size: 20px;
   font-stretch: 100%;
   letter-spacing: 0.01rem;
   line-height: var(--lineHeight);
