@@ -46,6 +46,10 @@ section {
   scrollbar-width: none;
 }
 
+section:last-child {
+  @apply mr-10;
+}
+
 .box {
   @apply transition-all duration-700 ease-in-out;
 }

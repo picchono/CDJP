@@ -1,10 +1,8 @@
 <section>
     {{ if .Params.abstract }}
-    <div class="h-auto my-10">
-        <p>
-            <b class="text-epierrot">{{ partial "slash.html" (dict "txt" (i18n "abstract")) }}</b>
+    <div class="h-auto my-5 px-5">
+        <b class="text-epierrot">{{ partial "slash.html" (dict "txt" (i18n "abstract")) }}</b>
             {{ .Params.abstract |safeHTML }}
-        </p>
     </div>
     {{ end }}
     {{ if .Params.link }}
