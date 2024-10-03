@@ -8,6 +8,26 @@
   --lineHeight: 1.75;
 }
 
+ /* width */
+ ::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #BDC0BA;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #BDC0BA;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #BDC0BA;
+} 
+
 input::-moz-placeholder,textarea::-moz-placeholder, input::placeholder,textarea::placeholder{
   opacity:1;
   color: var(--color-primary-text);
@@ -44,6 +64,8 @@ section {
   @apply max-w-3xl bg-primary-bg border-r border-tertiary-bg border-dotted flex flex-col relative h-screen flex-shrink-0 flex-grow-0 overflow-y-scroll w-96;
   scrollbar-color: var(--color-tertiary-bg) var(--color-primary-bg);
   scrollbar-width: none;
+  webkit-scrollbar-color: var(--color-tertiary-bg) var(--color-primary-bg);
+  webkit-scrollbar-width: none;
 }
 
 section:last-child {
