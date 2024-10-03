@@ -1,4 +1,5 @@
 ---
+member: PLevy
 title: "prof.dr.ing. Pierre Lévy, HDR"
 listchaire: false
 date: 2020-10-24T00:55:28+02:00

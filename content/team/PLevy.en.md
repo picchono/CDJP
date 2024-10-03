@@ -1,5 +1,5 @@
 ---
-members: ["PLevy"]
+member: PLevy
 title: "prof.dr.ing. Pierre Lévy, HDR"
 slug: "pierre-levy"
 chaire: true

@@ -1,25 +1,40 @@
 {{ define "main" }}
-<div class="w-full overflow-hidden flex flex-col md:flex-row">
-    <div class="w-1/6 pl-5 pr-20 self-end">&nbsp;</div>
+<section class="justify-start flex flex-col p-5 flex-grow" {{if .Params.searchWeight
+    }}data-pagefind-weight="{{.Params.searchWeight }}" {{ end }}>
     <div class="max-w-3xl w-full px-5">
         {{ if .Content}}{{ .Content }}{{ end }}
         {{ with index .Site.Data.plevy .Site.Language.Lang }}
         <div class="social flex flex-row justify-start items-center w-full my-10">
-        {{ range sort .identity.social "order" }}<a href="{{ .url }}" target="_blank"
-            class="inline-block p-2 mr-4" rel="noreferrer">{{- partial "icons.html" (dict "ico" .icon
-            "hei" 0.8 "colo" "var(--color-primary-text)") -}}</a>{{ end }}
+            {{ range sort .identity.social "order" }}<a href="{{ .url }}" target="_blank" class="inline-block p-2 mr-4"
+                rel="noreferrer">{{- partial "icons.html" (dict "ico" .icon
+                "hei" 0.8 "colo" "var(--color-primary-text)") -}}</a>{{ end }}
         </div>
         {{ end }}
     </div>
-    <div class="w-full md:w-2/6 p-8 md:pl-20 md:pr-5 md:py-0 flex flex-row md:flex-col flex-wrap justify-start align-top">
-        {{ partial "slashLink.html" (dict "targ" "projects")}}
-        {{ partial "slashLink.html" (dict "targ" "events")}}
-        {{ partial "slashLink.html" (dict "targ" "writings")}}
-        {{ partial "slashLink.html" (dict "targ" "research")}}
-        {{ partial "slashLink.html" (dict "targ" "publications")}}
-        {{ partial "slashLink.html" (dict "targ" "courses")}}
-        {{ partial "slashLink.html" (dict "targ" "teaching")}}
-    </div>
-</div>
-
+    {{$memb := .Params.member}}
+</section>
+{{ range $fold := slice "projects" "events" "writings" "research" "publications" "courses" "teaching" }}
+{{ range readDir "content" }}
+{{ if eq .Name $fold }}
+{{ range where $.Site.Pages "Section" "in" ($fold) }}
+{{ if eq .Params.zone $fold }}
+<section class="flex flex-col">
+    <h1 class="mt-0 p-3">{{ .Title }}</h1>
+    {{ $count := 0 }}
+    {{ range where .Site.Pages "Section" "in" (slice .Params.zone) }}
+    {{ if ne .Params.notListed true }}
+    {{ if isset .Params "members" }}
+    {{ if ne .Params.notListed true }}
+    {{ if in .Params.members $memb }}
+    {{ $count = add $count 1 }}
+    {{- partial "box.html" ( dict "context" . "cou" $count) -}}
+    {{ end }}{{ end }}{{ end }}
+    {{ end }}
+    {{ end }}
+</section>
+{{ end }}
+{{ end }}
+{{ end }}
+{{ end }}
+{{ end }}
 {{ end }}
