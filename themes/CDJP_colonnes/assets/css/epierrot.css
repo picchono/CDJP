@@ -1645,17 +1645,17 @@ li:last-child {
 pre {}
 
 div.highlight {
-  @apply rounded-md p-4;
-  background-color: var(--color-primary-bg) !important;
+  @apply border border-dotted border-tertiary-bg rounded-md p-4;
+  background-color: var(--color-primary-text) !important;
 }
 
 div.highlight pre {
-  background-color: var(--color-primary-bg) !important;
+  background-color: var(--color-primary-text) !important;
   white-space: normal !important;
 }
 
 .copy-code-button {
-  color: var(--color-primary-text);
+  color: var(--color-primary-bg);
   background-color: transparent;
   border-radius: 3px 3px 0px 0px;
 

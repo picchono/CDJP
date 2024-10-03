@@ -3,12 +3,14 @@
     aria-label="{{- .context.Title |safeHTML -}}">
     <a class="boxA text-primary-text transition-all duration-700 ease-in-out justify-center flex flex-col w-full p-4"
         href="{{ .context.Permalink }}">
+        {{ if isset .context.Params "frontphoto" }}
         <div class="blend-plevy h-36"><img src="" data-toset="
                     {{- if .context.Params.frontphotomini }}{{ .context.Params.frontphotomini | absURL }}
                     {{ else }}{{ .context.Params.frontphoto | absURL }}{{ end -}}"
                 class="imag imgBox object-cover rounded w-full h-36" alt="{{ .context.Params.title }}" width="500"
                 height="240" />
         </div>
+        {{ end }}
         {{ if isset .context.Params "photocredit" }}
         <div data-target="{{ .context.Params.photocredit.link | absURL }}"
             title="{{ .context.Params.photocredit.cred }}" class="credphoto text-xs pt-1 pb-3">
@@ -28,7 +30,7 @@
                     {{ .context.Params.quote.quoteauthor }}
                     ({{ .context.Params.quote.quotedate }})</span>
                 {{ else }}
-                <span class="text text-sm italic">{{if .context.Params.abstract }}
+                <span class="text text-sm">{{if .context.Params.abstract }}
                     {{ .context.Params.abstract |safeHTML }}{{ else }}{{ .context.Params.description }}
                     {{ end }}{{ .context.Params.boxtext |safeHTML }}</span>
                 {{ end }}

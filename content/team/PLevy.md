@@ -1,6 +1,8 @@
 ---
+members: ["PLevy"]
 title: "prof.dr.ing. Pierre Lévy, HDR"
-chaire: false
+slug: "pierre-levy"
+chaire: true
 date: 2020-10-24T00:55:28+02:00
 draft: false
 layout: about
@@ -8,6 +10,9 @@ searchFilter: about
 pict: "PLevy_front22.webp"
 tags: ['Pierre', 'Lévy', 'design', 'kansei', 'paris', 'transforming_practices']
 chaire: true
+description: "Pierre Lévy est professeur du Conservatoire national des Arts et Métiers, titulaire de la Chaire design Jean Prouvé, et membre du laboratoire Dicen-IDF."
+frontphoto: "https://live.staticflickr.com/65535/52087507002_3726776470_o.jpg"
+frontphotomini: "https://live.staticflickr.com/65535/52087507002_56a1a447a0_z.jpg"
 ---
 
 Pierre Lévy est professeur du Conservatoire national des Arts et Métiers, titulaire de la Chaire design Jean Prouvé, et membre du laboratoire Dicen-IDF (EA 7339). Il est titulaire d'un diplôme d'ingénieur en génie mécanique (UT Compiègne, France), d'un doctorat en science du kansei (de l'affectif) (Université de Tsukuba, Japon) et d'une HDR en sciences de l'information et de la communication (UT Compiègne, France). Il a vécu pendant près de 10 ans au Japon (où il a travaillé dans l’industrie puis dans plusieurs universités japonaises) et 12 ans aux Pays-Bas (à l’Université de Technologie d'Eindhoven).

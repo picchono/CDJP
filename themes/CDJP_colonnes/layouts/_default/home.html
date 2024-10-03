@@ -7,13 +7,11 @@
 <section class="flex flex-col">
     <h1 class="mt-0 p-3">{{ .Title }}</h1>
     {{ $count := 0 }}
-    {{ if .Params.listchaire}}
     {{ range where .Site.Pages "Section" "in" (slice .Params.zone) }}
     {{ if ne .Params.notListed true }}
     {{ if .Params.chaire }}
     {{ $count = add $count 1 }}
     {{- partial "box.html" ( dict "context" . "cou" $count) -}}
-    {{ end }}
     {{ end }}
     {{ end }}
     {{ end }}
