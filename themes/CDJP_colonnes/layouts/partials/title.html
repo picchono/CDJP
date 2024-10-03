@@ -1,16 +1,16 @@
 <section>
     <div class="p-5">
-    <div id="CDJPlogo" class="logosign">
-        <a class="text-primary-text " href="{{ .Site.BaseURL | absURL }}"
-            aria-label="Logo of the Design Chaire Jean Prouvé">{{ partial "icons.html" (dict "ico" "jprouve" "hei" 2
-            "colo" "#FCFAF2") -}}</a>
-    </div>
-    {{ partial "international.html" . }}
-    {{ partial "search.html" . }}
+        <div id="CDJPlogo" class="logosign">
+            <a class="text-primary-text " href="{{ .Site.BaseURL | absURL }}"
+                aria-label="Logo of the Design Chaire Jean Prouvé">{{ partial "icons.html" (dict "ico" "jprouve" "hei" 2
+                "colo" "#FCFAF2") -}}</a>
+        </div>
+        {{ partial "international.html" . }}
+        {{ partial "search.html" . }}
     </div>
     <div class="px-5">
         <div class="text-left items-start">
-            <h1 class="text-4xl font-bold m-0" {{if .Params.searchWeight }}
+            <h1 class="text-4xl font-bold mt-10" {{if .Params.searchWeight }}
                 data-pagefind-weight="{{- .Params.searchWeight -}}" {{ end }}>{{ .Params.title |safeHTML }}</h1>
             {{ if .Params.authors }}
             <p class="italic">{{ .Params.authors }},
@@ -22,9 +22,61 @@
             <p class="italic text-epierrot">Currently updating</p>
         </div>
         {{ end }}
+
+
+        {{ if .Params.quote }}
+        <div class="py-5">
+            <p>{{ .Params.quote.quoteline |safeHTML}}<br /><span class="text italic">
+                    -
+                    {{ .Params.quote.quoteauthor }}
+                    ({{ .Params.quote.quotedate }})</span>
+            </p>
+        </div>
+        {{ end }}
+
+        {{ if .Params.citation }}
+        <div class="py-5">
+            {{ partial "citation.html" . }}
+        </div>
+        {{ end }}
+        {{ if .Params.diploma}}
+        <div class="flex flex-row items-start justify-start p-5">
+            <p class="mr-4 flex-grow flex-shrink">
+                {{ range sort .Params.diploma }}
+                <b>{{ .type }}</b>
+                <br>
+                {{ end }}
+            </p>
+            <p class="flex-grow">
+                {{ range sort .Params.diploma }}
+                {{ .name }}<br>
+                {{ end }}
+            </p>
+        </div>
+        {{ end }}
+        {{ if .Params.description }}
         <div class="py-5">
             <p>{{ .Params.description |safeHTML }}</p>
-        </div>    
+        </div>
+        {{ end }}
+        {{ if and (.Params.reference) (ne .File.Section "publications") }}
+        <div class="py-5">
+            <p>{{ .Params.reference |safeHTML }}</p>
+        </div>
+        {{ end }}
+        {{ if .Params.collaboration }}
+        <div class="flex flex-wrap items-center p-5">
+            {{ range sort .Params.collaboration }}
+            <a href="{{ .web }}" target="_blank" class="collab mr-4 my-8 p-4">
+                {{ if .colo }}
+                {{ partial "icons.html" (dict "ico" .logo "hei" .heig "colo" .colo) -}}
+                {{else}}
+                {{ partial "icons.html" (dict "ico" .logo "hei" .heig "colo" "var(--color-primary-text)") -}}
+                {{ end }}
+            </a>
+            {{ end }}
+        </div>
+        {{ end }}
     </div>
     <div class="p-5 flex">
         <div class="logosign flex flex-col">
