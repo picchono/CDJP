@@ -59,17 +59,3 @@ Be enrolled in one of the international Masters programs of the scientifiques an
 {{<linkBox "MR14602A · Master Telecommunications and Networks" "https://formation.cnam.fr/rechercher-par-discipline/master-sciences-technologies-sante-mention-reseaux-et-telecommunication-parcours-international-telecommunications-and-networks-1085672.kjsp" >}}
 
 {{<linkBox "MR15101A · Master Structural Mechanics and Coupled Systems" "https://formation.cnam.fr/rechercher-par-discipline/master-informatique-parcours-traitement-de-l-information-et-exploitation-des-donnees-tried--813201.kjsp" >}}
-
-&nbsp;
-
-{{< slash "Calendar 24-25" >}}
-- 27 September 2024 · 09:00-12:00 (ALL) - Introduction / Rhetoric
-- 18 November 2024 · 09:00-12:00 (TLC) - writing
-- 25 November 2024 · 09:00-12:00 (IOT) - writing
-- 29 November 2024 · 09:00-12:00 (MECA) - writing
-- 02 December 2024 · 09:00-12:00 (TLC) - visualising
-- 16 December 2024 · 09:00-12:00 (IOT) - visualising
-- 18 December 2024 · 09:00-12:00 (MECA) - visualising
-- 06 January 2024 · 09:00-12:00 (IOT) - presenting
-- 07 January 2024 · 09:00-12:00 (TLC) - presenting
-- 10 January 2024 · 09:00-12:00 (MECA) - presenting

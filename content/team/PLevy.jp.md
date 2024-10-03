@@ -7,6 +7,7 @@ layout: about
 searchFilter: about
 pict: "PLevy_front22.webp"
 tags: ['Pierre', 'Lévy', 'design', 'kansei', 'paris', 'transforming_practices']
+chaire: true
 ---
 フランス・国立工芸院教授 ・ デザインチェア 「ジャン・プルーヴェ」
 

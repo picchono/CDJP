@@ -33,7 +33,7 @@ body {
 
 body {
   --color-primary-bg: #BDC0BA;
-  --color-secondary-bg: #303a3d;
+  --color-secondary-bg: #caccc8;
   --color-tertiary-bg: #828282;
   --color-primary-text: #1c1c1c;
   --color-secondary-text: rgb(166, 152, 135);
@@ -41,7 +41,7 @@ body {
 }
 
 section {
-  @apply bg-primary-bg border-r border-tertiary-bg border-dotted flex flex-col relative h-screen flex-shrink-0 flex-grow-0 overflow-y-scroll w-96;
+  @apply max-w-3xl bg-primary-bg border-r border-tertiary-bg border-dotted flex flex-col relative h-screen flex-shrink-0 flex-grow-0 overflow-y-scroll w-96;
   scrollbar-color: var(--color-tertiary-bg) var(--color-primary-bg);
   scrollbar-width: none;
 }
@@ -73,7 +73,7 @@ a {
 }
 
 a:hover {
-  @apply text-primary-text bg-epierrot border-epierrot;
+  @apply text-primary-bg bg-epierrot border-epierrot;
 }
 
 #languageMode a {
@@ -1670,7 +1670,7 @@ div.highlight pre {
 
 /* linkBox */
 a.linkBox {
-  @apply flex justify-between h-24 w-full lg:w-2/3 p-1 my-4 rounded border border-solid border-secondary-bg text-primary-text bg-tertiary-bg transition-all duration-700 ease-in-out;
+  @apply flex justify-between h-24 w-full lg:w-2/3 p-1 my-4 rounded border border-dotted border-tertiary-bg text-primary-text transition-all duration-700 ease-in-out;
 }
 
 a.linkBox:hover {

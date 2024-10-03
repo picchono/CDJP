@@ -1,6 +1,6 @@
 {{ $photonb := len .Params.photogallery }}
 {{ if eq $photonb 1 }}
-<div class="p-0" id="lightgallery"><img loading="lazy" class="imag object-cover w-full h-full cursor-pointer rounded-md"
+<div class="p-0" id="lightgallery"><img loading="lazy" class="imag object-cover w-full h-full cursor-pointer"
         src="{{ .Params.photogallery.image1.img }}"></div>
 {{ else }}
 <div class="flex flex-row flex-wrap w-full py-8" id="lightgallery">

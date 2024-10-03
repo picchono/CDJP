@@ -34,6 +34,17 @@ lectures:
         order: 4
         link: "presenting"
         title: "Presenting"
+calendar:
+    1: "27 September 2024 · 09:00-12:00 (ALL)<br/><b>Introduction / Rhetoric</b>"
+    2: "18 November 2024 · 09:00-12:00 (TLC)<br/><b>Writing</b>"
+    3: "25 November 2024 · 09:00-12:00 (IOT)<br/><b>Writing</b>"
+    4: "29 November 2024 · 09:00-12:00 (MECA)<br/><b>Writing</b>"
+    5: "02 December 2024 · 09:00-12:00 (TLC)<br/><b>Visualising</b>"
+    6: "16 December 2024 · 09:00-12:00 (IOT)<br/><b>Visualising</b>"
+    7: "18 December 2024 · 09:00-12:00 (MECA)<br/><b>Visualising</b>"
+    8: "06 January 2024 · 09:00-12:00 (IOT)<br/><b>Presenting</b>"
+    9: "07 January 2024 · 09:00-12:00 (TLC)<br/><b>Presenting</b>"
+    10: "10 January 2024 · 09:00-12:00 (MECA)<br/><b>Presenting</b>"
 ---
 {{< slash "Description" >}} 
 The major aim of this course is to improve students' scientific or technical presentation skills, focusing on the roles and the effects of involved media in presenting a project (e.g., a poster, an artefact, a video...). First, a few theoretical guidelines a provided for understanding the practical and rhetorical use of media in presentation. Second, this understanding is used in presenting projects carried out or chosen by students in their own specialties. Third and last, presentations are analysed to point out how they can highlight the key aspects of a project, and how the elements produced for the project can structure a presentation and serve its objectives.Therefore, the aim of this course is to develop students' abilities to understand and present scientific and technical projects.
@@ -59,17 +70,3 @@ Be enrolled in one of the international Masters programs of the scientifiques an
 {{<linkBox "MR14602A · Master Telecommunications and Networks" "https://formation.cnam.fr/rechercher-par-discipline/master-sciences-technologies-sante-mention-reseaux-et-telecommunication-parcours-international-telecommunications-and-networks-1085672.kjsp" >}}
 
 {{<linkBox "MR15101A · Master Structural Mechanics and Coupled Systems" "https://formation.cnam.fr/rechercher-par-discipline/master-informatique-parcours-traitement-de-l-information-et-exploitation-des-donnees-tried--813201.kjsp" >}}
-
-&nbsp;
-
-{{< slash "Calendar 24-25" >}}
-- 27 September 2024 · 09:00-12:00 (ALL) - Introduction / Rhetoric
-- 18 November 2024 · 09:00-12:00 (TLC) - writing
-- 25 November 2024 · 09:00-12:00 (IOT) - writing
-- 29 November 2024 · 09:00-12:00 (MECA) - writing
-- 02 December 2024 · 09:00-12:00 (TLC) - visualising
-- 16 December 2024 · 09:00-12:00 (IOT) - visualising
-- 18 December 2024 · 09:00-12:00 (MECA) - visualising
-- 06 January 2024 · 09:00-12:00 (IOT) - presenting
-- 07 January 2024 · 09:00-12:00 (TLC) - presenting
-- 10 January 2024 · 09:00-12:00 (MECA) - presenting

@@ -7,6 +7,7 @@ layout: about
 searchFilter: about
 pict: "PLevy_front22.webp"
 tags: ['Pierre', 'Lévy', 'design', 'kansei', 'paris', 'transforming_practices']
+chaire: true
 ---
 
 Pierre Lévy is a professor at the [Conservatoire National des Arts et Métiers](https://www.cnam.eu/site-en/), holder of the Chair of design Jean Prouvé, and member of the [Dicen-IDF](http://www.dicen-idf.org/) laboratory (EA 7339). He holds an engineering degree in mechanical engineering (UT Compiègne, France), a Ph.D in kansei (affective) science (University of Tsukuba, Japan) and an HDR in information and communication sciences (UT Compiègne, France). He has lived for nearly 10 years in Japan (where he worked in industry and then in several Japanese universities) and 12 years in the Netherlands (at the Eindhoven University of Technology).

@@ -3,7 +3,7 @@
         <div id="CDJPlogo" class="logosign">
             <a class="text-primary-text " href="{{ .Site.BaseURL | absURL }}"
                 aria-label="Logo of the Design Chaire Jean Prouvé">{{ partial "icons.html" (dict "ico" "jprouve" "hei" 2
-                "colo" "#FCFAF2") -}}</a>
+                "colo" "var(--color-primary-text)") -}}</a>
         </div>
         {{ partial "international.html" . }}
         {{ partial "search.html" . }}
@@ -82,14 +82,14 @@
         <div class="logosign flex flex-col">
             <div class="flex flex-row w-full mb-3">
                 <a href="https://gohugo.io/" aria-label="Go to cnam website">{{ partial "icons.html" (dict "ico" "hugo"
-                    "hei" 1 "colo" "#FCFAF2") -}}</a>
+                    "hei" 1 "colo" "var(--color-primary-text)") -}}</a>
                 <a href="https://github.com/picchono/CDJPfr" aria-label="Go to github">{{ partial "icons.html" (dict
-                    "ico" "github" "hei" 1 "colo" "#FCFAF2") -}}</a>
+                    "ico" "github" "hei" 1 "colo" "var(--color-primary-text)") -}}</a>
                 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" aria-label="Go to cc">{{
-                    partial "icons.html" (dict "ico" "cc" "hei" 1 "colo" "#FCFAF2") -}}</a>
+                    partial "icons.html" (dict "ico" "cc" "hei" 1 "colo" "var(--color-primary-text)") -}}</a>
             </div>
             <a href="https://www.cnam.fr" aria-label="Go to cnam website">{{ partial "icons.html" (dict "ico" "cnam"
-                "hei" 1 "colo" "#FCFAF2") -}}</a>
+                "hei" 1 "colo" "var(--color-primary-text)") -}}</a>
         </div>
     </div>
 </section>
