@@ -1,15 +1,14 @@
 {{ define "main" }}
 {{ $langu := .Site.Language.Lang }}
-<section class="justify-start flex flex-col p-5 flex-grow" {{if .Params.searchWeight }}data-pagefind-weight="{{.Params.searchWeight }}" {{ end }}>
+<section class="justify-start flex flex-col flex-grow" {{if .Params.searchWeight }}data-pagefind-weight="{{.Params.searchWeight }}" {{ end }}>
         {{ if .Content}}
-        {{ .Content }}
+        <div class="p-5">{{ .Content }}</div>
         {{ end }}
         {{ if .Params.link }}
         {{ range .Params.link }}
             {{ $typ := index . 0 }}
             {{ if eq "paper" $typ}}
-            <embed src="{{ printf (index . 2) }}" width="500" height="375" type="application/pdf">
-            {{ end }}
+            <div class="h-screen"><iframe class="w-full h-full" src="{{ index . 2 }}&embed=1&em=2" frameborder="0" scrolling="no"></iframe></div>{{ end }}
         {{ end }}
         {{ end }}
     </div>

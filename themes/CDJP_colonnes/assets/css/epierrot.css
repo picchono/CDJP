@@ -390,12 +390,12 @@ footer svg {
 /* box image */
 
 img.imgBox {
-  filter: grayscale(1) brightness(1) saturate(2) contrast(2) drop-shadow(var(--st-dropshadow));
+  filter: grayscale(1) drop-shadow(var(--st-dropshadow));
   transition: all 500ms ease-in-out;
 }
 
 a:hover img.imgBox {
-  filter: grayscale(0) brightness(1) saturate(1) contrast(1);
+  filter: grayscale(0);
 }
 
 a.gridbox p {
@@ -1072,7 +1072,7 @@ canvas#bgirreg2in {
 }
 
 .logosign a:hover {
-  @apply bg-transparent text-primary-text;
+  @apply bg-transparent text-epierrot;
   filter: grayscale(0)opacity(1);
 }
 
