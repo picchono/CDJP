@@ -35,16 +35,16 @@ lectures:
         link: "presenting"
         title: "Presenting"
 calendar:
-    1: "27 September 2024 · 09:00-12:00 (ALL)<br/><b>Introduction / Rhetoric</b>"
-    2: "18 November 2024 · 09:00-12:00 (TLC)<br/><b>Writing</b>"
-    3: "25 November 2024 · 09:00-12:00 (IOT)<br/><b>Writing</b>"
-    4: "29 November 2024 · 09:00-12:00 (MECA)<br/><b>Writing</b>"
-    5: "02 December 2024 · 09:00-12:00 (TLC)<br/><b>Visualising</b>"
-    6: "16 December 2024 · 09:00-12:00 (IOT)<br/><b>Visualising</b>"
-    7: "18 December 2024 · 09:00-12:00 (MECA)<br/><b>Visualising</b>"
-    8: "06 January 2024 · 09:00-12:00 (IOT)<br/><b>Presenting</b>"
-    9: "07 January 2024 · 09:00-12:00 (TLC)<br/><b>Presenting</b>"
-    10: "10 January 2024 · 09:00-12:00 (MECA)<br/><b>Presenting</b>"
+    a: "27 September 2024 · 09:00-12:00 (ALL)<br/><b>Introduction / Rhetoric</b>"
+    b: "18 November 2024 · 09:00-12:00 (TLC)<br/><b>Writing</b>"
+    c: "25 November 2024 · 09:00-12:00 (IOT)<br/><b>Writing</b>"
+    d: "29 November 2024 · 09:00-12:00 (MECA)<br/><b>Writing</b>"
+    e: "02 December 2024 · 09:00-12:00 (TLC)<br/><b>Visualising</b>"
+    f: "16 December 2024 · 09:00-12:00 (IOT)<br/><b>Visualising</b>"
+    g: "18 December 2024 · 09:00-12:00 (MECA)<br/><b>Visualising</b>"
+    h: "06 January 2024 · 09:00-12:00 (IOT)<br/><b>Presenting</b>"
+    i: "07 January 2024 · 09:00-12:00 (TLC)<br/><b>Presenting</b>"
+    j: "10 January 2024 · 09:00-12:00 (MECA)<br/><b>Presenting</b>"
 ---
 {{< slash "Description" >}} 
 The major aim of this course is to improve students' scientific or technical presentation skills, focusing on the roles and the effects of involved media in presenting a project (e.g., a poster, an artefact, a video...). First, a few theoretical guidelines a provided for understanding the practical and rhetorical use of media in presentation. Second, this understanding is used in presenting projects carried out or chosen by students in their own specialties. Third and last, presentations are analysed to point out how they can highlight the key aspects of a project, and how the elements produced for the project can structure a presentation and serve its objectives.Therefore, the aim of this course is to develop students' abilities to understand and present scientific and technical projects.

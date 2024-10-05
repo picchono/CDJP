@@ -5,8 +5,8 @@
         {{ .Params.abstract |safeHTML }}
     </div>
     {{ end }}
-    {{ if eq .Params.layout "about" }}{{- if .Params.frontphoto }}
-    <img src="" data-toset="{{ .Params.frontphoto | absURL }}"
+    {{ if eq .Params.layout "about" }}{{- if .Params.frontphotomini }}
+    <img src="" data-toset="{{ .Params.frontphotomini | absURL }}"
         class="imag object-cover w-full py-5" alt="{{ .Params.title }}" width="500"
         height="240" />
     {{ end }}{{ end -}}

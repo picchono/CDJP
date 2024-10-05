@@ -5,7 +5,7 @@
 {{ range where $.Site.Pages "Section" "in" ($fold) }}
 {{ if eq .Params.zone $fold }}
 <section class="flex flex-col">
-    <h1 class="mt-0 p-3">{{ .Title }}</h1>
+    <h1>{{ .Title }}</h1>
     {{ $count := 0 }}
     {{ range where .Site.Pages "Section" "in" (slice .Params.zone) }}
     {{ if ne .Params.notListed true }}

@@ -36,7 +36,7 @@ input::-moz-placeholder,textarea::-moz-placeholder, input::placeholder,textarea:
 *,
 html,
 body {
-  font-size: 16px;
+  font-size: 18px;
   font-stretch: 100%;
   letter-spacing: 0.01rem;
   line-height: var(--lineHeight);
@@ -47,21 +47,21 @@ body {
 }
 
 body {
-  @apply bg-primary-bg text-primary-text overflow-x-hidden lg:overflow-x-auto;
+  @apply bg-primary-bg text-primary-text overflow-x-hidden md:overflow-x-auto;
   scrollbar-width: none;
 }
 
 body {
-  --color-primary-bg: #D7C4BB;
-  --color-secondary-bg: #caccc8;
+  --color-primary-bg: #86473F;
+  --color-secondary-bg: #98544b;
   --color-tertiary-bg: #828282;
-  --color-primary-text: #1c1c1c;
+  --color-primary-text: #eee;
   --color-secondary-text: rgb(166, 152, 135);
-  --color-epierrot: #006284;
+  --color-epierrot: #F5BF79;
 }
 
 section {
-  @apply max-w-3xl bg-primary-bg border-r border-tertiary-bg border-dotted flex flex-col relative h-screen flex-shrink-0 flex-grow-0 overflow-y-scroll w-96;
+  @apply max-w-3xl bg-primary-bg border-r border-tertiary-bg border-dotted flex flex-col relative h-auto md:h-screen flex-shrink-0 flex-grow-0 overflow-y-scroll w-full md:w-96;
   scrollbar-color: var(--color-tertiary-bg) var(--color-primary-bg);
   scrollbar-width: none;
   webkit-scrollbar-color: var(--color-tertiary-bg) var(--color-primary-bg);
@@ -70,6 +70,10 @@ section {
 
 section:last-child {
   @apply mr-10;
+}
+
+section>h1 {
+  margin: 4rem 0 4rem -0.5rem;
 }
 
 .box {
@@ -188,7 +192,7 @@ a.slashLink {
 }
 
 a.slashLink:hover {
-  @apply bg-epierrot text-primary-text;
+  @apply bg-epierrot text-primary-text border-secondary-bg;
 }
 
 #lightgallery>a {
@@ -232,7 +236,7 @@ span.japanese {
 }
 
 .framebox {
-  @apply lg:border-l border-t border-epierrot;
+  @apply md:border-l border-t border-epierrot;
 }
 
 .slideframe {
@@ -240,15 +244,15 @@ span.japanese {
 }
 
 .frameboxcomplete {
-  @apply lg:border-r border-b border-epierrot;
+  @apply md:border-r border-b border-epierrot;
 }
 
 .frame {
-  @apply p-6 lg:px-56 py-20;
+  @apply p-6 md:px-56 py-20;
 }
 
 .subframebox {
-  @apply lg:border-l border-t border-secondary-bg;
+  @apply md:border-l border-t border-secondary-bg;
 }
 
 input:focus,
@@ -390,7 +394,7 @@ footer svg {
 /* box image */
 
 img.imgBox {
-  filter: grayscale(1) drop-shadow(var(--st-dropshadow));
+  filter: grayscale(0.7) drop-shadow(var(--st-dropshadow));
   transition: all 500ms ease-in-out;
 }
 
@@ -742,15 +746,15 @@ input:placeholder {
 /* lecture session */
 
 section.lectureSession {
-  @apply flex flex-col lg:flex-row;
+  @apply flex flex-col md:flex-row;
 }
 
 section.lectureSession>.side {
-  @apply order-2 lg:order-1 w-full bg-secondary-bg lg:w-72 py-3 px-5 rounded lg:m-0 lg:mr-10 flex-shrink-0;
+  @apply order-2 md:order-1 w-full bg-secondary-bg md:w-72 py-3 px-5 rounded md:m-0 md:mr-10 flex-shrink-0;
 }
 
 section.lectureSession>.main {
-  @apply order-1 lg:order-2 w-full mb-1 py-3;
+  @apply order-1 md:order-2 w-full mb-1 py-3;
 }
 
 /* headListes */
@@ -1692,7 +1696,7 @@ div.highlight pre {
 
 /* linkBox */
 a.linkBox {
-  @apply flex justify-between h-24 w-full lg:w-2/3 p-1 my-4 rounded border border-dotted border-tertiary-bg text-primary-text transition-all duration-700 ease-in-out;
+  @apply flex justify-between h-24 w-full md:w-2/3 p-1 my-4 rounded border border-dotted border-tertiary-bg text-primary-text transition-all duration-700 ease-in-out;
 }
 
 a.linkBox:hover {
@@ -1797,7 +1801,7 @@ body {
 }
 
 .markdown-body a {
-  @apply block rounded text-epierrot py-3 px-4 -ml-4 my-2 no-underline bg-secondary-bg lg:hover:shadow-xl transition-all duration-700 ease-in-out;
+  @apply block rounded text-epierrot py-3 px-4 -ml-4 my-2 no-underline bg-secondary-bg md:hover:shadow-xl transition-all duration-700 ease-in-out;
 }
 
 .markdown-body a::before {
@@ -1810,7 +1814,7 @@ body {
 }
 
 .markdown-body blockquote a {
-  @apply inline py-0 px-1 m-0 bg-transparent lg:hover:shadow-none;
+  @apply inline py-0 px-1 m-0 bg-transparent md:hover:shadow-none;
 }
 
 .markdown-body abbr[title] {
@@ -2742,7 +2746,7 @@ body {
 
   /* fixing base.css for print */
   .revers {
-    @apply bg-secondary-bg text-primary-text pb-1 pt-0.5 mr-2 rounded-sm lg:rounded transition-all duration-700 ease-in-out inline;
+    @apply bg-secondary-bg text-primary-text pb-1 pt-0.5 mr-2 rounded-sm md:rounded transition-all duration-700 ease-in-out inline;
     box-shadow: none;
     box-decoration-break: clone;
   }
