@@ -101,7 +101,12 @@ Semiotica del Tatuaggio - **NABA Nuva Accademia di Belle Arti, Milano**
 &nbsp;
 
 ![nonsapere at Cnam](https://civic-city.org/nonsapere/wp-content/uploads/2023/03/Final-Humalingua-scaled.jpg "Poster for the Cnam session")
-What is the common language of minakind? - **Polish-Japanese Academy of Information Technology**
+What is the common language of minakind? - **Polish-Japanese Academy of Information Technology, Poland**
+
+&nbsp;
+
+![nonsapere at Cnam](https://civic-city.org/nonsapere/wp-content/uploads/2024/08/TOKYO-1-copia-1-scaled.jpg "Poster for the Cnam session")
+How are we living in this world? - **Musashino Art University, Japan**
 
 &nbsp;
 
