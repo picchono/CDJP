@@ -53,15 +53,15 @@ body {
 
 body {
   --color-primary-bg: #1c1c1c;
-  --color-secondary-bg: #313131;
-  --color-tertiary-bg: #828282;
+  --color-secondary-bg: #373C38;
+  --color-tertiary-bg: #707070;
   --color-primary-text: #eee;
   --color-secondary-text: rgb(166, 152, 135);
   --color-epierrot: #F5BF79;
 }
 
 section {
-  @apply max-w-3xl bg-primary-bg border-r border-tertiary-bg border-dotted flex flex-col relative h-auto md:h-screen flex-shrink-0 flex-grow-0 overflow-y-scroll w-full md:w-96;
+  @apply max-w-3xl bg-primary-bg border-r border-tertiary-bg border-dotted flex flex-col pb-20 relative h-auto md:h-screen flex-shrink-0 flex-grow-0 overflow-y-scroll w-full md:w-96;
   scrollbar-color: var(--color-tertiary-bg) var(--color-primary-bg);
   scrollbar-width: none;
   webkit-scrollbar-color: var(--color-tertiary-bg) var(--color-primary-bg);
@@ -123,7 +123,7 @@ a.titlePL,
 a.collab,
 a.doclinkButton,
 a.boxA {
-  @apply text-primary-text border-none rounded transition-all duration-700 ease-in-out;
+  @apply text-primary-text border-0 rounded transition-all duration-700 ease-in-out;
 }
 
 #home .frontPosts a:hover,
@@ -138,7 +138,7 @@ a.titlePL:hover,
 a.collab:hover,
 a.doclinkButton:hover,
 a.boxA:hover {
-  @apply bg-secondary-bg shadow-2xl;
+  @apply bg-secondary-bg;
 }
 
 #home .frontPosts a::before,
