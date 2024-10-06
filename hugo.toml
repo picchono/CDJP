@@ -1,7 +1,7 @@
 baseURL = "https://chaire-design.fr"
 languageCode = "fr-FA"
 title = "Chaire design Jean Prouvé"
-theme = "CDJP_simple"
+theme = "CDJP_colonnes"
 defaultContentLanguage = "fr"
 ignoreErrors = ["error-disable-taxonomy"]
 
@@ -10,6 +10,7 @@ copyright = "chaire-design.fr"
 
 [Params]
 favicon = "icon.png"
+removePathAccents = true
 
 [deployement]
 order = [".webp", ".jpg$", ".gif$"]
