@@ -52,8 +52,8 @@ body {
 }
 
 body {
-  --color-primary-bg: #86473F;
-  --color-secondary-bg: #98544b;
+  --color-primary-bg: #1c1c1c;
+  --color-secondary-bg: #313131;
   --color-tertiary-bg: #828282;
   --color-primary-text: #eee;
   --color-secondary-text: rgb(166, 152, 135);
@@ -66,10 +66,6 @@ section {
   scrollbar-width: none;
   webkit-scrollbar-color: var(--color-tertiary-bg) var(--color-primary-bg);
   webkit-scrollbar-width: none;
-}
-
-section:last-child {
-  @apply mr-10;
 }
 
 section>h1 {
@@ -142,7 +138,7 @@ a.titlePL:hover,
 a.collab:hover,
 a.doclinkButton:hover,
 a.boxA:hover {
-  @apply bg-primary-bg shadow-2xl;
+  @apply bg-secondary-bg shadow-2xl;
 }
 
 #home .frontPosts a::before,

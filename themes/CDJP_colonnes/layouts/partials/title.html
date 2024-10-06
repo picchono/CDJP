@@ -76,8 +76,9 @@
         </div>
         {{ end }}
         {{ if .IsHome }}
-        <div class="my-7 text-right">
-            {{ range $fold := slice "team" "events" "teaching" "courses" "projects" "writings" "research" "publications" }}
+        <div class="my-7 py-4 text-center">
+            {{ range $fold := slice "team" "events" "teaching" "courses" "projects" "writings" "research" "publications"
+            }}
             {{ range readDir "content" }}
             {{ if eq .Name $fold }}
             {{ range where $.Site.Pages "Section" "in" ($fold) }}
@@ -88,8 +89,23 @@
             {{ end }}
             {{ end }}
             {{ end }}
+        </div>
+        {{ end }}
+        {{ if eq .Params.layout "about" }}
+        <div class="my-7 py-4 text-center">
+            {{ range $fold := slice "projects" "events" "writings" "research" "publications" "courses" "teaching" }}
+            {{ range readDir "content" }}
+            {{ if eq .Name $fold }}
+            {{ range where $.Site.Pages "Section" "in" ($fold) }}
+            {{ if eq .Params.zone $fold }}
+            <a href="#{{- lower .Title -}}">&lceil;{{ .Title }}&rfloor;</a><br />
+            {{ end }}
+            {{ end }}
+            {{ end }}
+            {{ end }}
             {{ end }}
         </div>
+        {{ end }}
     </div>
     <div class="p-5 flex">
         <div class="logosign flex flex-col">
