@@ -77,8 +77,7 @@
         {{ end }}
         {{ if .IsHome }}
         <div class="my-7 py-4 text-center">
-            {{ range $fold := slice "team" "events" "teaching" "courses" "projects" "writings" "research" "publications"
-            }}
+            {{ range $fold := slice "events" "teaching" "courses" "projects" "writings" "research" "publications" "team" }}
             {{ range readDir "content" }}
             {{ if eq .Name $fold }}
             {{ range where $.Site.Pages "Section" "in" ($fold) }}
