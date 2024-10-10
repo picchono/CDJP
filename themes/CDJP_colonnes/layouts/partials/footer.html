@@ -1,40 +1,52 @@
-<div id="footer" class="w-full overflow-hidden flex flex-col md:flex-row mb-6 lg:mb-20">
-    <div class="w-1/6 pl-5 lg:pr-20 self-end">&nbsp;</div>
-    <div class="max-w-3xl w-full px-5">
-        {{ if not .IsHome }}
-            {{ $currRellink := substr .RelPermalink 0 -1 }}
-            {{ $currContent := .Content }}
-            {{ $backlinks := slice }}
-            {{ $forwardlinks := slice }}
-            {{ range .Site.Pages }}
-            {{ $found := findRE $currRellink .Content 1 }}
-            {{ if $found }}
-            {{ $backlinks = $backlinks | append . }}
-            {{ else }}
-            {{ $rellink := substr .RelPermalink 0 -1 }}
-            {{ $found = findRE $rellink $currContent 1 }}
-            {{ if $found }}
-            {{ $forwardlinks = $forwardlinks | append . }}
-            {{ end }}
-            {{ end }}
-            {{ end }}
+{{ if not .IsHome }}
+<section id="foote min-h-screen">
+{{ $currRellink := substr .RelPermalink 0 -1 }}
+{{ $currContent := .Content }}
+{{ $backlinks := slice }}
+{{ $forwardlinks := slice }}
+{{ range .Site.Pages }}
+{{ $found := findRE $currRellink .Content 1 }}
+{{ if $found }}
+{{ $backlinks = $backlinks | append . }}
+{{ else }}
+{{ $rellink := substr .RelPermalink 0 -1 }}
+{{ $found = findRE $rellink $currContent 1 }}
+{{ if $found }}
+{{ $forwardlinks = $forwardlinks | append . }}
+{{ end }}
+{{ end }}
+{{ end }}
 
-            {{ $related := append $backlinks $forwardlinks }}
-            {{ if compare.Gt ($related | len)  1}}
-            <div class="my-10 p-5 bg-secondary-bg rounded-xl">
-            <h3 class="m-0 p-0">{{ i18n "backlinks" }}</h3>
-            {{ $count := 0}}
-            {{ range sort $related "Date" "desc" }}
-                {{ $count = add $count 1 }}
-                {{- partial "box.html" ( dict "context" . "cou" $count ) -}}
-            {{ end }}</div>{{ end }}</div>
-        {{ end }}
-        {{ if ne .Params.comment false }}
-        <div class="mt-30 mb-10">
-            <script src="https://utteranc.es/client.js" repo="picchono/CDJPfr" issue-term="pathname"
-                theme="github-dark" crossorigin="anonymous" async="async"></script>
-        </div>
-        {{ end }}
+{{ $related := append $backlinks $forwardlinks }}
+{{ if or (compare.Gt ($related | len) 1) (ne .Params.comment false) }}
+
+{{ if compare.Gt ($related | len) 1}}
+<h1>{{ i18n "backlinks" }}</h1>
+{{ $count := 0}}
+{{ range sort $related "Date" "desc" }}
+{{ $count = add $count 1 }}
+{{- partial "box.html" ( dict "context" . "cou" $count ) -}}
+{{ end }}
+{{ end }}
+{{ end }}
+{{ if ne .Params.comment false }}
+<h1>{{ i18n "comments" }}</h1>
+<script src="https://utteranc.es/client.js" repo="picchono/CDJPfr" issue-term="pathname" theme="github-light"
+    crossorigin="anonymous" async="async"></script>
+{{ end }}
+{{ end }}
+{{ if not .IsHome }}
+<div class="logosign flex flex-col p-5 mt-20">
+    <div class="flex flex-row w-full mb-3">
+        <a href="https://gohugo.io/" aria-label="Go to cnam website">{{ partial "icons.html" (dict "ico" "hugo"
+            "hei" 1 "colo" "var(--color-primary-text)") -}}</a>
+        <a href="https://github.com/picchono/CDJP" aria-label="Go to github">{{ partial "icons.html" (dict
+            "ico" "github" "hei" 1 "colo" "var(--color-primary-text)") -}}</a>
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" aria-label="Go to cc">{{
+            partial "icons.html" (dict "ico" "cc" "hei" 1 "colo" "var(--color-primary-text)") -}}</a>
     </div>
-    
+    <a href="https://www.cnam.fr" aria-label="Go to cnam website">{{ partial "icons.html" (dict "ico" "cnam"
+        "hei" 1 "colo" "var(--color-primary-text)") -}}</a>
 </div>
+</section>
+{{ end }}
