@@ -50,6 +50,9 @@ document.addEventListener(
   false
 );
 
+window.addEventListener("scroll", function () {
+  showPic();
+});
 
 //open external link in new tab
 function externalLinks() {
@@ -148,8 +151,6 @@ function subAddCopyButtons(clipboard) {
     button.addEventListener("click", function () {
       clipboard.writeText(codeBlock.innerText).then(
         function () {
-          /* Chrome doesn't seem to blur automatically,
-                 leaving the button in a focused state. */
           button.blur();
 
           button.innerText = "Copied!";
@@ -190,7 +191,7 @@ function AddCopyButtons(clipboard) {
   }
 }
 
-/* scrolling progression bar 
+// scrolling progression bar 
 function progressBar() {
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
   var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
@@ -198,21 +199,10 @@ function progressBar() {
   document.getElementById("progressBar").style.width = scrolled.toString()  + "%";
 }
 window.onscroll = function() {progressBar()};
-*/
+
 document.addEventListener("DOMContentLoaded", function (event) {
   externalLinks();
   showPic();
   if (document.getElementById("toc")) tableContent();
   if (document.querySelector("pre")) AddCopyButtons();
-});
-
-window.addEventListener("scroll", function () {
-  showPic();
-});
-
-const sect = document.querySelectorAll('section');
-sect.forEach((section) => {
-  section.addEventListener('scroll', function() {
-    showPic();
-  });
 });

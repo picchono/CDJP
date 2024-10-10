@@ -3,24 +3,20 @@
     aria-label="{{- .context.Title |safeHTML -}}">
     <a class="boxA text-primary-text transition-all duration-700 ease-in-out justify-center flex flex-col w-full p-4"
         href="{{ .context.Permalink }}">
-        <div class="flex flex-row">
-            {{ if isset .context.Params "frontphoto" }}
-            <div class='blend-plevy flex-grow-0 flex-shrink-0 mr-2'><img src="" data-toset="
+        {{ if isset .context.Params "frontphoto" }}
+        <div class="blend-plevy h-36"><img src="" data-toset="
                     {{- if .context.Params.frontphotomini }}{{ .context.Params.frontphotomini | absURL }}
                     {{ else }}{{ .context.Params.frontphoto | absURL }}{{ end -}}"
-                    class="imag imgBox object-cover rounded h-16 w-16" alt="{{ .context.Params.title }}" width="500"
-                    height="240" />
-            </div>
-            {{ end}}
-            <h5
-                class='block w-full font-bold text-base m-0 {{ if isset .context.Params "frontphoto" }}px-3{{ else }}px-2{{ end }}'>
-                {{- .context.Title |safeHTML -}}</h5>
+                class="imag imgBox object-cover rounded w-full h-36" alt="{{ .context.Params.title }}" width="500"
+                height="240" />
         </div>
+        {{ end }}
         {{ if isset .context.Params "photocredit" }}
-                <div data-target="{{ .context.Params.photocredit.link | absURL }}"
-                    title="{{ .context.Params.photocredit.cred }}" class="credphoto text-xs py-1">
-                    &copy;{{ .context.Params.photocredit.cred -}}</div>
-                {{ end }}
+        <div data-target="{{ .context.Params.photocredit.link | absURL }}"
+            title="{{ .context.Params.photocredit.cred }}" class="credphoto text-xs pt-1 pb-3">
+            &copy;{{ .context.Params.photocredit.cred -}}</div>
+        {{ end }}
+        <h5 class='block w-full font-bold text-base mt-2 p-2'>{{- .context.Title |safeHTML -}}</h5>
         <div class="w-full flex flex-col">
             <p class="block p-2 m-0 mb-2 text-sm overflow-ellipsis overflow-hidden ...">
                 {{ if .context.Params.citation }}
@@ -56,8 +52,7 @@
                 {{ range . }}
                 {{ if ne $inst ( index . 0 ) }}
                 <span class="p-2">
-                    {{ partial "icons.html" (dict "ico" ( index . 0 ) "hei" 1.2 "colo" "var(--color-primary-text)")
-                    }}
+                    {{ partial "icons.html" (dict "ico" ( index . 0 ) "hei" 1.2 "colo" "var(--color-primary-text)") }}
                 </span>
                 {{ end }}
                 {{ end }}

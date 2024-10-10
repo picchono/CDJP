@@ -8,26 +8,6 @@
   --lineHeight: 1.75;
 }
 
- /* width */
- ::-webkit-scrollbar {
-  width: 0px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #BDC0BA;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #BDC0BA;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #BDC0BA;
-} 
-
 input::-moz-placeholder,textarea::-moz-placeholder, input::placeholder,textarea::placeholder{
   opacity:1;
   color: var(--color-primary-text);
@@ -44,33 +24,44 @@ body {
   font-weight: normal;
   scroll-behavior: smooth;
   font-variant-ligatures: common-ligatures;
+
+}
+
+html, body {
+  @apply bg-primary-bg text-primary-text relative;
 }
 
 body {
-  @apply bg-primary-bg text-primary-text overflow-x-hidden md:overflow-x-auto;
-  scrollbar-width: none;
-}
-
-body {
-  --color-primary-bg: #c1cfcd;
-  --color-secondary-bg: #a7bcb9;
-  --color-tertiary-bg: #59716d;
-  --color-primary-text: #1c1c1c;
+  --color-primary-bg: #1c1c1c;
+  --color-secondary-bg: #373C38;
+  --color-tertiary-bg: #707070;
+  --color-primary-text: #eee;
   --color-secondary-text: rgb(166, 152, 135);
-  --color-epierrot: #652A38;
+  --color-epierrot: #F5BF79;
+}
+swiper-container {
+  @apply h-84 w-full sm:w-84 mx-auto mb-1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-section {
-  @apply max-w-3xl bg-primary-bg border-r border-tertiary-bg border-dotted flex flex-col pb-20 relative h-auto md:h-screen flex-shrink-0 flex-grow-0 overflow-y-scroll w-full md:w-96;
-  scrollbar-color: var(--color-tertiary-bg) var(--color-primary-bg);
-  scrollbar-width: none;
-  webkit-scrollbar-color: var(--color-tertiary-bg) var(--color-primary-bg);
-  webkit-scrollbar-width: none;
+swiper-slide {
+  @apply h-84 w-full sm:w-84;
+  text-align: center;
+  background: var(--color-tertiary-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-section>h1 {
-  margin: 4rem 0 4rem -0.5rem;
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
+
 
 .box {
   @apply transition-all duration-700 ease-in-out;
@@ -138,7 +129,7 @@ a.titlePL:hover,
 a.collab:hover,
 a.doclinkButton:hover,
 a.boxA:hover {
-  @apply bg-secondary-bg shadow-xl;
+  @apply bg-secondary-bg;
 }
 
 #home .frontPosts a::before,

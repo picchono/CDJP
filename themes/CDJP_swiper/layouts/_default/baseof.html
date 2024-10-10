@@ -1,0 +1,19 @@
+{{ if .Params.redirect }}<meta http-equiv="Refresh" content="0; url='{{ .Params.redirect }}'" />{{ end }}
+<!DOCTYPE html lang='{{ .Site.LanguageCode }}'>
+{{- partial "head.html" . -}}
+
+<body id="{{ .Params.bodyclass }}" {{ if .Params.noPagesearch }} data-pagefind-ignore="all">{{ else
+  }}>
+  <div class="invisible h-0 w-0">
+    <span data-pagefind-filter="Type">{{ .Params.searchFilter }}</span>
+    <span data-pagefind-filter="Institution">{{ .Params.institution.short}}</span>
+    {{ if eq .Params.searchFilter "Publication"}}<span data-pagefind-filter="Publication">{{ .Params.subsection
+      }}</span>{{ end }}
+    {{ range .Params.collaboration -}}<span data-pagefind-filter="Collaboration">{{ .short }}</span>{{- end -}}
+  </div>{{ end }}
+  <main>{{- block "main" . }}{{- end }}</main>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+</body>
+
+</html>

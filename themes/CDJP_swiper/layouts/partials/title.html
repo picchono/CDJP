@@ -1,0 +1,123 @@
+<section class="pb-0">
+    <div class="p-5">
+        <div id="CDJPlogo" class="logosign">
+            <a class="text-primary-text" href="{{ .Site.BaseURL | absURL }}"
+                aria-label="Logo of the Design Chaire Jean Prouvé">{{ partial "icons.html" (dict "ico" "jprouve" "hei" 2
+                "colo" "var(--color-primary-text)") -}}</a>
+        </div>
+        {{ partial "international.html" . }}
+        {{ partial "search.html" . }}
+    </div>
+    <div class="px-5">
+        <div class="text-left items-start">
+            <h1 class="text-4xl font-bold mt-10" {{if .Params.searchWeight }}
+                data-pagefind-weight="{{- .Params.searchWeight -}}" {{ end }}>{{ .Params.title |safeHTML }}</h1>
+            {{ if .Params.authors }}
+            <p class="italic">{{ .Params.authors }},
+                {{ dateFormat "02 Jan 2006" .Date }}</p>
+            {{ end }}
+        </div>
+        {{ if .Params.updating }}
+        <div class="my-10">
+            <p class="italic text-epierrot">Currently updating</p>
+        </div>
+        {{ end }}
+        {{ if .Params.quote }}
+        <div class="py-5">
+            <p>{{ .Params.quote.quoteline |safeHTML}}<br /><span class="text italic">
+                    -
+                    {{ .Params.quote.quoteauthor }}
+                    ({{ .Params.quote.quotedate }})</span>
+            </p>
+        </div>
+        {{ end }}
+
+        {{ if .Params.citation }}
+        <div class="py-5">
+            {{ partial "citation.html" . }}
+        </div>
+        {{ end }}
+        {{ if .Params.diploma}}
+        <div class="flex flex-row items-start justify-start p-5">
+            <p class="mr-4 flex-grow flex-shrink">
+                {{ range sort .Params.diploma }}
+                <b>{{ .type }}</b>
+                <br>
+                {{ end }}
+            </p>
+            <p class="flex-grow">
+                {{ range sort .Params.diploma }}
+                {{ .name }}<br>
+                {{ end }}
+            </p>
+        </div>
+        {{ end }}
+        {{ if .Params.description }}
+        <div class="py-5">
+            <p>{{ .Params.description |safeHTML }}</p>
+        </div>
+        {{ end }}
+        {{ if and (.Params.reference) (ne .File.Section "publications") }}
+        <div class="py-5">
+            <p>{{ .Params.reference |safeHTML }}</p>
+        </div>
+        {{ end }}
+        {{ if .Params.collaboration }}
+        <div class="flex flex-wrap items-center p-5">
+            {{ range sort .Params.collaboration }}
+            <a href="{{ .web }}" target="_blank" class="collab mr-4 my-8 p-4">
+                {{ if .colo }}
+                {{ partial "icons.html" (dict "ico" .logo "hei" .heig "colo" .colo) -}}
+                {{else}}
+                {{ partial "icons.html" (dict "ico" .logo "hei" .heig "colo" "var(--color-primary-text)") -}}
+                {{ end }}
+            </a>
+            {{ end }}
+        </div>
+        {{ end }}
+        {{ if .IsHome }}
+        <div class="my-7 py-4 text-center">
+            {{ range $fold := slice "events" "teaching" "courses" "projects" "writings" "research" "publications" "team" }}
+            {{ range readDir "content" }}
+            {{ if eq .Name $fold }}
+            {{ range where $.Site.Pages "Section" "in" ($fold) }}
+            {{ if eq .Params.zone $fold }}
+            <a href="#{{- lower .Title -}}">&lceil;{{ .Title }}&rfloor;</a><br />
+            {{ end }}
+            {{ end }}
+            {{ end }}
+            {{ end }}
+            {{ end }}
+        </div>
+        {{ end }}
+        {{ if eq .Params.layout "about" }}
+        <div class="my-7 py-4 text-center">
+            {{ range $fold := slice "projects" "events" "writings" "research" "publications" "courses" "teaching" }}
+            {{ range readDir "content" }}
+            {{ if eq .Name $fold }}
+            {{ range where $.Site.Pages "Section" "in" ($fold) }}
+            {{ if eq .Params.zone $fold }}
+            <a href="#{{- lower .Title -}}">&lceil;{{ .Title }}&rfloor;</a><br />
+            {{ end }}
+            {{ end }}
+            {{ end }}
+            {{ end }}
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+    {{ if .IsHome }}
+    <div class="logosign flex flex-col p-5 mt-20">
+        <div class="flex flex-row w-full mb-3">
+            <a href="https://gohugo.io/" aria-label="Go to cnam website">{{ partial "icons.html" (dict "ico" "hugo"
+                "hei" 1 "colo" "var(--color-primary-text)") -}}</a>
+            <a href="https://github.com/picchono/CDJPfr" aria-label="Go to github">{{ partial "icons.html" (dict
+                "ico" "github" "hei" 1 "colo" "var(--color-primary-text)") -}}</a>
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" aria-label="Go to cc">{{
+                partial "icons.html" (dict "ico" "cc" "hei" 1 "colo" "var(--color-primary-text)") -}}</a>
+        </div>
+        <a href="https://www.cnam.fr" aria-label="Go to cnam website">{{ partial "icons.html" (dict "ico" "cnam"
+            "hei" 1 "colo" "var(--color-primary-text)") -}}</a>
+    </div>
+    {{ end }}
+</section>
