@@ -72,6 +72,10 @@ section>h1 {
   margin: 4rem 0 4rem -0.5rem;
 }
 
+section.large {
+  @apply md:w-144;
+}
+
 .box {
   @apply transition-all duration-700 ease-in-out;
 }

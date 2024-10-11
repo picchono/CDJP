@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $langu := .Site.Language.Lang }}
-<section class="justify-start flex flex-col flex-grow" {{if .Params.searchWeight }}data-pagefind-weight="{{.Params.searchWeight }}" {{ end }}>
+<section class="large justify-start flex flex-col flex-grow" {{if .Params.searchWeight }}data-pagefind-weight="{{.Params.searchWeight }}" {{ end }}>
         {{ if .Content}}
         <div class="p-5">{{ .Content }}</div>
         {{ end }}
