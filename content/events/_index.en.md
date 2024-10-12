@@ -10,6 +10,7 @@ notListed: true
 tags: ['Pierre', 'Lévy', 'event']
 zone: "events"
 comment: false
+listchaire: true
 menu:
     menu1:
         filter: '.seminar'

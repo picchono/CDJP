@@ -192,7 +192,7 @@ a.slashLink {
 }
 
 a.slashLink:hover {
-  @apply bg-epierrot text-primary-text border-secondary-bg;
+  @apply bg-epierrot text-primary-bg border-secondary-bg;
 }
 
 #lightgallery>a {
@@ -261,7 +261,7 @@ button:focus {
 }
 
 ::selection {
-  @apply bg-primary-text text-primary-bg;
+  @apply bg-epierrot text-primary-bg;
 }
 
 sup {

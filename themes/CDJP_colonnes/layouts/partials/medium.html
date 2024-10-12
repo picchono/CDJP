@@ -1,3 +1,4 @@
+{{ if ne .Params.layout "list" }}
 <section>
     {{ if .Params.abstract }}
     <div class="h-auto my-5 px-5">
@@ -62,3 +63,4 @@
     <div class="p-5">{{ partial "doclink.html" . }}</div>
     {{ end }}
 </section>
+{{ end }}
