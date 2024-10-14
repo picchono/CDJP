@@ -82,7 +82,7 @@
             {{ if eq .Name $fold }}
             {{ range where $.Site.Pages "Section" "in" ($fold) }}
             {{ if eq .Params.zone $fold }}
-            <a href="#{{- lower .Title -}}">&lceil;{{ .Title }}&rfloor;</a><br />
+            <a href="#{{- lower .Title -}}">/ {{ .Title }} /</a><br />
             {{ end }}
             {{ end }}
             {{ end }}
@@ -97,7 +97,7 @@
             {{ if eq .Name $fold }}
             {{ range where $.Site.Pages "Section" "in" ($fold) }}
             {{ if eq .Params.zone $fold }}
-            <a href="#{{- lower .Title -}}">&lceil;{{ .Title }}&rfloor;</a><br />
+            <a href="#{{- lower .Title -}}">/ {{ .Title }} /</a><br />
             {{ end }}
             {{ end }}
             {{ end }}

@@ -2,7 +2,7 @@
 <section class="justify-start flex flex-col p-5 flex-grow" {{if .Params.searchWeight
     }}data-pagefind-weight="{{.Params.searchWeight }}" {{ end }}>
     <div class="max-w-3xl w-full px-5">
-        {{ if .Content}}{{ .Content }}{{ end }}
+        {{ if .Content}}<div id="content">{{ .Content }}</div>{{ end }}
         {{ with index .Site.Data.plevy .Site.Language.Lang }}
         <div class="social flex flex-row justify-start items-center w-full my-10">
             {{ range sort .identity.social "order" }}<a href="{{ .url }}" target="_blank" class="inline-block p-2 mr-4"

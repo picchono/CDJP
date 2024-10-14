@@ -1,5 +1,5 @@
 {{ define "main" }}
-<section class="large p-5" {{if .Params.searchWeight }}data-pagefind-weight="{{.Params.searchWeight }}"{{ end }}>
+<section id="content" class="large p-5" {{if .Params.searchWeight }}data-pagefind-weight="{{.Params.searchWeight }}"{{ end }}>
         {{ if .Content }}<div class="mb-30">{{ .Content }}</div>{{ end }}
         {{ $targ := .Params.milestone }}
         {{ $count := 0 }}

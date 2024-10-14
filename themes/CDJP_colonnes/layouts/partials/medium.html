@@ -21,6 +21,13 @@
         <p>{{ .Params.executive }}</p>
     </div>
     {{ end }}
+    {{ if .Params.tablecontent }}
+    <div class="px-5">
+        <div class="tablecontent max-w-sm" id="toc">
+            <h2>{{ i18n "tableOfContent"}}</h2>
+        </div>
+    </div>
+    {{ end }}
     {{ if .Params.photogallery }}
     {{ partial "photogallery.html" . }}
     {{ end }}
@@ -53,14 +60,13 @@
         <b class="revers w-32 flex-shrink-0 px-1">{{ i18n "courses" }}</b>
         <div class="ml-2 w-auto lg:w-full py-1">{{ $cod := .Params.code }}{{ $plink := .Params.photocredit.link }}
             {{ range sort .Params.redirectlecture "order" "asc" }}
-            <a class="" href="{{ .link }}" target="_blank" rel="noreferrer"><b>{{ $cod }}.{{ .order
-                    }}&nbsp;&middot;&nbsp;</b>{{- replace .Title " | " "&middot;" |safeHTML -}}</a><br>
+            <a class="" href="{{ .link }}" target="_blank" rel="noreferrer"><b>{{ $cod }}.{{ .order }}&nbsp;&middot;&nbsp;</b>{{- replace .Title " | " "&middot;" |safeHTML -}}</a><br>
             {{ end }}
         </div>
     </div>
     {{ end }}
     {{ if .Params.link }}
-    <div class="p-5">{{ partial "doclink.html" . }}</div>
+    <div class="mt-20 px-5">{{ partial "doclink.html" . }}</div>
     {{ end }}
 </section>
 {{ end }}
