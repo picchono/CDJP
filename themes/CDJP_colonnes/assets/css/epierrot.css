@@ -782,11 +782,7 @@ section.lectureSession>.main {
 }
 
 a.doclinkButton {
-  @apply inline-block;
-}
-
-a.doclinkButton:not(:last-child) {
-  @apply mr-2;
+  @apply block mb-4;
 }
 
 a.doclinkButton span.doclinkIcon {
