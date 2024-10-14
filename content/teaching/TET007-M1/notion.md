@@ -1,6 +1,7 @@
 ---
 members: ["PLevy"]
-title: "TET007-M1/5. Notion"
+title: "TET007 · Notion"
+slug: "notion"
 institution:
     logo: cnam
     short: Cnam

@@ -1,6 +1,7 @@
 ---
 members: ["PLevy"]
-title: "TET007-M1/4. Wordpress"
+title: "TET007 · Wordpress"
+slug: "wordpress"
 institution:
     logo: cnam
     short: Cnam

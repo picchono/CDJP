@@ -1,6 +1,7 @@
 ---
 members: ["PLevy"]
-title: "TET007-M1/0. Internet"
+title: "TET007 · Internet"
+slug: "internet"
 institution:
     logo: cnam
     short: Cnam

@@ -1,6 +1,7 @@
 ---
 members: ["PLevy"]
-title: "TET007-M1/2. CSS"
+title: "TET007 · CSS"
+slug: "css"
 institution:
     logo: cnam
     short: Cnam

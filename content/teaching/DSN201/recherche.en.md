@@ -26,56 +26,39 @@ teacher:
         name: "Pierre Lévy"
 frontphoto: "https://live.staticflickr.com/65535/52427464765_8fe12aeeee_h.jpg"
 ---
-# La recherche en design
+## La recherche en design
 
 ### La recherche vs la  science
 
-https://www.youtube.com/watch?v=JR1Ovv3B4FA
+{{<video "youtube" "JR1Ovv3B4FA" "Étienne Klein : Science & recherche, quelle différence y a t-il entre ses deux formes d'études ?" >}}
 
-[Arrêtons de confondre les sciences avec la recherche scientifique, par Etienne Klein](https://www.lexpress.fr/sciences-sante/arretons-de-confondre-les-sciences-avec-la-recherche-scientifique-par-etienne-klein-PZ7B7JEWYRHPRCMVQWCDNAHAQ4/)
+{{<linkBox "Arrêtons de confondre les sciences avec la recherche scientifique, par Etienne Klein" "https://www.lexpress.fr/sciences-sante/arretons-de-confondre-les-sciences-avec-la-recherche-scientifique-par-etienne-klein-PZ7B7JEWYRHPRCMVQWCDNAHAQ4">}}
 
-**La recherche est une discussion organisée.**
 
+#### La recherche est une discussion organisée
 - Toute proposition, tout argument doit être critiquable.
 - La recherche d'information est structurée.
 - Les méthodes de recherche sont structurées et discutées.
 - Les formes de disséminations sont identifiées et discutées.
 
-### Spécificité de la recherche en design, art et création
-
+#### Spécificité de la recherche en design, art et création
 - Elle s'inscrit dans une multiplicité de disciplines liées au design, l'art et la création,
 - Elle vise à contribuer à l'amélioration des pratiques dont elle relève.
 Cela explique la pertinence de cette recherche à la fois dans le monde académique et dans le monde industriel.
 - Elle est intrinsèquement interdisciplinaire, faisant appel à des aspects techniques et liés à l'expérience, systémiques et relevant du particulier. La quasi-totalité des groupe de recherche dans ces domaines sont interdisciplinaires.
 
----
+## Types de design
+### Le triangle de Fallman
 
-/
+![Triangle_Fallman_2__large.jpg](https://process.jacklynn.com/wp-content/uploads/2014/11/Thallmantriangle.png)
 
-# Types de design
 
-## **Le triangle de Fallman**
+{{<linkBox "Fallman, D. (2008). The Interaction Design Research Triangle of Design Practice, Design Studies, and Design Exploration. Design Issues, 24(3), 4–18. https://doi.org/10.1162/desi.2008.24.3.4" "https://direct.mit.edu/desi/article/24/3/4/60187/The-Interaction-Design-Research-Triangle-of-Design">}}
 
-![Triangle_Fallman_2__large.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/22ffe7a7-327e-4716-96d1-3d557274da28/67e16e10-d5b8-4a42-a092-e0bdbcddd91b/Triangle_Fallman_2__large.jpg)
 
-[The Interaction Design Research Triangle of Design Practice, Design Studies, and Design Exploration](https://doi.org/10.1162/desi.2008.24.3.4)
+Ce modèle est initialement proposé par Fallman, chercheur à l'Université de Umeå en Suède, pour le design pour l'interaction. L’objectif de ce modèle est à la fois de proposer une structure des activités liées à la recherche en design, et de clarifier les liaisons externes du champs de recherche notamment avec l'industrie et la société.
 
-[Fallman_-_2008_-_The_Interaction_Design_Research_Triangle_of_Design.pdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/22ffe7a7-327e-4716-96d1-3d557274da28/357c8785-4683-47fc-bbf0-8e9e343e08ee/Fallman_-_2008_-_The_Interaction_Design_Research_Triangle_of_Design.pdf)
-
-Ce modèle est initialement proposé par Fallman, chercheur à l'Université de Umeå en Suède, pour le design pour l'interaction. 
-
-L’objectif de ce modèle est à la fois de proposer une structure des activités liées à la recherche en design, et de clarifier les liaisons externes du champs de recherche notamment avec l'industrie et la société.
-
-### **Design studies**
-
-[Les Sciences de l’artificiel : une conceptualisation révolutionnaire de sciences fondamentales à parachever](https://www.cairn.info/revue-projectique-2019-3-page-43.htm)
-
-[The Sciences of the Artificial](https://mitpress.mit.edu/9780262691918/the-sciences-of-the-artificial/)
-
-[Les Sciences de l'artificiel - Folio essais - Folio - GALLIMARD - Site Gallimard](https://www.gallimard.fr/Catalogue/GALLIMARD/Folio/Folio-essais/Les-Sciences-de-l-artificiel)
-
-[Design Studies | Journal | ScienceDirect.com by Elsevier](https://www.sciencedirect.com/journal/design-studies)
-
+#### Design studies
 Les *design studies* est une **approche assimilable à la recherche  académique classique**.
 
 Son effort porte principalement sur la **construction d'une tradition de recherche**, et donc sur une accumulation ordonnée de connaissances et de méthodes utiles à la recherche et/ou la pratique.
@@ -84,8 +67,13 @@ La recherche est **principalement analytique et contribue à la discussion de re
 
 *Les design studies sont souvent considérés comme des sciences de l'artificiel (Simon, H. A. (1996). The Sciences of the Artificial (Third Edit). MIT Press.)*
 
-### **Design practice**
+{{<linkBox "Les Sciences de l’artificiel : une conceptualisation révolutionnaire de sciences fondamentales à parachever" "https://www.cairn.info/revue-projectique-2019-3-page-43.htm">}}
 
+{{<linkBox "Les Sciences de l'artificiel - Folio essais - Folio - GALLIMARD - Site Gallimard" "https://www.gallimard.fr/Catalogue/GALLIMARD/Folio/Folio-essais/Les-Sciences-de-l-artificiel">}}
+
+{{<linkBox "Design Studies | Journal | ScienceDirect.com by Elsevier" "https://www.sciencedirect.com/journal/design-studies">}}
+
+#### Design practice
 Cette catégorie de la recherche en design est **la plus proche de l'activité de design** dans le cadre d'une pratique professionnelle classique. Elle permet entre autre d'impliquer un savoir tacite et et un savoir-faire dans les discussions liées à la fois à la pratique et à la recherche.
 
 Au cours de cette approche, le **chercheur est un acteur du projet faisant partie de l'équipe de design**. Il contribue à la réussite du projet et développe ses savoirs, souvent capturés par la communication orale au sein du groupe. Il accède de plus à l'ensemble des moments du projet et peut rendre compte de sa dynamique et de sa complexité.
@@ -96,24 +84,23 @@ Pour autant, cela n'est pas une pratique du design comme les autres, car **elle 
 - **La réflexivité vise souvent à observer et comprendre la façon dont une approche ou une technique est utilisée**, au plus près de son traitement (d'où la participation, alors qu'une simple observation mettrait le chercheur à distance).
 La recherche dans la pratique du design est essentiellement synthétique, et engage le chercheur dans la pratique elle-même, considérant ses activités, ses livrables et leur qualité escomptée.
 
-### **Design exploration**
-
+#### Design exploration
 Le *design exploration* est proche du *design practice* : il entend lui-aussi être synthétique et proactif dans la réalisation d'un design de produit, de système ou du service. Il s'en différencie toutefois par les aspects suivants:
 
-[(PDF) Work-Oriented Design of Computer Artifacts](https://www.researchgate.net/publication/234791868_Work-Oriented_Design_of_Computer_Artifacts/link/54fed4c20cf2eaf210b40722/download)
+{{<linkBox "Work-Oriented Design of Computer Artifacts" "https://www.researchgate.net/publication/234791868_Work-Oriented_Design_of_Computer_Artifacts/link/54fed4c20cf2eaf210b40722/download">}}
 
 - **La perspective par laquelle l'artefact est conçu**. La recherche en design exploration se pose la question "What if?". Pelle Ehn (Ehn, P. (1988). *Work-Oriented Design of Computer Artifacts*.) nomme cette approche une transcendance, dans le sens qu'elle "explore les possibilités hors des paradigmes actuels, que ces paradigmes soient à propos d'un style, d'un usage, d'une technologie, d'une économie”.
 
-[Hertzian Tales](https://mitpress.mit.edu/9780262541992/hertzian-tales/)
+{{<linkBox "Hertzian Tales" "https://mitpress.mit.edu/9780262541992/hertzian-tales">}}
 
-[Design pour débattre : comment créer des artefacts dissonants, et leurs situations de communication, afin d’ouvrir des espaces de contestation mutuelle (agonisme) et d’expression des voix marginales (dissensus)](https://www.theses.fr/2019PSLET074)
+{{<linkBox "Design pour débattre : comment créer des artefacts dissonants, et leurs situations de communication, afin d’ouvrir des espaces de contestation mutuelle (agonisme) et d’expression des voix marginales (dissensus)" "https://www.theses.fr/2019PSLET074">}}
 
 - **L'objectif de cette activité est la recherche elle-même.** Fallman indique que le client typique de cette activité est le programme de recherche du chercheur lui-même. Elle est souvent initiée par une réflexion intégrante à la recherche. Le but n'est donc pas de coller à un marché ou d'en développer un, mais plutôt de voir ce qui est possible, ce qui est désirable ou non, d'idéal ou non, ou plus simplement de proposer des exemples et des alternatives. Cette approche peut donc servir à une discussion technologique, phénoménologique, sociale, politique... et lie le design à des disciplines en sciences humaines et sociales.
 Dans les cas classiques de cette recherche en design exploration, on trouvera les travaux de Dunne et Raby  sur le design critique, Mollon en design politique...
 
 Cette approche de recherche en *design exploration* est basée sur une **activité synthétique, se basant en même temps sur des théories et des fondations alternatives du design**. Cette approche se base le plus souvent sur des questions de type "what if?" ou "how to design for?", et peut également s'engager dans des projets critiques, provocateurs dans des sphères intellectuelles, sociétales, industrielles... , et visant à mettre à jour des arguments, des perspectives, des cadres de pensée ou opératoire alternatifs. Les artefacts issus de cette pratiques sont souvent considérés comme la matérialisation d'arguments, de perspectives, de théories...
 
-### **Transversalité**
+#### Transversalité
 
 Il ne faut toutefois pas voir ces trois approches comme des silos étanches. C'est leur association et le passage élaboré de l'un à l'autre qui constitue dans la structure et dans le temps une recherche en design. Ces mouvements invitent une variété de pratiques et de méthodes, mais aussi un variété de perspectives. Ces glissements entre perspectives invitent le sens critique sur la recherche et son objet par elle-même. Ces trois types d'activité forment la recherche en design, et a fortiori en création.
 
@@ -129,20 +116,20 @@ Fallman propose trois types of mouvements:
     - créer/changer - expliquer/comprendre - suggérer/provoquer
     - client - pair - critics
 
----
 
-# Recherche x design
+## Recherche x design
+
+
+
+### La recherche sur le design
+
+### La recherche en design
+
+### La recherche au travers du design
 
 [Frayling - 1993 - Research in Art and Design.pdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/22ffe7a7-327e-4716-96d1-3d557274da28/4beda089-c999-4d56-8ee7-f48e64a25146/Frayling_-_1993_-_Research_in_Art_and_Design.pdf)
 
 Is it research about design?, is it research in design? or is it research through design? [Frayling, 1993]
-
-### **La recherche sur le design**
-
-### **La recherche en design**
-
-### **La recherche au travers du design**
-
 [Documenting the Research Through Design Process | Proceedings of the 2016 ACM Conference on Designing Interactive Systems](https://dl.acm.org/doi/10.1145/2901790.2901859)
 
 [Bardzell et al. - 2016 - Documenting the Research Through Design Process.pdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/22ffe7a7-327e-4716-96d1-3d557274da28/787f4314-a386-4843-9c92-3d64cd6a93e3/Bardzell_et_al._-_2016_-_Documenting_the_Research_Through_Design_Process.pdf)
@@ -167,11 +154,10 @@ La recherche liée au design est une activité visant une production de connaiss
 
 La recherche en design n'est pas exclusive à une activité académique. Elle peut se dérouler dans un cadre professionnel (tout comme le fait par exemple la médecine) pourvu qu'elle puisse disséminer un élément critique potentiellement capable de faire évoluer la pratique ou la réflexion d'autres praticiens.
 
----
 
-# Programme et interventions
+## Programme et interventions
 
-## Programme de recherche
+### Programme de recherche
 
 [Exemplary Design Research](https://dl.designresearchsociety.org/drs-conference-papers/drs2006/researchpapers/51/)
 
@@ -181,7 +167,7 @@ Cette discussion vise non pas une ambition epistémologique (eg sur l'articulati
 
 **Le programme** est un plan d'ensemble qui expose les objectifs et les intentions d'une recherche. L'explicitation formelle d'un programme de recherche permet de structurer une activité de recherche au long court, marquée par des interventions. Le programme permet donc de donner une structure claire à une dissémination critique de la connaissance répondant a des questions liées à des objets (quoi) ou à des méthodes (comment).
 
-### Exemples
+#### Exemples
 
 [Slow Technology – Designing for Reflection | Personal and Ubiquitous Computing](https://dl.acm.org/doi/10.1007/PL00000019)
 
@@ -195,7 +181,7 @@ Exemples de programmes de recherche en design:
 • designing for slow technology (Hallnäs et Redström 2001),
 • Bauhaus *(Gropius 1926, p. 95): The Bauhaus wants to serve in the development of present-day housing, from the simplest household appliances to the finished dwelling. In the conviction that household appliances and furnishings must be rationally related to each other, the Bauhaus is seeking — by systematic practical and theoretical research in the formal, technical and economic fields — to derive the design of an object from its natural functions and relationship.* (et dans Redström 2011: "Clearly, the strong programmatic statements were not present at this time – but other fundamentals of a design research program certainly were: the creation of an experimental environment, the urge to do things differently, and a substantial openness to what might come out of it.").
 
-## Qualités du programme
+### Qualités du programme
 
 Le programme est essentiellement **prévisionnel**, c'est-à-dire qu'il ne se structure pas sur une base certaine (sur un ensemble d'axiomes déterminant une grande partie de la perspective sur laquelle il travaillera), mais plutôt sur base fonctionnant comme une prémisse de départ qui paraît pertinente pour le sujet abordé, mais qui saura également évoluer au court de la recherche suivant que cette dernière corrobore ou infirme de façon dialectique entre la recherche et l'investigation la perspective prise a priori de la recherche.
 
@@ -208,7 +194,7 @@ Ce positionnement et cette capacité à participer à la "discussion globale" de
 
 Un **programme de recherche n'est pas statique**. Au fur et à mesure de son questionnement par les experimentations, les interventions, et l'ensemble des discussions et des critiques émises par la communauté, la question de recherche se reformule, la perspective se recadre progressivement. Ceci induit des cycles, ou des itérations, entre lesquels la perspective, la question, voire le programme lui-même peuvent être reformulés ,et que systématiquement invitent pour de nouvelles experimentations ou interventions. Ceci arrive le plus souvent quand une expérimentation ou une intervention semble s'éssoufler, ou lorsqu'un nouvel insight impactant significativement la perspective en cours.
 
-## Dynamique du programme de recherche
+### Dynamique du programme de recherche
 
 Ceci implique **une contrainte stratégique sur la formulation du programme de recherche**: il lui faut à la fois clarifier l'objectif globale du programme et l'objectif particulier et "pragmatique" de l'itération, chacun devant permettre la discussion et la critique de la part de la communauté de recherche.
 
@@ -243,11 +229,9 @@ Ce qui arrive également est que d'un programme émerge un autre programme poten
 Enfin, il arrive que simplement le programme s'essouffle, que la question de recherche ne puisse plus être reformulé pour lui permettre d'aller plus loin.
 Toutes ces possibilités semblent porter la décision de la conclusion d'un programme sur une décision du chercheur, et non sur une décision porté par une observation ou un résultat objectif. Cette décision se fait dû à des facteurs extérieurs, en relation à d'autres programmes passés ou e
 
----
+## Interventions - expérimentations
 
-# Interventions - expérimentations
-
-## Interventions en recherche
+### Interventions en recherche
 
 *Le programme de recherche se nourrit d’expériences, et donc d’interventions. Il faut donc bien commencer quelque part (cf. Sennett).*
 
@@ -269,7 +253,7 @@ L'experimentation est donc un moment du programme, au travers de laquelle le pro
 - Elle est réalisée en situation d’incomplétude, et le résultat ne peut être prévu au départ;
 - Sa valeur est sa fécondité;
 
-## Trois situations d’expérimentations
+### Trois situations d’expérimentations
 
 Koskinen, I., Zimmerman, J., Binder, T., Redström, J., & Wensveen, S. A. G. (2011). *Design Research through Practice: From the Lab, Field, and Showroom*. Elsevier.
 
@@ -287,9 +271,8 @@ Koskinen, I., Zimmerman, J., Binder, T., Redström, J., & Wensveen, S. A. G. (20
     Un environnement d'attention permettant l'expérimentation temporaire, la critique, le débat.
     
 
----
 
-# **Réflexion personnelle sur la recherche en art**
+## Réflexion personnelle sur la recherche en art
 
 Réflexion basée sur *Fourmentraux, J.-P. (2009). L’art à l’épreuve de la recherche. Profession et identité artistiques en mutation. In S. Bianchini (Ed.), R&C - Recherche et Création (pp. 72–87). Ed. Burozoïque. https://hal.univ-lille.fr/hal-01309806*
 
@@ -307,7 +290,7 @@ Je ne vois pas en quoi la recherche en art peut-elle être considérée différe
     - manquant d'une reflexion à fortiori qui sortirait la proposition hors de la singularité du travail artistique,
     - basée sur une trop faible structure argumentaire la positionnant donc sur un îlot conceptuel.
 
-## to check
+### to check
 
 - D’une façon générale la revue [Culture et recherche](https://www.culture.gouv.fr/Thematiques/Enseignement-superieur-et-Recherche/La-revue-Culture-et-Recherche?page=2) est une mine et me paraît vraiment intéressante à recommander parce qu’elle va se questionner à la fois sur la recherche en art et création et en ingénierie culturelle. Mais sur le sujet de la recherche création il y a deux numéros spécifiques
 - Il y a aussi la revue [Culture et musées](https://journals-openedition-org.proxybib-pp.cnam.fr/culturemusees/)

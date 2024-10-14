@@ -1,6 +1,7 @@
 ---
 members: ["PLevy"]
-title: "TET007-M1/3. Miro"
+title: "TET007 · Miro"
+slug: "miro"
 institution:
     logo: cnam
     short: Cnam

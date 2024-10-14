@@ -1,6 +1,7 @@
 ---
 members: ["PLevy"]
-title: "TET007-M1/1. HTML"
+title: "TET007 · HTML"
+slug: "html"
 institution:
     logo: cnam
     short: Cnam

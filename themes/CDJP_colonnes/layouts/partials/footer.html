@@ -24,8 +24,10 @@
 <h1>{{ i18n "backlinks" }}</h1>
 {{ $count := 0}}
 {{ range sort $related "Date" "desc" }}
+{{ if ne .Permalink (.Site.BaseURL | absURL ) }}
 {{ $count = add $count 1 }}
 {{- partial "box.html" ( dict "context" . "cou" $count ) -}}
+{{ end }}
 {{ end }}
 {{ end }}
 {{ end }}
