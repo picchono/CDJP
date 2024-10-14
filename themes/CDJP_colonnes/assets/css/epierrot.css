@@ -1699,7 +1699,7 @@ div.highlight pre {
 
 /* linkBox */
 a.linkBox {
-  @apply flex justify-between h-24 w-full max-w-96 p-1 mb-4 rounded border border-dotted border-tertiary-bg text-primary-text transition-all duration-700 ease-in-out;
+  @apply flex justify-between min-h-24 w-full max-w-96 p-1 mb-4 rounded border border-dotted border-tertiary-bg text-primary-text transition-all duration-700 ease-in-out;
 }
 
 a.linkBox:hover {

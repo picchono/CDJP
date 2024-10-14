@@ -27,445 +27,93 @@ teacher:
 frontphoto: "https://live.staticflickr.com/65535/52427464765_8fe12aeeee_h.jpg"
 ---
 
-## CSS
-### CSS3
-
-Le CSS (cascade style sheet) est un language transformant l'apparence d'une page écrite dans un language de balisage. La version actuelle est le CSS3.
-
-Dans le cadre de ce cours, il va permettre de styliser nos pages HTML. Le code CSS peut se mettre soit entre les balises \<style\>...\</style\> elles-mêmes placées entre les balises \<head\>...\</head\>, soit dans un autre fichier (e.g., style.css) que le fichier html doit appeler. C'est cette deuxième approche que nous utilisons.
-
-### Appel du fichier CSS
-
-*media* peut prendre les valeurs: all, media, print, speech
-
-```html
-<link rel="stylesheet" href="style.css" media="all">
-```
-
-&nbsp;
-{{<exercice "Créez un fichier CSS à côté de vos fichiers HTML et liez un des fichiers HTML à ce fichier CSS. Collez ensuite le code ci-dessous dans le fichier CSS pour voir l'effet sur la page HTML.">}}
-
-```css
-html, body {
-	backgroud-color: rgb(28, 28, 28);
-	color: lightcoral;
-	font-size: 15px;
-	line-height: 1.5rem;
-  font-family: Avenir, sans-serif;
-}
-```
-
-### Correspondances
-
-**HTML / CSS**
-
-```html
-<body>...</body>
-<div ID="Name">...</div>
-<div class="Name">...</div>
-```
-&nbsp;
-```css
-body {...}
-#Name {...}
-.Name {...}
-```
-
-- un *ID* s'applique à un **objet unique** : il ne peut pas y avoir deux  ID identitques dans une page
-- une *class* peut caractériser **plusieurs objets** (identiques ou non)
-- 
-
-### Styliser
-
-un sélecteur peut être une *balise*, in *#ID*, ou une *.class*
-
-```css
-selecteur { 
-	propriété1: valeurs;
-	propriété2: valeurs;
-}
-
-body {
-	background-color: black;
-}
-#pagename {
-	font-size: 15px;
-}
-.textInRed {
-	color: red;
-}
-```
-
-### Conteneurs génériques
-
-```html
-<div>...</div> // div pour créer une division dans la page
-<span>...</span>  //span pour une section en ligne
-
-<flex>...</flex>  //flex pour créer un layout de divs
-<grid>...</grid>  //grid pour créer une grille de divs
-//(flex et grid ne s'applique pas qu'aux divs, mais c'est conseillé)
-```
-
-### Style: page
-
-```css
-selecteur { 
-	propriété1: valeurs;
-	propriété2: valeurs;
-}
-
-body {
-	background-color: black;
-}
-
-#pagename {
-	font-size: 15px;
-}
-
-.textInRed {
-	color: red;
-}
-
-p.textInBlue {
-	color: blue;
-}
-
-div p {
-  text-decoration: underline;
-}
-
-div.type1, div.type2 {
-	text-transform: uppercase;
-}
-```
-
-### Commentaires en CSS
-
-```css
-selecteur { 
-	propriété1: valeurs;
-	propriété2: valeurs;
-}
-
-/* ceci est un commentaire */
-
-body {
-	background-color: black; /* ceci est un autre commentaire */
-}
-```
-
-### Pseudo-classes
-
-```html
-<a href="#">...</a>
-<a href="#">...</a>
-<a href="#" class="firsta">...</a>
-```
-
-```css
-/*  pseudo-classe lien visté (:visited)
-    pseudo-classe lien souris par-dessus (:hover)
-		pseudo-classe lien actif (:active)
-		pseudo-classe premier du type (:first-child)
-*/
-a {
-	color: red;
-}
-a:visited {
-	color: yellow;
-}
-a:hover {
-	color: green;
-}
-a:active {
-	color: orange;
-}
-a:first-child {
-	font-size: 26px;
-}
-```
-
-Dernier exemple vu en cours
-
-```html
-<!DOCTYPE html> 
-<head>
-    <title>...</title>  <!-- titre -->
-    <meta charset="UTF-8">  <!-- format du texte -->
-      <meta name="keywords" content="mes, mots, clés">  <!-- mots clés -->
-      <meta name="description" content="description du site"> <!-- description courte du contenu -->
-      <meta name="author" content="Mon Nom">  <!-- nom de l'auteur de la page -->
-      <meta http-equiv="refresh" content="30">  <!-- période avant reload -->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- viewpoint pour une apparence correcte sur de multiple écrans -->
-      <link rel=stylesheet href="style.css" media="all">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet"> 
-  </head>
-  
-
-  <body class="page1">
-    <div class="section1">
-      <h1>titre 1</h1>
-      <p>texte 1a</p>
-      <p>texte 1b</p>
-    </div>
-    <div class="section2">
-      <h1>titre 2</h1>
-      <p>texte 2</p>
-    </div>
-
-  <div>
-    <a href="https://google.com">vers google</a>
-  </div>
-  </body>
-```
-&nbsp;
-```css
-html, body{
-	font-family: 'Dancing Script', cursive;
-}
-
-div.section1 {
-	background-color: yellow;
-}
-
-div.section1 p {
-	color: red;
-}
-
-div.section2 {
-	background-color: aqua;
-}
-div.section2 p{
-	text-decoration: underline;
-}
-div.section2 p:hover{
-	color: tomato;
-}
-
-a {
-	color:red;
-	text-decoration: none;
-	font-family: 'Courier New', Courier, monospace
-}
-a:hover {
-	color: green;
-	text-decoration: underline red;
-	font-size: 50px;
-	background-color: yellow;;
-}
-```
-
-## Pour aller plus loin
-
-{{<linkBox "CSS Tutorial" "https://www.w3schools.com/css/default.asp" "https://www.w3schools.com/images/w3schools_logo_436_2.png">}}
-
-{{<linkBox "Apprendre à coder en HTML et CSS | Cours complet (2020) - Pierre Giraud" "https://www.pierre-giraud.com/html-css-apprendre-coder-cours" "https://www.pierre-giraud.com/wp-content/uploads/2019/08/html-css-cours.png">}}
- 
-{{<linkBox "Snippets in HTML" "https://css-tricks.com/snippets/html/" "https://css-tricks.com/wp-json/social-image-generator/v1/image/3231">}}
- 
-{{<linkBox "Snippets in CSS" "https://css-tricks.com/snippets/css/" "https://css-tricks.com/wp-json/social-image-generator/v1/image/3222">}}
-
-{{<linkBox "Create a new pen" "https://codepen.io/pen/" "https://assets.codepen.io/internal/screenshots/pens/default.png">}}
- 
-##  La structure du HTML: les balises
-
-{{<linkBox "Commencer avec le HTML - Apprendre le développement web | MDN" "https://developer.mozilla.org/fr/docs/Learn/HTML/Introduction_to_HTML/Getting_started" "https://developer.mozilla.org/mdn-social-share.cd6c4a5a.png">}}
-
-{{<linkBox "Tryit Editor v3.7" "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_document" "https://www.w3schools.com/images/w3schools_logo_436_2.png">}}
-
-[]()
-
-Le HTML (HyperText Markup Language) est, pour faire simple, le language informatique qui indique au navigateur ce qui doit être affiché (texte, image, video...) et comment. C'est ensuite le rôle du navigateur de "traduire" le HTML en une forme intelligible pour l'utilisateur.
-
-"hypertext" renvoie au fait que le texte contient des liens que l'on peut cliquer pour naviguer entre pages web.
-
-"markup" renvoie au fait que le language est structuré par des balises qui permettent de structurer le contenu et le comportement de la page.
-
-## Installation de Visual Studio Codium
-
-{{<linkBox "Visual Studio: IDE and Code Editor for Software Developers and Teams" "https://vscodium.com/" "https://vscodium.com/img/vscodium.png">}}
-
-*VSCodium is a community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code. It is the Free/Libre Open Source Software Binaries of VS Code.*
-
-## HTML
-
-### La structure du HTML: les balises
-
-{{<linkBox "HTML Examples" "https://www.w3schools.com/html/html_examples.asp" "https://www.w3schools.com/images/w3schools_logo_436_2.png">}}
-
-{{<linkBox "Liste de toutes les balises HTML" "https://facemweb.com/creation-site-internet/liste-balises-html" "https://facemweb.com/wp-content/uploads/2019/02/Image-facebook-balises-html.jpg">}}
-
-{{<linkBox "Liste des balises HTML" "https://jaetheme.com/balises-html5/" "https://jaetheme.com/wp-content/themes/paris/dist/img/liste-balises-html5.jpg">}}
-
-
-&nbsp;
-### Le document HTML
-
-```html
-<!DOCTYPE html> 
-
-<html>...</html>  <!-- conteneur du html -->
-<head>...</head>  <!-- conteneur des méta-données -->
-<body>...</body>  <!-- conteneur du corps principal -->
-
-<header>...</header>  <!-- barre de titre -->
-<nav>...</nav>  <!-- menu -->
-<content>...</content>  <!-- contenu -->
-<article>...</article>  <!-- article (blog) -->
-<aside>...</aside>  <!-- partie latérale -->
-<footer>...</footer>  <!-- pied de page -->
-```
-&nbsp;
-### Les titres
-
-```html
-<h1>...</h1>  <!-- titre niveau 1 -->
-<h2>...</h2>  <!-- titre niveau 2 -->
-...
-<hn>...</hn>  <!-- titre niveau n -->
-```
-
-&nbsp;
-### Les paragraphes  et retours à la ligne et séparateurs
-
-```html
-<p>...</p>  <!-- paragraphe -->
-<br/>  <!-- retour à la ligne -->
-<hr/>  <!-- séparateur -->
-```
-
-&nbsp;
-### Les styles
-
-```html
-<b>...</b>  <!-- bold -->
-<strong>...</strong>  <!-- bold -->
-
-<i>...</i>  <!-- italique -->
-<em>...</em>  <!-- italique -->
-
-<del>...</del>  <!-- barre -->
-<ins>...</ins>  <!-- souslignage -->
-<mark>...</mark>  <!-- surlignage -->
-
-<small>...</small>  <!-- petit texte -->
-
-<pre>...</pre>  <!-- pre -->
-<cite>...</cite>  <!-- citation -->
-<q>...</q>  <!-- guillemets -->
-
-<sub>...</sub>  <!-- subscript -->
-<sup>...</sup>  <!-- supscript -->
-
-<bdo dir="rtl">...</bdo>  <!-- droite à gauche (bi-directional override) -->
-```
-
-&nbsp;
-### Abbréviations
-
-```html
-<abbr title="...">...</abbr>  <!-- abréviation
-```
-
-&nbsp;
-### Les liens
-*target* peut prendre les valeurs:
-_blank, _self, _parent, _top, *framename*
-
-```html
-<!-- lien normal -->
-<a href="https://..." title="...">...</a>
-
-<!-- lien email -->
-<a href="mailto:someone@example.com?
-cc=someoneelse@example.com
-&bcc=andsomeoneelse@example.com
-&subject=Summer%20Party
-&body=You%20are%20invited%20to%20a%20big%20summer%20party!"
-target="_top">Send mail!</a>
-
-<!-- lien interne -->
-<a href="#tohere">...</a>
-...
-<p id="tohere">...</p>
-```
-
-&nbsp;
-### Images
-
-```html
-<img src="....jpg|webp|png|gif" alt="..." width="#" height="#" border="0">
-```
-
-&nbsp;
-### Listes
-
-*ol* peut prendre les valeurs:
-i, I,a, A, 1
-
-```html
-<ul>...</ul>  <!-- liste simple -->
-	<li>...</li>
-
-<ol type="#">...</ol>  <!-- liste numérotée -->
-	<li>...</li>
-```
-
-Tableaux
-
-```html
-<table> <!-- tableau -->
-	<tr> <!-- ligne 1 -->
-		<td>.1.</td>  <!-- case -->
-		<td>.2.</td>
-	</tr>
-	<tr> <!-- ligne 2 -->
-		<td colspan="2">.1.</td> <!-- case étalée sur deux colonnes -->
-	</tr>
-</table>
-```
-
-&nbsp;
-### Les méta-données
-
-```html
-<head>
-  <title>...</title>  <!-- titre -->
-  <meta charset="UTF-8">  <!-- format du texte -->
-	<meta name="keywords" content="mes, mots, clés">  <!-- mots clés -->
-	<meta name="description" content="description du site"> <!-- description courte du contenu -->
-	<meta name="author" content="Mon Nom">  <!-- nom de l'auteur de la page -->
-	<meta http-equiv="refresh" content="30">  <!-- période avant reload -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- viewpoint pour une apparence correcte sur de multiple écrans -->
-	<style>...</style>  <!-- style (le plus souvent css) -->
-	<script>...</script>  <!-- script (le plus souvent javascript) -->
-	<link rel=stylesheet href="..." media="all">
-</head>
-```
-
-&nbsp;
-### Commentaires
-
-```html
-<!-- Ceci est un commentaire -->
-
-<!--
-<p>Large commentaire avec du HTML</p>
-<img border="0" src="" alt="">
--->
-
-```
-
-<aside>
-💡 EXERCICE: Créez trois (ou plus) pages HTML sur un sujet de votre choix, incluant au moins des images, des liens internes et externes. 
-Créer des méta-données pertinentes. 
-N'oubliez pas de commenter votre page pour que quelqu'un d'autre comprennent le contenu et la structure. 
-
-
-&nbsp;
-**Ne vous inquiétez pas du style, nous nous en occuperons plus tard.**
-
-</aside>
+## Portfolio annoté
+Le portfolio annoté vise à *examiner des exemples spécifiques de pratiques pour trouver des orientations pour le travail et, en discutant de la manière dont ces exemples étaient pertinents pour nous, de commencer à développer un  réflexion au travers du design*.
+
+Il se différentie d’approches plus classiques dont le point de départ est une considération théorique (parmi tant de possibilités) pour expliquer des choix, pouvant amener une multitude de solutions. Bien que la théorie aide à structurer la pratique et la reflexion de cette pratique, la relation "imprécise" entre théorie et pratique (d'une théorie peut émerger plusieurs pratiques et une pratique peut être expliquée par plusieurs théories) ne permet pas de se pencher avec attention sur les détails d'une pratique.
+De plus, la théorie risque de proposer une description de ce que la pratique est, de ce que le design est, au lieu de ce qui devrait ou pourrait être.
+
+Cette perspective questionne donc le design comme une forme de recherche. Comment peut-il structurer une recherche solide? De quoi a-t-il besoin? Au lieu d'aller chercher un n-ième élément d'une discipline voisine, Gaver et alii proposent de se saisir directement de ce que la pratique du design propose.
+
+Cela permet non seulement de légitimer l'activité du design comme recherche, sans la changer pour ce qui correspondrait plus à l'activité d'autres domaines, mais par une approche plus élaboré de leurs propres approches afin qu'elle apparaisse légitime du point de vue des autres disciplines.
+
+Le portfolio annoté "offre une façon de présenter les livrables du design en respectant simultanément la particularité et la multidimensionnalité du travail de design, tout en répondant à de nombreuses exigences de la théorie généralisable."
+
+Le portfolio annoté vise à *examiner des exemples spécifiques de pratiques pour trouver des orientations pour le travail et, en discutant de la manière dont ces exemples étaient pertinents pour nous, de commencer à développer un  réflexion au travers du design*.
+
+Il se différentie d’approches plus classiques dont le point de départ est une considération théorique (parmi tant de possibilités) pour expliquer des choix, pouvant amener une multitude de solutions. Bien que la théorie aide à structurer la pratique et la reflexion de cette pratique, la relation "imprécise" entre théorie et pratique (d'une théorie peut émerger plusieurs pratiques et une pratique peut être expliquée par plusieurs théories) ne permet pas de se pencher avec attention sur les détails d'une pratique.
+De plus, la théorie risque de proposer une description de ce que la pratique est, de ce que le design est, au lieu de ce qui devrait ou pourrait être.
+
+Cette perspective questionne donc le design comme une forme de recherche. Comment peut-il structurer une recherche solide? De quoi a-t-il besoin? Au lieu d'aller chercher un n-ième élément d'une discipline voisine, Gaver et alii proposent de se saisir directement de ce que la pratique du design propose.
+
+Cela permet non seulement de légitimer l'activité du design comme recherche, sans la changer pour ce qui correspondrait plus à l'activité d'autres domaines, mais par une approche plus élaboré de leurs propres approches afin qu'elle apparaisse légitime du point de vue des autres disciplines.
+
+Le portfolio annoté "offre une façon de présenter les livrables du design en respectant simultanément la particularité et la multidimensionnalité du travail de design, tout en répondant à de nombreuses exigences de la théorie généralisable."
+
+{{<linkBox "Gaver, B., & Bowers, J. (2012). Annotated Portfolios. Interactions, 19(4), 40–49. https://doi.org/10.1145/2212877.2212889" "https://doi.org/10.1145/2212877.2212889">}}
+
+{{<linkBox "Bowers, J. (2012). The logic of annotated portfolios. Proceedings of the Designing Interactive Systems Conference, 68–77. https://doi.org/10.1145/2317956.2317968" "https://doi.org/10.1145/2317956.2317968">}}
+
+### Logique du portfolio annoté
+
+Tout artefact du design est le résultat d'une multitude de choix, de tout type et souvent complexe. Leur nature peut être liée à :
+
+- la fonction (ce qu'il fait ou ce qu'il mériterait de faire),
+- l'esthétique (forme),
+- la production (matériaux, compétences mises en jeu, outils...),
+- la motivation (pourquoi est-il conçu, pour qu'elle exposition),
+- l'intention (ce que les utilisateur vont en faire, ce qui est préférable),
+- une problématique socio-politique (qu'est-ce que cela va encourager our être en friction avec).
+
+De ce point de vue les artefacts forment déjà une sorte de prise de position ou une déclaration de la part de ses designers, sur les réponses à apporter ou proposer au challenge adressé.
+
+Les perspectives autres que celle correspondantes à celles empruntées par les designers n'en sont toutefois pas moins importantes et pertinentes, puisqu'elle soulève des considérations (eg culturelles) qui peuvent avoir été ignorée par les designers, ou incluent dans des considérations inconscientes.
+
+Dans la pratique du design, qu'elle soit entrepreunariale ou académique, l'explication et la justification d'un design se fait également et significativement par les problèmes rencontrés et les choix faits tout au long du processus. On rend donc compte des détails les plus important, qu’ils soient  issus du livrable final ou du processus de design pour l'argument à construire et la perspective à justifier. 
+
+*Le récit textuel (papier, rapport, descriptions de toute sorte) dans la recherche en design a un caractère indexical* : il indique des aspects du design qui mérite une attention au-delà du projet, une attention pertinente pour la recherche, faisant de ces aspects autant de sujets de discussions dans la communauté. Les récits textuels des artefacts, incluant les aspects théoriques, sont considérés ici comme **des annotations,** par leur capacité d'indexation de l'artefact. Elles obtiennent leur sens et leur pertinence en vertu de leur  lien indiciel avec un artefact. Ce sont donc dans leur relation que du sens est produit.
+
+Cela implique que le design doit être clairement annoté pour contribuer correctement à la recherche. Ces annotations ne font pas que décrire les points majeurs de l'artefact. Elles font le lien entre la question de recherche et l'artefact. De ce point de vue, l'artefact annoté peut servir de la même façon que le fait un *énoncé philosophique, identifiant les activités et les qualités jugées importantes pour la recherche et suggérant des façons de les aborder.*
+
+Le portfolio annoté peut alors servir de façon encore plus pertinente comme alternative à un théorie plus formalisé pour discuter le design à la fois de façon conceptuelle et pratique. Alors qu'un artefact annoté représenterait un point dans l'espace de conception, une collection d'un même design ou d'une même thématique rassemblée en portfolio annoté formerait un espace, une zone de réflexion et permettrait d'en faire émerger les dimensions et donc la perspective du designer.
+
+### Créer un portfolio annoté
+
+*Un portfolio annoté est donc un moyen d'expliquer la pensée de design qui conserve un lien indiciel intime avec les artefacts eux-mêmes tout en répondant à des préoccupations plus larges dans la communauté de la recherche.*
+
+La fabrication d'un portfolio annoté se fait de façon incrémentale, ajoutant un artefact annoté l'un après l'autre.
+
+- Chaque ajout demande de décrire l'ajout dans une forme qui le permet de la placer dans l'espace du portfolio annoté tel qu'il est lorsque l'ajout y entre.
+- Chaque ajout peut également faire évoluer la compréhension de cet espace, et donc revenir sur les artefact annoté déjà introduits pour les décrire à la lumière de la nouvelle forme de l'espace du portfolio annoté. Il est important de rappeler que l'artefact et son annotation s'informe l'un l'autre.
+- *L'importance des annotations dépend de la traçabilité des liens avec la conception, tout comme les conceptions sont éclairées par les annotations.* On note ainsi les proximités (eg similarités ou familiarités) et les distanciations (eg spécificité de l'un par rapport aux autres).
+
+### Fonctionnalités d'un portfolio annoté
+
+Les annotations transforment une collection de design en un portfolio, rassemblant des objets individuels en un ensemble systématique de travaux.
+
+- Les annotations capturent les ressemblances entre les conceptions dans un maillage de similitudes et de différences.
+- En général, un portfolio peut être annoté de plusieurs façons différentes, reflétant des objectifs et des intérêts différents et avec des publics différents à l'esprit.
+- Les annotations et les designs qu'elles annotent s'informent mutuellement. Les artefacts sont éclairés par les annotations. Les annotations sont illustrées par les artefacts.
+
+Nous pensons que l'assemblage d'un ensemble de travaux dans un portfolio annoté peut présenter un certain nombre d'avantages:
+
+- rendre compte du style de design d'un projet particulier, d'un studio ou d'une institution.
+- découvrir leurs valeurs esthétiques et sociopolitiques sous-jacentes au design d’un dispositif.
+- faire ressortir des caractéristiques qui n'ont peut-être pas été couvertes dans les analyises d'artefacts uniques. Cela peut faciliter l'évaluation de la valeur de la contribution scientifique et esthétique d'un ensemble de travaux.
+
+Enfin, les traits caractéristiques des portfolios annotés sont que:
+
+- Les annotations communiquent la nature du portfolio et permettent sa comparaison avec d'autres.
+- Les annotations peuvent façonner la manière dont les artefacts sont appréciés et compris, et la valeur scientifique et esthétique qu'ils peuvent avoir, ainsi que suggérer des possibilités de recherche et de conception futures.
+
+## Exemple
+
+{{<linkBox "Lévy, P., Deckers, E.J.L., & Restrepo Cruz, M. (2012). When Movement Invites to Experience: a Kansei Design Exploration on Senses' Qualities. In the Proceedings of Kansei Engineering and Emotion Research International Conference 2012, KEER12 ([on CD]). Penghu, Taiwan: Japan Society of Kansei Engineering." "https://1drv.ms/b/s!AnQx_v88q65Qv4RcIjMajvoslWM_UA?e=uoT2Qe">}}
+
+{{<video "youtube" "h1Lz3rEXNKQ" "Be touched!, an exploration on reciprocal touch" >}}
+
+{{<video "youtube" "8iZdwWibq1I" "Sound Flowers" >}}
+
+{{<video "youtube" "9gfMxNew72M" "Shylight" >}}
+
+{{<video "youtube" "rc4tHokW0lc" "Distant touch" >}}
