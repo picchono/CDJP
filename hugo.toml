@@ -1,12 +1,12 @@
-baseURL = "https://chaire-design.fr"
+baseURL = "https://plevy.fr"
 languageCode = "fr-FA"
-title = "Chaire design Jean Prouvé"
-theme = "CDJP_colonnes"
+title = "Pierre Lévy"
+theme = "Plevy"
 defaultContentLanguage = "fr"
 ignoreErrors = ["error-disable-taxonomy"]
 
 DefaultContentLanguage = "fr"
-copyright = "chaire-design.fr"
+copyright = "plevy.fr"
 
 [Params]
 favicon = "icon.png"
@@ -16,7 +16,7 @@ removePathAccents = true
 order = [".webp", ".jpg$", ".gif$"]
   [deployment.targets]
   # An arbitrary name for this target.
-  name = "CDJPdeploy"
+  name = "plevy-deploy"
   [deployment.matchers]
   # Set custom content type for /sitemap.xml 
   pattern = "^sitemap\\.xml$"

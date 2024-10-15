@@ -1,4 +1,0 @@
-{{ define "main" }}
-    {{ partial "title.html" . }}
-    {{ if .Content}}<div class="large" {{if .Params.searchWeight }}data-pagefind-weight="{{.Params.searchWeight }}"{{ end }}>{{ .Content }}</div>{{ end }}
-{{ end }}
