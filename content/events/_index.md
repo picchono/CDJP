@@ -1,5 +1,4 @@
 ---
-members: ["PLevy"]
 title: "Événements"
 date: 2020-10-24T00:55:28+02:00
 draft: false
@@ -9,7 +8,6 @@ notEverything: true
 notListed: true
 tags: ['Pierre', 'Lévy', 'événement']
 zone: "events"
-comment: false
 listchaire: true
 menu:
     menu1:

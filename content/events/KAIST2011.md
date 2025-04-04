@@ -1,5 +1,4 @@
 ---
-members: ["PLevy"]
 slug: the-origin-of-experience
 title: "The origin of experience"
 layout: single
@@ -8,6 +7,7 @@ publitype: presentation
 subsection: lecture
 tags: ['experience', 'KAIST']
 institution:
+    heig: 1
     logo: TUe
     short: 'TU/e'
     name: "Eindhoven University of Technology"

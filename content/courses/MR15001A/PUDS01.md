@@ -1,12 +1,11 @@
 ---
-members: ["PLevy"]
 title: "Master CESAAP - PUDS01 / UE11 · Séminaire de recherche"
 institution:
+    heig: 1
     logo: cnam
     short: Cnam
     name: "Conservatoire national des Arts et Métiers"
     web: "https://www.cnam.fr/"
-    colo: "#c1002a"
 collaboration:
     partner1:
         logo: cnam
@@ -38,7 +37,6 @@ collaboration:
         name: "École Supérieure des Arts Appliqués Duperré"
         web: "https://duperre.org"
         heig: 1.5
-chaire: true
 date: 2021-10-01T00:55:28+02:00
 draft: false
 layout: single

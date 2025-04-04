@@ -1,11 +1,11 @@
 ---
-members: ["PLevy"]
 slug: seminar-school-of-not-knowing
 title: "Seminar of the school of not-knowing"
 tags: ['not knowing', 'design']
 layout: single
 searchFilter: Event
 institution:
+    heig: 1
     logo: cnam
     short: Cnam
     name: "Conservatoire national des Arts et Métiers"
@@ -16,14 +16,14 @@ collaboration:
         logo: civiccity
         name: "Civic City"
         web: "https://civic-city.org/"
-        heig: 3
+        heig: 1.8
     partner2:
         logo: cnam
         short: Cnam
         name: "Conservatoire national des Arts et Métiers"
         web: "https://www.cnam.fr/"
         colo: "var(--color-primary-text)"
-        heig: 1.5
+        heig: 1.2
 chaire: true
 date: 2023-10-16T14:00:00+02:00
 reference: "This seminar aims to launch the third session of the school of not-Knowing. The first began in September 2022 at the French Institute in Milan and culminated in the form of a first exhibition in the same place in January 2024."
@@ -34,12 +34,13 @@ video:
     video1:
         title: "Seminar of the School of not-knowing"
         youtube: "ArjAFFUtRC0"
+photogallery:
+    image1:
+        order: 1
+        name: "non sapere seminar programme at Cnam"
+        src: "https://civic-city.org/nonsapere/wp-content/uploads/2023/10/SOCIAL-SCHOOLS.jpg"
+        img: "https://civic-city.org/nonsapere/wp-content/uploads/2023/10/SOCIAL-SCHOOLS.jpg"
 ---
-
-![non sapere seminar programme at Cnam](https://civic-city.org/nonsapere/wp-content/uploads/2023/10/SOCIAL-SCHOOLS.jpg "Programme of the seminar")
-
-&nbsp;
-
 This seminar aims to launch the third session of the school of not-Knowing. The first began in September 2022 at the French Institute in Milan and culminated in the form of a first exhibition in the same place in January 2024. During the second phase the exhibition of around a hundred panels circulated Florence and Rome. New schools joined the initial project by adding new visuals. This set will be presented in Porto as part of the Design Biennale from October 21, 2023, with the support of the French Institute of Portugal.  
 The third phase is being organized on the basis of around thirty schools and universities, coming from France, Italy, Portugal, Germany, Poland, India and Madagascar. 
 

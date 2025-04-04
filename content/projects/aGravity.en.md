@@ -1,5 +1,4 @@
 ---
-members: ["PLevy"]
 slug: aGravity
 title: "aGravity"
 layout: single
@@ -11,6 +10,7 @@ researchpage: true
 topic:
     -  perceptq
 institution:
+    heig: 1
     logo: TUe
     short: 'TU/e'
     name: "Eindhoven University of Technology"

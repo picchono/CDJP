@@ -1,8 +1,7 @@
 ---
-members: ["PLevy"]
 slug: designing-for-the-everyday-through-thusness-and-irregularity
 title: Designing for the everyday through thusness and irregularity
-layout: single
+layout: publi
 searchFilter: Publication
 searchWeight: 8
 publitype: inproceedings
@@ -14,6 +13,7 @@ research:
     -  everyday
 jpphilo: true
 institution:
+    heig: 1
     logo: TUe
     short: 'TU/e'
     name: "Eindhoven University of Technology"

@@ -1,5 +1,4 @@
 ---
-members: ["PLevy"]
 slug: the-multi-disciplinary-nature-of-kansei-research-an-historical-approach
 title: "The multi-disciplinary nature of kansei research: an historical approach"
 tags: ['kansei', 'interdisciplinarity']
@@ -11,6 +10,7 @@ researchpage: true
 research: 
     -  kansei
 institution:
+    heig: 1
     logo: TUe
     short: 'TU/e'
     name: "Eindhoven University of Technology"

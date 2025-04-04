@@ -1,5 +1,4 @@
 ---
-members: ["PLevy"]
 slug: design-30-forum
 title: "Design 3.0 Forum"
 layout: single
@@ -8,6 +7,7 @@ subsection: symposium
 projecttype: general
 tags: ['KAIST', 'interaction', 'société', 'politique']
 institution:
+    heig: 1
     logo: TUe
     short: 'TU/e'
     name: "Eindhoven University of Technology"

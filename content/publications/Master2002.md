@@ -1,13 +1,13 @@
 ---
-members: ["PLevy"]
 slug: design-industriel-et-interdisciplinarite-methode-et-outil-dintégration-de-linterdisciplinarité-dans-la-formation-pédagogique-initiale-du-design-industriel
 title: "Design industriel et interdisciplinarité, Méthode et outil d’intégration de l’interdisciplinarité dans la formation pédagogique initiale du design industriel"
-layout: single
+layout: publi
 searchFilter: Publication
 searchWeight: 8
 publitype: masterthesis
 subsection: dissertation
 institution:
+    heig: 1
     logo: UTC
     short: UTC
     name: "Université de Technologie de Compiègne"

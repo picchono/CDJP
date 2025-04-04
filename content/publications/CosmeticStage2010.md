@@ -1,8 +1,7 @@
 ---
-members: ["PLevy"]
 slug: kansei-science-and-kansei-value-creation-through-kansei-behavioral-and-Brain-Sciences
 title: "感性価値の高い化粧品開発にむけた手法と考え方感性認知脳科学的視点から考える感性価値創造"
-layout: single
+layout: publi
 searchFilter: Publication
 searchWeight: 8
 publitype: article
@@ -12,6 +11,7 @@ researchpage: true
 research: 
     -  kansei
 institution:
+    heig: 1
     logo: TUe
     short: 'TU/e'
     name: "Eindhoven University of Technology"

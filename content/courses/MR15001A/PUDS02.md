@@ -1,12 +1,11 @@
 ---
-members: ["PLevy"]
 title: "Master CESAAP - PUDS02 / UE12 · Critique et médiation du design"
 institution:
+    heig: 1
     logo: cnam
     short: Cnam
     name: "Conservatoire national des Arts et Métiers"
     web: "https://www.cnam.fr/"
-    colo: "#c1002a"
 collaboration:
     partner1:
         logo: cnam

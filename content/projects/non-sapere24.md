@@ -1,22 +1,21 @@
 ---
-members: ["PLevy"]
 slug: ecole-du-non-savoir
 title: "École du non-savoir"
 tags: ['not knowing', 'design']
 layout: single
 searchFilter: Event
 institution:
+    heig: 1
     logo: cnam
     short: Cnam
     name: "Conservatoire national des Arts et Métiers"
     web: "https://www.cnam.fr/"
-    colo: "#c1002a"
 collaboration:
     partner1:
         logo: civiccity
         name: "Civic City"
         web: "https://civic-city.org/"
-        heig: 3
+        heig: 1.8
     partner2:
         logo: cnam
         short: Cnam
@@ -60,8 +59,6 @@ photogallery:
         img: "https://live.staticflickr.com/65535/53535702119_a83735db72_h.jpg"
 ---
 
-&nbsp;
-
 [![Cahier](https://s3-eu-west-1.amazonaws.com/com.ulule.media/presales/2/3/5/1/8/1/181532/cahier-2.ByMQDN0o59.jpg "Cahier de l'école du non-savoir")](https://civic-city.org/nonsapere/cahier-civic-city-3/)
 Les cahiers de l'école du non-savoir sont publiés et accessibles sur le site de [Civic City](https://civic-city.org/nonsapere/cahier-civic-city-3/) et sur [Ulule](https://fr.ulule.com/civic-city/).
 
@@ -70,13 +67,6 @@ Les cahiers de l'école du non-savoir sont publiés et accessibles sur le site d
 ![nonsapere au Cnam](https://civic-city.org/nonsapere/wp-content/uploads/2024/01/post-HOME-ESTIENNE5.jpg "Poster pour la session au Cnam")
 
 &nbsp;
-
-L'école du non-savoir, projet et événement collaboratif avec Civic-City, Ruedi Baur et Vera Bau, la chaire Design Jean Prouvé (Pierre Lévy) du Cnam, l’Institut Français et l’Estienne / École Supérieure des Arts et Industries Graphiques, repose sur la conviction que le dialogue entre arts, design, sciences et société est à même de proposer de nouveaux horizons dans la compréhension et l’appréhension des mondes connus et à découvrir.
-Questionner par une réflexion collaborative et évolutive les mystères et les angles morts du monde actuel et des mondes à venir, notre rapport au connu, à l’inconnu, au caché, à l’enfoui, d’en interroger les représentations comme les modes de transmission du non-savoir.
-L’objectif est d’imaginer la manière dont le design peut donner de la visibilité à ce qui n’est pas visible, rendre perceptible ce qui ne l’est pas, donner à voir ce qui ne peut être vu. Pour cela, il réunit des experts et un réseau de 30 écoles d’art et de design àbtravers le monde pour interroger ensemble ces non-savoirs.
-
-Cet événement aura lieu les 1er et 2 février 2024 dans la Salle des Textiles au CNAM.  
-Il est accompagné du 1er février au 30 mars par une exposition des panneaux de l’école du non-savoir à l’École Estienne / École Supérieure des Arts et Industries Graphiques.
 
 L'école du non-savoir, a collaborative project and event with Civic-City, Ruedi Baur and Vera Bau, the Cnam's Design Jean Prouvé chair (Pierre Lévy), the Institut Français and Estienne / École Supérieure des Arts et Industries Graphiques, is based on the conviction that dialogue between the arts, design, science and society can open up new horizons in our understanding and apprehension of known and yet-to-be-discovered worlds.
 Through collaborative and evolving reflection, we question the mysteries and blind spots of today's world and of worlds to come, our relationship with the known, the unknown, the hidden and the buried, questioning representations as well as modes of transmission of non-knowledge.

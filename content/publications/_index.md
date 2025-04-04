@@ -1,5 +1,4 @@
 ---
-members: ["PLevy"]
 title: "Publications"
 date: 2020-10-24T00:55:28+02:00
 draft: false
@@ -9,7 +8,6 @@ searchWeight: 8
 tags: ['Pierre', 'Lévy', 'design', 'research', 'publications']
 notEverything: true
 notListed: true
-comment: false
 zone: "publications"
 menu:
     menu1:

@@ -1,7 +1,7 @@
 ---
-members: ["PLevy"]
 title: "Composing Everyday Rituals"
 institution:
+    heig: 1
     logo: TUe
     short: 'TU/e'
     name: "Eindhoven University of Technology"

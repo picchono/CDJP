@@ -1,5 +1,4 @@
 ---
-members: ["PLevy"]
 slug: resonnant-interaction
 title: "Resonnant interaction"
 layout: single
@@ -7,6 +6,7 @@ searchFilter: Project
 subsection: other
 projecttype: general
 institution:
+    heig: 1
     logo: TUe
     short: 'TU/e'
     name: "Eindhoven University of Technology"

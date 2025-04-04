@@ -1,8 +1,8 @@
 ---
-members: ["PLevy"]
 slug: from-the-station-of-being-to-societal-transformation-how-design-can-drive-a-new-european-renaissance
 title: "From the Station of Being to Societal Transformation: How design can drive a new European Renaissance"
 institution:
+    heig: 1
     logo: cnam
     short: Cnam
     name: "Conservatoire national des Arts et Métiers"
@@ -10,7 +10,7 @@ institution:
     colo: "#c1002a"
 chaire: true
 date: 2022-04-01T17:03:37+02:00
-layout: single
+layout: publi
 searchFilter: Publication
 searchWeight: 8
 publitype: inbook

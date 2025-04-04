@@ -1,5 +1,4 @@
 ---
-members: ["PLevy"]
 slug: practice-CDR
 title: "The Practice of Constructive Design Research"
 tags: ['Recherche_au_travers_du_design', 'CDR', 'RtD', 'Umeå']
@@ -12,6 +11,7 @@ researchpage: true
 research: 
     -  transformpractices
 institution:
+    heig: 1
     logo: TUe
     short: 'TU/e'
     name: "Eindhoven University of Technology"

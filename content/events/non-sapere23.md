@@ -1,11 +1,11 @@
 ---
-members: ["PLevy"]
 slug: seminaire-ecole-du-non-savoir
 title: "Séminaire de l'école du non-savoir"
 tags: ['not knowing', 'design']
 layout: single
 searchFilter: Event
 institution:
+    heig: 1
     logo: cnam
     short: Cnam
     name: "Conservatoire national des Arts et Métiers"
@@ -16,14 +16,14 @@ collaboration:
         logo: civiccity
         name: "Civic City"
         web: "https://civic-city.org/"
-        heig: 3
+        heig: 1.8
     partner2:
         logo: cnam
         short: Cnam
         name: "Conservatoire national des Arts et Métiers"
         web: "https://www.cnam.fr/"
         colo: "var(--color-primary-text)"
-        heig: 1.5
+        heig: 1.2
 chaire: true
 date: 2023-10-16T14:00:00+02:00
 reference: "Ce séminaire vise à lancer la troisième session de l'école du non-savoir. La première a débuté en septembre 2022 à l'Institut français de Milan et a abouti sous la forme d'une première exposition au même endroit en janvier 2024."
@@ -34,12 +34,13 @@ video:
     video1:
         title: "Séminaire de l'École du non-savoir"
         youtube: "ArjAFFUtRC0"
+photogallery:
+    image1:
+        order: 1
+        name: "non sapere seminar programme at Cnam"
+        src: "https://civic-city.org/nonsapere/wp-content/uploads/2023/10/SOCIAL-SCHOOLS.jpg"
+        img: "https://civic-city.org/nonsapere/wp-content/uploads/2023/10/SOCIAL-SCHOOLS.jpg"
 ---
-
-![non sapere seminar programme at Cnam](https://civic-city.org/nonsapere/wp-content/uploads/2023/10/SOCIAL-SCHOOLS.jpg "Programme of the seminar")
-
-&nbsp;
-
 Ce séminaire vise à lancer la troisième session de l'école du non-savoir. La première a débuté en septembre 2022 à l'Institut français de Milan et a abouti sous la forme d'une première exposition au même endroit en janvier 2024. Durant la seconde phase, l'exposition d'une centaine de panneaux a circulé à Florence et à Rome. De nouvelles écoles ont rejoint le projet initial en ajoutant de nouveaux visuels. Cet ensemble sera présenté à Porto dans le cadre de la Biennale du design à partir du 21 octobre 2023, avec le soutien de l'Institut français du Portugal.  
 La troisième phase s'organise sur la base d'une trentaine d'écoles et d'universités, venant de France, d'Italie, du Portugal, d'Allemagne, de Pologne, d'Inde et de Madagascar.
 

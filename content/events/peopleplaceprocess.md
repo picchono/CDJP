@@ -1,5 +1,4 @@
 ---
-members: ["PLevy"]
 slug: people-place-process
 title: "People Place Process: A self-reflection tool to become a professional in design thinking, based on pedagogical action research"
 layout: single
@@ -11,6 +10,7 @@ researchpage: true
 research: 
     -  transformpractices
 institution:
+    heig: 1
     logo: TUe
     short: 'TU/e'
     name: "Eindhoven University of Technology"

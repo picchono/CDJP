@@ -1,14 +1,14 @@
 ---
-members: ["PLevy"]
 slug: the-chatter-door-designing-for-in-between-spaces
 title: The Chatter Door, designing for in-between spaces
-layout: single
+layout: publi
 searchFilter: Publication
 searchWeight: 8
 publitype: inproceedings
 subsection: conference
 Perceiving: true
 institution:
+    heig: 1
     logo: TUe
     short: 'TU/e'
     name: "Eindhoven University of Technology"

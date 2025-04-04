@@ -1,8 +1,7 @@
 ---
-members: ["PLevy"]
 slug: perception-theories-and-kansei-design
 title: Perception Theories and Kansei Design
-layout: single
+layout: publi
 searchFilter: Publication
 searchWeight: 8
 publitype: inproceedings
@@ -11,6 +10,7 @@ kansei: true
 research: 
     -  kansei
 institution:
+    heig: 1
     logo: TUe
     short: 'TU/e'
     name: "Eindhoven University of Technology"

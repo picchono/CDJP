@@ -1,8 +1,7 @@
 ---
-members: ["PLevy"]
 slug: matter-of-transformation-designing-an-alternative-tomorrow-inspired-by-phenomenology
 title: "Matter of transformation, designing an alternative tomorrow inspired by phenomenology"
-layout: single
+layout: publi
 searchFilter: Publication
 searchWeight: 8
 publitype: article
@@ -12,6 +11,7 @@ researchpage: true
 research: 
     -  transformpractices
 institution:
+    heig: 1
     logo: TUe
     short: 'TU/e'
     name: "Eindhoven University of Technology"

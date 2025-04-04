@@ -1,8 +1,8 @@
 ---
-members: ["PLevy"]
 slug: artefactual-emptiness-on-appropriation-in-kansei-design
 title: "Artefactual emptiness – On appropriation in kansei design"
 institution:
+    heig: 1
     logo: TUe
     short: 'TU/e'
     name: "Eindhoven University of Technology"
@@ -10,7 +10,7 @@ institution:
     colo: "#c72125"
 chaire: false
 date: 2020-08-30T17:03:37+02:00
-layout: single
+layout: publi
 searchFilter: Publication
 searchWeight: 8
 main: true

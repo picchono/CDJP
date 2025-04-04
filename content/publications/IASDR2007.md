@@ -1,13 +1,13 @@
 ---
-members: ["PLevy"]
 slug: on-kansei-and-kansei-design-a-description-of-a-japanese-design-approach
 title: "On Kansei and Kansei Design: a Description of a Japanese Design Approach"
-layout: single
+layout: publi
 searchFilter: Publication
 searchWeight: 8
 publitype: inproceedings
 subsection: conference
 institution:
+    heig: 1
     logo: Tsukuba
     short: 'U. of Tsukuba'
     web: "https://www.tsukuba.ac.jp/"

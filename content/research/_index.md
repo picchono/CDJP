@@ -1,5 +1,4 @@
 ---
-members: ["PLevy"]
 title: "Recherche"
 chalistchaireire: true
 date: 2020-10-24T00:55:28+02:00
@@ -8,7 +7,6 @@ searchFilter: Research
 layout: single
 notEverything: true
 notListed: true
-comment: false
 tags: ['Pierre', 'Lévy', 'design','Recherche', 'pratiques_transformatives', 'quotidien', 'kansei']
 zone: "research"
 ---

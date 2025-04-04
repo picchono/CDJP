@@ -1,5 +1,4 @@
 ---
-members: ["PLevy"]
 slug: TET007-RNCP-Approche_pratique_du_numerique_et_la_recherche_d_information
 title: "TET007-RNCP · Approche pratique du numérique et la recherche d'information"
 layout: single
@@ -7,11 +6,11 @@ searchFilter: Teaching
 teaching: 'TET007-RNCP'
 code: TET007-RNCP
 institution:
+    heig: 1
     logo: cnam
     short: Cnam
     name: "Conservatoire national des Arts et Métiers"
     web: "https://www.cnam.fr/"
-    colo: "#c1002a"
 chaire: true
 date: 2021-09-01T16:27:15+02:00
 subsection: ended

@@ -1,7 +1,7 @@
 ---
-members: ["PLevy"]
 title: "Designing for the everyday"
 institution:
+    heig: 1
     logo: TUe
     short: 'TU/e'
     name: "Eindhoven University of Technology"

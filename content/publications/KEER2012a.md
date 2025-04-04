@@ -1,8 +1,7 @@
 ---
-members: ["PLevy"]
 slug: when-movement-invites-to-experience-a-kansei-design-exploration-on-senses-qualities
 title: "When Movement Invites to Experience: a Kansei Design Exploration on Senses’ Qualities"
-layout: single
+layout: publi
 searchFilter: Publication
 searchWeight: 8
 publitype: inproceedings
@@ -12,6 +11,7 @@ researchpage: true
 research: 
     -  kansei
 institution:
+    heig: 1
     logo: TUe
     short: 'TU/e'
     name: "Eindhoven University of Technology"

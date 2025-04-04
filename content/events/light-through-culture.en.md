@@ -1,5 +1,4 @@
 ---
-members: ["PLevy"]
 slug: light-through-culture
 title: "Light through Culture - Experience Human Rights"
 tags: ['light', 'interaction', 'experience', 'culture', 'exhibition', 'human_rights', 'Sienna']
@@ -12,6 +11,7 @@ researchpage: true
 research: 
     -  transformpractices
 institution:
+    heig: 1
     logo: TUe
     short: 'TU/e'
     name: "Eindhoven University of Technology"

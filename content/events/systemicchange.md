@@ -1,5 +1,4 @@
 ---
-members: ["PLevy"]
 slug: designing-for-systemic-change
 title: "Designing for Systemic Change"
 layout: single
@@ -11,6 +10,7 @@ researchpage: true
 research: 
     -  transformpractices
 institution:
+    heig: 1
     logo: TUe
     short: 'TU/e'
     name: "Eindhoven University of Technology"

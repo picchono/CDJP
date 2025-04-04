@@ -10,8 +10,8 @@
 	"address": "Conservatoire National des Arts & Métiers<br/>2 Rue Conté<br/>75003 Paris<br/>France",
 	"tel": "+33.(0)7.5458.7794",
 	"email": "pierre.levy@lecnam.net",
-	"photoSmall": "https://live.staticflickr.com/65535/51393282608_d943089e8d_c.jpg",
-	"photoBig": "https://live.staticflickr.com/65535/51393282608_fcf0a2528a_o.jpg",
+	"photoSmall": "https://live.staticflickr.com/65535/54134834097_8ef5886197_c.jpg",
+	"photoBig": "https://live.staticflickr.com/65535/54134834097_f5279a0ce4_k.jpg",
 	"cvupdate": "12 Dec 2021",
 	"web": {
 		"username": "plevy.fr",
@@ -22,32 +22,39 @@
 			"order": 1,
 			"type": "Curriculum vitae",
 			"username": "Pierre Levy",
-			"url": "/team/PLevy/cv/",
+			"url": "/en/plevy/cv/",
 			"icon": "cv"
 		},
 		"photo": {
 			"order": 2,
 			"type": "PHoto",
 			"username": "PLevy",
-			"url": "https://live.staticflickr.com/65535/52087507002_3726776470_o.jpg",
+			"url": "https://live.staticflickr.com/65535/54134834097_f5279a0ce4_k.jpg",
 			"icon": "photo"
 		},
-		"linkedin": {
+		"publis": {
 			"order": 3,
+			"type": "Plevy",
+			"username": "levypier",
+			"url": "/en/plevy/publis/",
+			"icon": "publis"
+		},
+		"linkedin": {
+			"order": 4,
 			"type": "linkedIn",
 			"username": "levypier",
 			"url": "https://www.linkedin.com/in/levypier",
 			"icon": "linkedin"
 		},
 		"researchgate": {
-			"order": 4,
+			"order": 5,
 			"type": "researchgate",
 			"username": "Pierre-Levy-4",
 			"url": "https://www.researchgate.net/profile/Pierre-Levy-4",
 			"icon": "researchgate"
 		},
 		"youtube": {
-			"order": 5,
+			"order": 6,
 			"type": "youtube",
 			"username": "pierrelevy7915",
 			"url": "https://www.youtube.com/channel/UCm6PefM2jvYGCCRnO9KaWsw",
@@ -86,6 +93,32 @@
 		"aff4c": {
 			"name": "Japan Society of Kansei Engineering",
 			"url": "https://jske.jp"
+		}
+	},
+	"registration":  {
+		"orcid": {
+			"name": "orcid",
+			"code": "0000-0003-2801-0588",
+			"url": "https://orcid.org/",
+			"ord": 1
+		},
+		"scholar": {
+			"name": "scholar",
+			"code": "bfRUiJwAAAAJ",
+			"url": "https://scholar.google.com/citations?user=",
+			"ord": 3
+		},
+		"hal": {
+			"name": "hal",
+			"code": "751380",
+			"url": "https://hal.science/search/index/?q=*&authIdPerson_i=",
+			"ord": 2
+		},
+		"IdRef": {
+			"name": "IdRef",
+			"code": "242269788",
+			"url": "https://www.idref.fr/",
+			"ord": 4
 		}
 	},
 	"comment": "デザインプラクティスと理論の対応性、特にトランスフォーミングプラクティスとトランスフォーミング科学に関する研究を行なっている。主な研究トピックはエンボディメント理論と日本哲学と文化の日常のデザインとの関係性についてである。コンピエニュ工科大学（フランス）機械工学修士課程、筑波大学感性工学博士課程修了後、コンピエニュ工科大学（フランス）情報・コミュニケーション科学HDR（研究指導資格）を取得。ヨーロッパ感性グループ(EKG)共同創設者及び前会長であり、Kansei Engineering and Emotion Research (KEER)コーディネーターを務める。",

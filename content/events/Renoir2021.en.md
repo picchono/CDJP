@@ -1,5 +1,4 @@
 ---
-members: ["PLevy"]
 slug: Entre-methodes-et-pratiques-en-design-un-moment-d_apprentissage
 title: "Entre méthodes et pratiques en design - un moment d'apprentissage"
 tags: ['Renoir', 'méthods', 'learning', 'séminaire']
@@ -10,11 +9,11 @@ subsection: lecture
 transformpractices: true
 researchpage: true
 institution:
+    heig: 1
     logo: cnam
     short: Cnam
     name: "Conservatoire national des Arts et Métiers"
     web: "https://www.cnam.fr/"
-    colo: "#c1002a"
 collaboration:
     artner1:
         logo: cnam

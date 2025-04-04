@@ -1,5 +1,4 @@
 ---
-members: ["PLevy"]
 title: "Research"
 date: 2020-10-24T00:55:28+02:00
 draft: false
@@ -7,7 +6,6 @@ searchFilter: Research
 layout: single
 notEverything: true
 notListed: true
-comment: false
 tags: ['Pierre', 'Lévy', 'design','research', 'transforming_practices', 'everyday', 'kansei']
 zone: "research"
 ---

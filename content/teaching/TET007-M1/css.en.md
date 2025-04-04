@@ -1,13 +1,12 @@
 ---
-members: ["PLevy"]
 title: "TET007 · CSS"
 slug: "css"
 institution:
+    heig: 1
     logo: cnam
     short: Cnam
     name: "Conservatoire national des Arts et Métiers"
     web: "https://www.cnam.fr/"
-    colo: "#c1002a"
 chaire: false
 date: 2021-10-01T00:55:28+02:00
 draft: false
@@ -47,7 +46,7 @@ Dans le cadre de ce cours, il va permettre de styliser nos pages HTML. Le code C
 
 ```css
 html, body {
-	backgroud-color: rgb(28, 28, 28);
+	background-color: rgb(28, 28, 28);
 	color: lightcoral;
 	font-size: 15px;
 	line-height: 1.5rem;

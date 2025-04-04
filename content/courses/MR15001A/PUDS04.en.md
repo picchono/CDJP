@@ -1,12 +1,11 @@
 ---
-members: ["PLevy"]
 title: "Master CESAAP - PUDS04 / UE17 & UE18 · Médiation du projet en design"
 institution:
+    heig: 1
     logo: cnam
     short: Cnam
     name: "Conservatoire national des Arts et Métiers"
     web: "https://www.cnam.fr/"
-    colo: "#c1002a"
 collaboration:
     partner1:
         logo: cnam

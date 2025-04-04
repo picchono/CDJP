@@ -1,5 +1,4 @@
 ---
-members: ["PLevy"]
 slug: master_design-creation_projet_transdisciplinarite
 title: "Master Design · Parcours Création, Projet, Transdisciplinarité"
 layout: course
@@ -19,11 +18,11 @@ Diploma:
         name: "Création, projets, transdisciplinarité"
 description: "Ce master en résidence a pour objectif de favoriser le travail transdisciplinaire sous la forme de collectifs de projets en design en croisant les problématiques de l’institution hôte, les enjeux contemporains sociaux et environnementaux."
 institution:
+    heig: 1
     logo: cnam
     short: Cnam
     name: "Conservatoire national des Arts et Métiers"
     web: "https://www.cnam.fr/"
-    colo: "#c1002a"
 collaboration:
     partner1:
         logo: cnam

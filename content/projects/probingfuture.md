@@ -1,5 +1,4 @@
 ---
-members: ["PLevy"]
 slug: probing-future
 title: "Probing Future"
 layout: single
@@ -11,6 +10,7 @@ researchpage: true
 research: 
     -  transformpractices
 institution:
+    heig: 1
     logo: TUe
     short: 'TU/e'
     name: "Eindhoven University of Technology"

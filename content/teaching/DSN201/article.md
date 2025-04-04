@@ -1,13 +1,12 @@
 ---
-members: ["PLevy"]
 title: "DSN201 · L'article"
 slug: "article"
 institution:
+    heig: 1
     logo: cnam
     short: Cnam
     name: "Conservatoire national des Arts et Métiers"
     web: "https://www.cnam.fr/"
-    colo: "#c1002a"
 chaire: false
 date: 2021-10-01T00:55:28+02:00
 draft: false

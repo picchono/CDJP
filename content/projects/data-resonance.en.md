@@ -1,5 +1,4 @@
 ---
-members: ["PLevy"]
 slug: data-resonance
 title: "Data Resonance"
 layout: single
@@ -7,6 +6,7 @@ searchFilter: Project
 subsection: project
 projecttype: general
 institution:
+    heig: 1
     logo: TUe
     short: 'TU/e'
     name: "Eindhoven University of Technology"

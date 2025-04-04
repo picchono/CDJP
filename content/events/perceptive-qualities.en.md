@@ -1,5 +1,4 @@
 ---
-members: ["PLevy"]
 slug: perceptive-qualities
 title: "Perceptive Qualities in System of Interactive Products"
 layout: single
@@ -11,6 +10,7 @@ researchpage: true
 research: 
     -  perceptq
 institution:
+    heig: 1
     logo: TUe
     short: 'TU/e'
     name: "Eindhoven University of Technology"

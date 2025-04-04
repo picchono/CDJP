@@ -1,8 +1,7 @@
 ---
-members: ["PLevy"]
 slug: exploring-the-challenge-of-designing-rituals
 title: Exploring the challenge of designing rituals
-layout: single
+layout: publi
 searchFilter: Publication
 searchWeight: 8
 publitype: inproceedings
@@ -12,6 +11,7 @@ researchpage: true
 research: 
     -  everyday
 institution:
+    heig: 1
     logo: TUe
     short: 'TU/e'
     name: "Eindhoven University of Technology"

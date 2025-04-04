@@ -1,5 +1,4 @@
 ---
-members: ["PLevy"]
 slug: Special-issue-kansei-research-in-europe
 title: "Special issue: kansei research in Europe"
 tags: ['kansei', 'recherche_en_kansei']
@@ -11,6 +10,7 @@ kansei: true
 research: 
     -  kansei
 institution:
+    heig: 1
     logo: TUe
     short: 'TU/e'
     name: "Eindhoven University of Technology"

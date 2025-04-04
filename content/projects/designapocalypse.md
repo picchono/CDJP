@@ -1,5 +1,4 @@
 ---
-members: ["PLevy"]
 slug: design-apocalypse-manifesto
 title: "Design et apocalypse, un manifesto"
 projecttype: general
@@ -8,6 +7,7 @@ searchFilter: Project
 subsection: project
 projecttype: general
 institution:
+    heig: 1
     logo: TUe
     short: 'TU/e'
     name: "Eindhoven University of Technology"

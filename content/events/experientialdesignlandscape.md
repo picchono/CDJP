@@ -1,5 +1,4 @@
 ---
-members: ["PLevy"]
 slug: experiential-design-landscapes
 title: "Experiential design landscapes: how to design for behaviour change, towards an active lifestyle"
 layout: single
@@ -7,6 +6,7 @@ searchFilter: Event
 subsection: phd
 projecttype: general
 institution:
+    heig: 1
     logo: TUe
     short: 'TU/e'
     name: "Eindhoven University of Technology"

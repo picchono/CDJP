@@ -1,5 +1,4 @@
 ---
-members: ["PLevy"]
 slug: beaute-du-motif-japonais
 title: La beauté du motif japonais
 tags: ['Japon', 'motif', 'kamon', 'Boulle']
@@ -10,11 +9,11 @@ subsection: lecture
 jpphilo: true
 researchpage: true
 institution:
+    heig: 1
     logo: cnam
     short: Cnam
     name: "Conservatoire national des Arts et Métiers"
     web: "https://www.cnam.fr/"
-    colo: "#c1002a"
 collaboration:
     partner1:
         logo: boulle

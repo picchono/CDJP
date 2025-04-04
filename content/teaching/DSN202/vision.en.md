@@ -1,13 +1,12 @@
 ---
-members: ["PLevy"]
 title: "DSN202 · Vision projetée"
 slug: "vision-projetee"
 institution:
+    heig: 1
     logo: cnam
     short: Cnam
     name: "Conservatoire national des Arts et Métiers"
     web: "https://www.cnam.fr/"
-    colo: "#c1002a"
 chaire: false
 date: 2021-10-01T00:55:28+02:00
 draft: false
@@ -25,6 +24,8 @@ teacher:
     teacher1:
         name: "Pierre Lévy"
 frontphoto: "https://live.staticflickr.com/65535/52427464765_8fe12aeeee_h.jpg"
+link:
+    1: ["Paper on ProVI", "paper", "/publications/provi-a-transforming-vision-emerging-from-reflective-practice/"]
 ---
 
 ## La vision projetée

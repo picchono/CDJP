@@ -1,15 +1,14 @@
 ---
-members: ["PLevy"]
 slug: USMC85-Dialoguing
 title: "USMC85 · Dialoguing"
 layout: course
 searchFilter: Teaching
 institution:
+    heig: 1
     logo: cnam
     short: Cnam
     name: "Conservatoire national des Arts et Métiers"
     web: "https://www.cnam.fr/"
-    colo: "#c1002a"
 chaire: true
 date: 2024-10-01T16:27:15+02:00
 subsection: course
@@ -18,6 +17,10 @@ frontphoto: "https://live.staticflickr.com/65535/53987531454_961dc14fbe_o.jpg"
 frontphotomini: "https://live.staticflickr.com/65535/53987531454_efb0ab05e7_w.jpg"
 code: USMC85
 lectures:
+    Introduction:
+        order: o
+        link: "introduction"
+        title: "Introduction"
     HTML:
         order: 1
         link: "rhetoric"
@@ -45,6 +48,7 @@ calendar:
     h: "06 January 2024 · 09:00-12:00 (IOT)<br/><b>Presenting</b>"
     i: "07 January 2024 · 09:00-12:00 (TLC)<br/><b>Presenting</b>"
     j: "10 January 2024 · 09:00-12:00 (MECA)<br/><b>Presenting</b>"
+    k: "16 January 2024 · 13:30-16:45 (MECA)<br/><b>Reviewing</b>"
 encapsulation:
     MR11601C: 
         title: "MR11601C · Master Informatique, Computer Networks and IoT Systems"

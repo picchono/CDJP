@@ -1,5 +1,4 @@
 ---
-members: ["PLevy"]
 slug: mediums-in-design
 title: "Mediums in design"
 tags: ['seminar', 'mediums', 'mediality', 'symetrical_anthropology']
@@ -16,11 +15,11 @@ searchFilter: Event
 main: true
 current: true
 institution:
+    heig: 1
     logo: cnam
     short: Cnam
     name: "Conservatoire national des Arts et Métiers"
     web: "https://www.cnam.fr/"
-    colo: "#c1002a"
 collaboration:
     partner1:
         logo: cnam

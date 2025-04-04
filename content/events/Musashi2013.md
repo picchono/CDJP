@@ -1,5 +1,4 @@
 ---
-members: ["PLevy"]
 slug: direct-interaction-design
 title: "Direct interaction design"
 tags: ['interaction', 'musashino-AU']
@@ -8,6 +7,7 @@ searchFilter: Event
 publitype: presentation
 subsection: lecture
 institution:
+    heig: 1
     logo: TUe
     short: 'TU/e'
     name: "Eindhoven University of Technology"

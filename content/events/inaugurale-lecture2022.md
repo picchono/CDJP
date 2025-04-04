@@ -1,5 +1,4 @@
 ---
-members: ["PLevy"]
 slug: lecon-inaugurale
 title: "Leçon inaugurale de la Chaire de design Jean Prouvé"
 layout: single
@@ -11,11 +10,11 @@ researchpage: true
 tablecontent: true
 tags: ['inaugurale', 'Jean_Prouvé', 'appropriation', 'moment']
 institution:
+    heig: 1
     logo: cnam
     short: Cnam
     name: "Conservatoire national des Arts et Métiers"
     web: "https://www.cnam.fr/"
-    colo: "#c1002a"
 collaboration:
     partner1:
         logo: cnam

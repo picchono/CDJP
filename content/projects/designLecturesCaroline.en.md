@@ -1,11 +1,11 @@
 ---
-members: ["PLevy"]
 slug: design-lecture-caroline-hummels
 title: "Design lectures by Caroline Hummels"
 layout: videopage
 subsection: other
 projecttype: general
 institution:
+    heig: 1
     logo: TUe
     short: 'TU/e'
     name: "Eindhoven University of Technology"

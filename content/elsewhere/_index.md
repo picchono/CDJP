@@ -1,12 +1,10 @@
 ---
-members: ["PLevy"]
 title: "Autre part"
 date: 2023-01-24T00:55:28+02:00
 draft: false
 layout: else
 searchFilter: else
 tags: ['elsewhere', 'projects', 'media', 'lectures']
-comment: false
 topics: 
     topic1:
         theme: projects

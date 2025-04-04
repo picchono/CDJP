@@ -1,5 +1,4 @@
 ---
-members: ["PLevy"]
 slug: kansei-engineering-science-rrans-interdisciplinary-research
 title: "Kansei Engineering|Science, Trans|Interdisciplinary Research"
 tags: ['kansei', 'interdisciplinarité']
@@ -8,6 +7,7 @@ searchFilter: Event
 publitype: presentation
 subsection: lecture
 institution:
+    heig: 1
     logo: Chiba
     short: 'Chiba U.'
     name: "Chiba University"

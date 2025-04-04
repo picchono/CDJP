@@ -1,5 +1,4 @@
 ---
-members: ["PLevy"]
 slug: transfabric
 title: "TransFabriC - Institut de la transfabrication circulaire"
 layout: single
@@ -7,11 +6,11 @@ searchFilter: Project
 subsection: project
 projecttype: general
 institution:
+    heig: 1
     logo: cnam
     short: Cnam
     name: "Conservatoire national des Arts et Métiers"
     web: "https://www.cnam.fr/"
-    colo: "#c1002a"
 collaboration:
     partner1:
         logo: cnam
