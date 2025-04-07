@@ -375,7 +375,7 @@ a.boxIso:hover{
 }
 
 .boxTitle.frontTop {
-  color: light-dark(blue, #ff0060);
+  color: light-dark(#ff0060, #ff0060);
 }
 .boxTitle.frontTop:hover {
   @apply text-epierrot;
