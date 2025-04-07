@@ -8,13 +8,12 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'sans': ['Atkinson Hyperlegible', 'Noto Sans JP', 'Hiragino Maru Pro', 'sans-serif'],
+      'sans': ['Roundo', 'Noto Sans JP', 'Hiragino Maru Pro', 'sans-serif'],
       'mono': ['SFMono-Regular', 'Menlo'],
     },
     fontWeight: {
       normal: 400,
-      medium: 500,
-      bold: 700,
+      bold: 600,
     },
     extend: {
       width: {
