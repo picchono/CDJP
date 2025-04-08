@@ -2716,7 +2716,7 @@ div.splide .splide__slide .slideFooter {
 div.splide .splide__slide .slideFooter,
 div.splide .splide__slide .slideFooter * {
   @apply text-white;
-  font-size: 1.5vh;
+  font-size: 1.3vh;
 }
 
 div.splide .splide__slide .slideFooter>a,
@@ -2775,7 +2775,12 @@ div.splide .imgright img {
 }
 
 button.splide__pagination__page {
-  @apply bg-secondary-text;
+  @apply bg-gray-600;
+}
+
+
+button.splide__pagination__page.is-active {
+  @apply bg-primary-bg border-primary-bg;
 }
 
 #prez .petiteImg {

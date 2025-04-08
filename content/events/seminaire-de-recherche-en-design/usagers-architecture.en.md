@@ -30,15 +30,15 @@ visio:
     media: Teams
     link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_Yzg5MmQzZmQtZWVhNi00M2ZlLTlkZTQtNjVkZGFlYTUzZWNj%40thread.v2/0?context=%7b%22Tid%22%3a%22b323bcb4-6d58-4f25-87bf-6366c3d689af%22%2c%22Oid%22%3a%2224e690a3-2af9-47cd-8677-8e3b0dbc1342%22%7d"
 layout: single
-frontphoto: "https://1drv.ms/i/s!AnQx_v88q65Qgc2SMyOxQBw4lcOV7Ak?embed=1&width=1000"
-frontphotomini: "https://1drv.ms/i/s!AnQx_v88q65Qgc2SMyOxQBw4lcOV7Ak?embed=1&width=500"
+frontphoto: "https://1drv.ms/i/s!AnQx_v88q65QgdGabg2R34tNLEOo-hY?embed=1&width=1920"
+frontphotomini: "https://1drv.ms/i/s!AnQx_v88q65QgdGabg2R34tNLEOo-hY?embed=1&width=500"
+photogallery:
 photogallery:
     image1:
         order: 1
         name: "Conception avec usagers en architecture : vers un indice de profondeur de participation, par Benjamin Loiseau"
         src: "https://1drv.ms/i/s!AnQx_v88q65Qgc2SMyOxQBw4lcOV7Ak?embed=1&width=500"
         img: "https://1drv.ms/i/s!AnQx_v88q65Qgc2SMyOxQBw4lcOV7Ak?embed=1&width=1386"
-video:
     video1:
         title: "Conception avec usagers en architecture : vers un indice de profondeur de participation"
         speaker: "Benjamin Loiseau"
