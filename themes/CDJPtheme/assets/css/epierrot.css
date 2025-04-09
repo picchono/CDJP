@@ -2605,6 +2605,7 @@ p.cnamletters span {
 body#prez {
   width: 100vw;
   height: 100vh;
+  padding: 1vw;
   background: #1c1c1c !important;
   --splide-padding: 2vw;
 }
