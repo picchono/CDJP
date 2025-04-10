@@ -131,6 +131,10 @@ a:hover svg {
   fill: var(--color-epierrot);
 }
 
+p.subhead::first-letter {
+  initial-letter: 2;
+}
+
 /* logohome */
 
 a.logohome {
@@ -140,7 +144,6 @@ a.logohome {
 a.logohome:hover {
   @apply bg-transparent;
 }
-
 
 a.logohome .lh,
 a.logohome .lh2 {
