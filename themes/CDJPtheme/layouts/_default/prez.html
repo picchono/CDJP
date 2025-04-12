@@ -71,8 +71,7 @@
                             allowfullscreen></iframe>
                         {{ else if eq (index . 1) "vimeo" }}
                         <iframe src="https://player.vimeo.com/video/{{ index . 2 }}"
-                            class="w-full h-full object-contain" frameborder="0" allow="autoplay; fullscreen"
-                            allowfullscreen></iframe>
+                            class="w-full h-full object-contain" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
                         {{ else if eq (index . 1) "title" }}
                         <div class="backg"><img src="{{ $mainphoto }}" class="h-full w-full"></div>
                         <div class="w-full h-full flex justify-center items-center">

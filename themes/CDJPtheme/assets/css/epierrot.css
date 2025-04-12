@@ -88,9 +88,9 @@ body::before {
 }
 */
 body {
-  --color-primary-bg: light-dark(#fff, #1c1c1c);
-  --color-secondary-bg: light-dark(#f7f7f7, #1e1e1e);
-  --color-tertiary-bg: light-dark(#fafafa, #222222);
+  --color-primary-bg: light-dark(#e5e5e5, #1c1c1c);
+  --color-secondary-bg: light-dark(#e0e0e0, #1e1e1e);
+  --color-tertiary-bg: light-dark(#ebebeb, #222222);
   --color-quaternary-bg: light-dark(#fafafa, #141414);
   --color-primary-text: light-dark(#1c1c1c, #f7f7f7);
   --color-secondary-text: light-dark(#222222, #545454);
