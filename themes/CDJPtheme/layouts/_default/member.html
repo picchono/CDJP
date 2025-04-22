@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ if .Content}}<div id="content" class="pack-item w-full md:w-192" data-cat-sort="101">
+{{ if .Content}}<div id="content" class="pack-item w-full md:w-large" data-cat-sort="101">
     <div class="dynCadre">{{ .Content }}</div>
 </div>{{ end }}
 {{ with index .Site.Data.plevy .Site.Language.Lang }}

@@ -17,7 +17,7 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: transparent;
+  background: #e5e5e5;
   border-radius: 100vw;
   margin-block: 200px;
   border: none;
@@ -39,6 +39,10 @@
     scrollbar-color: var(--color-tertiary-bg) transparent;
     scrollbar-width: thin;
   }
+}
+
+*, ::before, ::after {
+  border-color: transparent;
 }
 
 input::-moz-placeholder,
@@ -88,13 +92,13 @@ body::before {
 }
 */
 body {
-  --color-primary-bg: light-dark(#e5e5e5, #1c1c1c);
+  --color-primary-bg: light-dark(#f3f3f3, #292929);
   --color-secondary-bg: light-dark(#e0e0e0, #1e1e1e);
-  --color-tertiary-bg: light-dark(#ebebeb, #222222);
-  --color-quaternary-bg: light-dark(#fafafa, #141414);
-  --color-primary-text: light-dark(#1c1c1c, #f7f7f7);
+  --color-tertiary-bg: light-dark(#dbdbdb, #222222);
+  --color-quaternary-bg: light-dark(#eaeaea, #1f1f1f);
+  --color-primary-text: light-dark(#1c1c1c, #e1e1e1);
   --color-secondary-text: light-dark(#222222, #545454);
-  --color-epierrot: light-dark(#b85657, #20E0D9);/*#cb6465*/
+  --color-epierrot: light-dark(#b85657, #46cbbc);/*#cb6465*/
   --color-borders: light-dark(#1c1c1c, #fafafa);
 }
 
@@ -2498,7 +2502,7 @@ body {
   *,
   html,
   body {
-    @apply bg-white text-black text-base;
+    @apply bg-white text-black text-base border-quaternary-bg;
     font-family: 'Atkinson Hyperlegible', 'Avenir', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 11pt;
     line-height: 1.4rem;

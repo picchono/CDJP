@@ -31,9 +31,11 @@ module.exports = {
         '132': '33rem',
         '140': '35rem',
         '144': '36rem',
+        '188': '47rem',
         '192': '48rem',
         '216': '54rem',
-        '3block': '75rem'
+        '3block': '75rem',
+        'large': '47.2rem',
       },
       height: {
         '42': '10.5rem',
