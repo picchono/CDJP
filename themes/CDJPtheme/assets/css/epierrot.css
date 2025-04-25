@@ -92,10 +92,10 @@ body::before {
 }
 */
 body {
-  --color-primary-bg: light-dark(#f3f3f3, #292929);
-  --color-secondary-bg: light-dark(#e0e0e0, #1e1e1e);
-  --color-tertiary-bg: light-dark(#dbdbdb, #222222);
-  --color-quaternary-bg: light-dark(#eaeaea, #1f1f1f);
+  --color-primary-bg: light-dark(#f5f5f5, #292929);
+  --color-secondary-bg: light-dark(#efefef, #1e1e1e);
+  --color-tertiary-bg: light-dark(#e9e9e9, #222222);
+  --color-quaternary-bg: light-dark(#f1f1f1, #1f1f1f);
   --color-primary-text: light-dark(#1c1c1c, #e1e1e1);
   --color-secondary-text: light-dark(#222222, #545454);
   --color-epierrot: light-dark(#b85657, #46cbbc);/*#cb6465*/

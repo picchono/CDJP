@@ -389,6 +389,9 @@ other="suspended"
 other="Updates"
 
 [CvComplete]
+other="Complete resume"
+
+[Cvdetail]
 other="Detailled resume"
 
 [financed-project]

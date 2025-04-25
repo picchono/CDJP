@@ -381,6 +381,9 @@ other="terminé"
 other="Mise à jour"
 
 [CvComplete]
+other="CV complet"
+
+[Cvdetail]
 other="CV détaillé"
 
 [financed-project]

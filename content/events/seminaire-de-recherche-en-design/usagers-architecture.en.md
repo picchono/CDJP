@@ -39,6 +39,7 @@ photogallery:
         name: "Conception avec usagers en architecture : vers un indice de profondeur de participation, par Benjamin Loiseau"
         src: "https://1drv.ms/i/s!AnQx_v88q65Qgc2SMyOxQBw4lcOV7Ak?embed=1&width=500"
         img: "https://1drv.ms/i/s!AnQx_v88q65Qgc2SMyOxQBw4lcOV7Ak?embed=1&width=1386"
+video:
     video1:
         title: "Conception avec usagers en architecture : vers un indice de profondeur de participation"
         speaker: "Benjamin Loiseau"

@@ -41,6 +41,11 @@ photogallery:
         name: "Reconstrained design, by James Auger"
         src: "https://1drv.ms/i/s!AnQx_v88q65Qgcv5YTJgQT4FzeBDDow?embed=1&width=500"
         img: "https://1drv.ms/i/s!AnQx_v88q65Qgcv5YTJgQT4FzeBDDow?embed=1&width=3217"
+video:
+    video1:
+        title: "Reconstrained design"
+        speaker: "James Auger"
+        youtube: "n41TQ01f26w"
 ---
 
 Design practice always happens under a particular set of forces or conditions, commonly known as constraints. These constraints may be straightforward and indisputable, such as a physical or material quality—the force of gravity or the tensile strength of a structural beam. They can be the subject of discussion and compromise, such as a financial cost or a timeline. They can relate to aesthetic or cultural considerations, such as a fashion trend or social movement. Constraints of this basic type influence the design process by providing tangible limits that can be adhered to or challenged.
