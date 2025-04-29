@@ -64,75 +64,75 @@ function externalLinks() {
 
 //create a table of content if #toc exists
 function tableContent() {
-    //Get all headings only from the actual contents.
-    var contentContainer = document.getElementById("content"); // Add this div to the html
-    var headings = contentContainer.querySelectorAll("h2,h3,h4"); // You can do as many or as few headings as you need.
+  //Get all headings only from the actual contents.
+  var contentContainer = document.getElementById("content"); // Add this div to the html
+  var headings = contentContainer.querySelectorAll("h2,h3,h4"); // You can do as many or as few headings as you need.
 
-    var tocContainer = document.getElementById("toc"); // Add this div to the HTML
-    // create ul element and set the attributes.
-    var ul = document.createElement("ul");
+  var tocContainer = document.getElementById("toc"); // Add this div to the HTML
+  // create ul element and set the attributes.
+  var ul = document.createElement("ul");
 
-    ul.setAttribute("id", "tocList");
-    ul.setAttribute("class", "sidenav");
+  ul.setAttribute("id", "tocList");
+  ul.setAttribute("class", "sidenav");
 
-    // Loop through the headings NodeList
-    for (i = 0; i <= headings.length - 1; i++) {
-      var id = headings[i].innerHTML.toLowerCase().replace(/ /g, "-"); // Set the ID to the header text, all lower case with hyphens instead of spaces.
-      var level = headings[i].localName.replace("h", ""); // Getting the header a level for hierarchy
-      var title = headings[i].innerHTML; // Set the title to the text of the header
+  // Loop through the headings NodeList
+  for (i = 0; i <= headings.length - 1; i++) {
+    var id = headings[i].innerHTML.toLowerCase().replace(/ /g, "-"); // Set the ID to the header text, all lower case with hyphens instead of spaces.
+    var level = headings[i].localName.replace("h", ""); // Getting the header a level for hierarchy
+    var title = headings[i].innerHTML; // Set the title to the text of the header
 
-      headings[i].setAttribute("id", id); // Set header ID to its text in lower case text with hyphens instead of spaces.
+    headings[i].setAttribute("id", id); // Set header ID to its text in lower case text with hyphens instead of spaces.
 
-      var li = document.createElement("li"); // create li element.
-      li.setAttribute("class", "sidenav__item"); // Assign a class to the li
+    var li = document.createElement("li"); // create li element.
+    li.setAttribute("class", "sidenav__item"); // Assign a class to the li
 
-      var a = document.createElement("a"); // Create a link
-      a.setAttribute("href", "#" + id); // Set the href to the heading ID
-      a.innerHTML = title; // Set the link text to the heading text
+    var a = document.createElement("a"); // Create a link
+    a.setAttribute("href", "#" + id); // Set the href to the heading ID
+    a.innerHTML = title; // Set the link text to the heading text
 
-      // Creeate the hierarchy
-      // add a class for css
-      if (level == 1) {
-        li.appendChild(a); // Append the link to the list item
-        ul.appendChild(li); // append li to ul.
-      } else if (level == 2) {
-        child = document.createElement("ul"); // Create a sub-list
-        child.setAttribute("class", "sidenav__sublist");
-        li.appendChild(a);
-        child.appendChild(li);
-        ul.appendChild(child);
-      } else if (level == 3) {
-        grandchild = document.createElement("ul");
-        grandchild.setAttribute("class", "sidenav__sublist");
-        li.appendChild(a);
-        grandchild.appendChild(li);
-        child.appendChild(grandchild);
-      } else if (level == 4) {
-        great_grandchild = document.createElement("ul");
-        great_grandchild.setAttribute("class", "sidenav__sublist");
-        li.append(a);
-        great_grandchild.appendChild(li);
-        grandchild.appendChild(great_grandchild);
-      }
+    // Creeate the hierarchy
+    // add a class for css
+    if (level == 1) {
+      li.appendChild(a); // Append the link to the list item
+      ul.appendChild(li); // append li to ul.
+    } else if (level == 2) {
+      child = document.createElement("ul"); // Create a sub-list
+      child.setAttribute("class", "sidenav__sublist");
+      li.appendChild(a);
+      child.appendChild(li);
+      ul.appendChild(child);
+    } else if (level == 3) {
+      grandchild = document.createElement("ul");
+      grandchild.setAttribute("class", "sidenav__sublist");
+      li.appendChild(a);
+      grandchild.appendChild(li);
+      child.appendChild(grandchild);
+    } else if (level == 4) {
+      great_grandchild = document.createElement("ul");
+      great_grandchild.setAttribute("class", "sidenav__sublist");
+      li.append(a);
+      great_grandchild.appendChild(li);
+      grandchild.appendChild(great_grandchild);
     }
+  }
 
-    toc.appendChild(ul); // add list to the container
+  toc.appendChild(ul); // add list to the container
 
-    // Add a class to the first list item to allow for toggling active state.
-    var links = tocContainer.getElementsByClassName("sidenav__item");
+  // Add a class to the first list item to allow for toggling active state.
+  var links = tocContainer.getElementsByClassName("sidenav__item");
 
-    links[0].classList.add("current");
+  links[0].classList.add("current");
 
-    // Loop through the links and add the active class to the current/clicked link
-    for (var i = 0; i < links.length; i++) {
-      links[i].addEventListener("click", function () {
-        var current = document.getElementsByClassName("current");
-        current[0].className = current[0].className.replace(" current", "");
-        this.className += " current";
-      });
-    }
+  // Loop through the links and add the active class to the current/clicked link
+  for (var i = 0; i < links.length; i++) {
+    links[i].addEventListener("click", function () {
+      var current = document.getElementsByClassName("current");
+      current[0].className = current[0].className.replace(" current", "");
+      this.className += " current";
+    });
+  }
 
-    //console.log(links);
+  //console.log(links);
 }
 
 /* copy button in pre fields */
@@ -204,7 +204,7 @@ var buttonValue;
 var checksearch = document.getElementById("inputSearch");
 
 var elem = document.querySelector('.pack');
-var iso = new Isotope( elem, {
+var iso = new Isotope(elem, {
   // options
   itemSelector: '.pack-item',
   layoutMode: 'packery',
@@ -219,10 +219,10 @@ var iso = new Isotope( elem, {
   },
   sortBy: ['weight', 'front', 'date'],
   sortAscending: false,
-  filter: function( itemElem ) {
-    var searchResult = qsRegex ? itemElem.textContent.match( qsRegex ) : true;
+  filter: function (itemElem) {
+    var searchResult = qsRegex ? itemElem.textContent.match(qsRegex) : true;
     if (checksearch) {
-      var buttonResult = buttonValue ? itemElem.textContent.match( buttonValue ) : true;
+      var buttonResult = buttonValue ? itemElem.textContent.match(buttonValue) : true;
       return searchResult && buttonResult;
     } else {
       return searchResult;
@@ -232,20 +232,20 @@ var iso = new Isotope( elem, {
 
 // use value of search field to filter
 if (checksearch) {
-var quicksearch = document.querySelector('.quickSearch');
-quicksearch.addEventListener( 'keyup', debounce( function() {
-  qsRegex = new RegExp( quicksearch.value, 'gi' );
-  console.log(qsRegex);
-  iso.arrange();
-}, 200 ) );
+  var quicksearch = document.querySelector('.quickSearch');
+  quicksearch.addEventListener('keyup', debounce(function () {
+    qsRegex = new RegExp(quicksearch.value, 'gi');
+    console.log(qsRegex);
+    iso.arrange();
+  }, 200));
 }
 
 //menu selection
 var buttons = document.querySelectorAll(".homemenu");
 var buttonsArr = Array.from(buttons);
 // Add event listener to each button
-buttonsArr.forEach(function(element) {
-  element.addEventListener('click', function() {
+buttonsArr.forEach(function (element) {
+  element.addEventListener('click', function () {
     // Get the data attribute of the clicked button
     buttonValue = this.dataset.filter;
     iso.arrange();
@@ -253,22 +253,22 @@ buttonsArr.forEach(function(element) {
 });
 
 // debounce so filtering doesn't happen every millisecond
-function debounce( fn, threshold ) {
+function debounce(fn, threshold) {
   var timeout;
   threshold = threshold || 100;
   return function debounced() {
-    clearTimeout( timeout );
+    clearTimeout(timeout);
     var args = arguments;
     var _this = this;
     function delayed() {
-      fn.apply( _this, args );
+      fn.apply(_this, args);
     }
-    timeout = setTimeout( delayed, threshold );
+    timeout = setTimeout(delayed, threshold);
   };
 }
 
 // vanilla JS, no event argument
-iso.on( 'arrangeComplete', function( filteredItems ) {
+iso.on('arrangeComplete', function (filteredItems) {
   var removIsot = document.getElementsByClassName('pack-item');
   for (var i = 0; i < removIsot.length; i++) {
     removIsot[i].classList.remove('isot');
@@ -286,15 +286,42 @@ window.addEventListener('load', function (event) {
 
 let isScrolling;
 window.addEventListener('scroll', function (event) {
-    clearTimeout(isScrolling);
-    isScrolling = setTimeout(function() {
-      iso.arrange();
-    }, 500);
+  clearTimeout(isScrolling);
+  isScrolling = setTimeout(function () {
+    iso.arrange();
+  }, 500);
 }, false);
 
 window.addEventListener("resize", function () {
   clearTimeout(isScrolling);
-    isScrolling = setTimeout(function() {
-      iso.arrange();
-    }, 500);
+  isScrolling = setTimeout(function () {
+    iso.arrange();
+  }, 500);
 });
+
+
+/* light dark */
+function setTheme(themeName) {
+  localStorage.setItem('theme', themeName);
+  document.documentElement.className = themeName;
+}
+
+// function to toggle between light and dark theme
+function toggleTheme() {
+  if (localStorage.getItem('theme') === 'dark') {
+    setTheme('light');
+  } else {
+    setTheme('dark');
+  }
+}
+
+// Immediately invoked function to set the theme on initial load
+(function () {
+  if (localStorage.getItem('theme') === 'dark') {
+    setTheme('dark');
+    document.getElementById('slider').checked = false;
+  } else {
+    setTheme('light');
+    document.getElementById('slider').checked = true;
+  }
+})();

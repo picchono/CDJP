@@ -1,0 +1,19 @@
+<div class="flex flex-col md:flex-row mt-12 w-auto">
+        <div class="pagetheme">
+                <label id="switch" class="switch">
+                        <input type="checkbox" onchange="toggleTheme()" id="slider">
+                        <span class="slider"></span>
+                </label>
+                <!-- <button id="switch" onclick="toggleTheme()">Switch</button> -->
+        </div>
+        {{ if .IsTranslated }}
+        <div id="languageMode" class='text-sm mt-3 md:ml-5 md:mt-0'>
+                <b class="relative bg-transparent text-epierrot inline-block mr-2">{{ .Language.LanguageName }}</b>
+                {{ range .Translations }}<a href="{{ .Permalink }}" title="{{ i18n .Language.LanguageName }}"
+                        rel="noreferrer" aria-label="Change to {{ .Language.LanguageName }}" class="langu">{{
+                        .Language.LanguageName }}</a>
+                {{ end }}
+        </div>
+        {{ end }}
+        
+</div>
