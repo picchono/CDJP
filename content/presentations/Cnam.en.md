@@ -1,6 +1,6 @@
 ---
-slug: cnam
-title: "National Conservatory of Arts and Crafts, France"
+slug: cnam2
+title: "Conservatoire national des Arts et Métiers"
 layout: presentation
 institution:
     heig: 1
@@ -10,10 +10,9 @@ institution:
     web: "https://www.cnam.fr/"
 chaire: true
 date: 2021-09-01T16:27:15+02:00
-frontphoto: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/P1020032_Paris_III_CNAM_entr%C3%A9e_rue_Saint-Martin_reductwk.JPG/500px-P1020032_Paris_III_CNAM_entr%C3%A9e_rue_Saint-Martin_reductwk.JPG?uselang=fr"
-description: "A short introduction to Cnam."
+frontphoto: "https://upload.wikimedia.org/wikipedia/commons/6/67/Mus%C3%A9e_du_Conservatoire_national_des_Arts_et_M%C3%A9tiers_-_panoramio.jpg"
+description: "Une brève présentation du Cnam."
 slides: [
-    ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdXZfsUZPkpWR1JaVCI?embed=1"],
     ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdXWUO6xMpxDSg3jusc?embed=1"],
     ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdXZf1FEnlSbZshPLYI?embed=1"],
     ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdXmK5iudS-mBc-RU98?embed=1"],

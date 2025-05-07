@@ -1,7 +1,7 @@
 ---
-slug: cnam
+slug: cnam2
 title: "Conservatoire national des Arts et Métiers"
-layout: presentation
+layout: presentation2
 institution:
     heig: 1
     logo: cnam
@@ -10,14 +10,14 @@ institution:
     web: "https://www.cnam.fr/"
 chaire: true
 date: 2021-09-01T16:27:15+02:00
-frontphoto: "https://images.unsplash.com/photo-1680813999409-b6109c96e554?q=80&w=600"
+frontphoto: "https://upload.wikimedia.org/wikipedia/commons/6/67/Mus%C3%A9e_du_Conservatoire_national_des_Arts_et_M%C3%A9tiers_-_panoramio.jpg"
 description: "Une brève présentation du Cnam."
 slides: [
-    ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdXZfsUZPkpWR1JaVCI?embed=1"],
-    ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdXWUO6xMpxDSg3jusc?embed=1"],
-    ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdXZf1FEnlSbZshPLYI?embed=1"],
-    ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdXmK5iudS-mBc-RU98?embed=1"],
-    ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdXaAIl_d7EZhIaXQoo?embed=1"]
+    ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdXZfsUZPkpWR1JaVCI?embed=1", "Garde"],
+    ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdXWUO6xMpxDSg3jusc?embed=1", "Cnam"],
+    ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdXZf1FEnlSbZshPLYI?embed=1", "EPN"],
+    ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdXmK5iudS-mBc-RU98?embed=1", "Cnam-design"],
+    ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdXaAIl_d7EZhIaXQoo?embed=1", "Cnam-photos"]
 ]
 ---
 &nbsp;

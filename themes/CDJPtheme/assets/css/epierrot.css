@@ -2663,10 +2663,12 @@ div.splide .splide__slide {
 }
 
 div.splide .splide__slide .slideContent {
-  @apply relative w-full h-full flex flex-col justify-start rounded-lg;
-  padding: 6vh 6vw;
+  @apply relative w-full h-full flex flex-row justify-center align-middle rounded-lg;
 }
 
+div.splide .splide__slide .slideContent.special {
+  padding: 3vh 3vw;
+}
 div.splide .splide__slide .backg {
   @apply block absolute rounded-lg;
   content: ' ';
@@ -2807,9 +2809,8 @@ div.splide .splide__arrow:disabled {
 }
 
 div.splide .imgright {
-  @apply rounded-lg p-1 text-right w-fit;
+  @apply rounded-lg text-center w-fit;
   max-height: 50vh;
-  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 0px 6px -1px, rgba(255, 255, 255, 0.08) 0px 0px 0px inset;
 }
 
 div.splide .imgright img {
