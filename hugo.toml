@@ -1,6 +1,6 @@
 baseURL = "https://chaire-design.fr"
 languageCode = "fr-FA"
-title = "Pierre Lévy"
+title = "Chaire design Jean Prouvé"
 theme = "CDJPtheme"
 defaultContentLanguage = "fr"
 ignoreErrors = ["error-disable-taxonomy"]

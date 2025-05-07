@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-<title>{{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}</title>
+<title>{{if eq .Params.Title .Site.Title }}{{- .Params.Title -}}{{ else }}{{- .Params.Title }} | {{ .Site.Title -}}{{ end }}</title>
 {{ with .Site.Params.icon }}
 <link rel="icon" type="image/png" sizes="32x32" href='{{ (partial "get_icon" (dict "icon" . "size" 32)).Permalink }}'>
 <link rel="apple-touch-icon" sizes="180x180" href='{{ (partial "get_icon" (dict "icon" . "size" 180)).Permalink }}'>
@@ -46,16 +46,6 @@
 {{ $roundo_css := resources.Get "css/roundo.css" | postCSS (dict "config" "./postcss.config.js") }}
 {{ $roundo_css := $roundo_css | minify }}
 <link rel="stylesheet" href="{{ $roundo_css.Permalink }}" media="all">
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-392XHYQXG7"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-392XHYQXG7');
-</script>
 
 {{ partial "opengraph.html" . }}
 {{ partial "x_cards.html" . }}
