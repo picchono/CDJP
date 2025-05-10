@@ -40,7 +40,7 @@
                                 {{ end }}
                             </div>
                             {{ end }}
-                            <div id="qrcode" class="p-2 bg-white rounded-lg absolute bottom-10"></div>
+                            <div id="qrcode" class="p-2 bg-white rounded-lg absolute bottom-16"></div>
                         </div>
                     </div>
                     <div class="slideFooter">
@@ -62,7 +62,7 @@
                         {{ $sli := print "presentations/slides/" $has }}
                         {{ if eq (index . 0) "img" }}
                         <div class="backg"><img src="{{ index . 1 }}" class="h-full w-full"></div>
-                        <div class="imgright h-full max-h-screen"><img class="h-full w-full object-contain border-1 rounded-lg" loading="lazy"
+                        <div class="imgright"><img class="h-full w-full object-cover rounded-lg" loading="lazy"
                             src="{{ index . 1 }}" title="{{ index . 2 }}"></div>
                         {{ else if eq (index . 1) "youtube" }}
                         <iframe src="https://www.youtube-nocookie.com/embed/{{ (index . 0) | safeURL }}"
@@ -191,9 +191,11 @@
             perPage: 1,
             focus: 0,
             omitEnd: true,
-            height: 'calc(100vh - 2*var(--splide-padding))',
-            width: 'calc(100wh - 2*var(--splide-padding))',
+            width: 'calc(min(100vw, 177vh) - (2* var(--splide-padding)))',
+            heightRatio: 0.56,
             gap: 'var(--splide-padding)',
+            focus: 'center',
+            trimSpace: false,
             drag: true,
             snap: true,
             paginationDirection: 'ltr',

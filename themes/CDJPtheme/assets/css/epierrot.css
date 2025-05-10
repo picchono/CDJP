@@ -2648,7 +2648,7 @@ body#prez {
   height: 100vh;
   padding: 1vw;
   background: #1c1c1c !important;
-  --splide-padding: 2vw;
+  --splide-padding: 1vw;
 }
 
 div.splide {
@@ -2657,13 +2657,13 @@ div.splide {
 }
 
 div.splide .splide__slide {
-  @apply relative flex flex-col rounded-lg;
-  height: 100%;
-  width: 100%;
+  @apply relative flex rounded-lg;
 }
 
 div.splide .splide__slide .slideContent {
-  @apply relative w-full h-full flex flex-row justify-center align-middle rounded-lg;
+  @apply relative flex flex-row justify-center align-middle rounded-lg;
+  width: min(100vw, 177vh);
+  aspect-ratio: 16/9;
 }
 
 div.splide .splide__slide .slideContent.special {
@@ -2729,7 +2729,6 @@ div.splide .splide__slide .gradcol {
 
 div.splide *,
 div.splide p {
-  font-size: 2.2vh;
   color: #1c1c1c;
   fill: #1c1c1c;
 }
@@ -2754,7 +2753,8 @@ div.splide a:hover {
 }
 
 div.splide .splide__slide .slideFooter {
-  @apply w-full flex-grow-0 flex-shrink-0 px-2 flex justify-between w-full;
+  @apply absolute bottom-0 w-full flex-grow-0 flex-shrink-0 px-2 flex justify-between;
+    background-color: #00000077;
 }
 
 div.splide .splide__slide .slideFooter,
@@ -2773,7 +2773,7 @@ div.splide .splide__slide .slideFooter span {
 }
 
 div.splide .splide__slide .slideFooter .closeIcon {
-  @apply pb-0.5 inline mb-2;
+  @apply pb-0.5 inline;
   fill: white;
   stroke: white;
 }
@@ -2809,12 +2809,11 @@ div.splide .splide__arrow:disabled {
 }
 
 div.splide .imgright {
-  @apply rounded-lg text-center w-fit;
-  max-height: 50vh;
+  @apply rounded-lg text-center w-full;
 }
 
 div.splide .imgright img {
-  @apply rounded-md h-full object-contain;
+  @apply rounded-md object-cover;
 }
 
 button.splide__pagination__page {
@@ -2833,8 +2832,9 @@ button.splide__pagination__page.is-active {
 }
 
 ul.splide__pagination {
-  @apply flex-row;
-  left: auto;
+  @apply flex-row relative justify-end items-start content-start;
+  bottom: 2vh;
+  padding-right: 2vw;
 }
 
 button.splide__pagination__page {

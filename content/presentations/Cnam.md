@@ -1,5 +1,5 @@
 ---
-slug: cnam2
+slug: cnam
 title: "Conservatoire national des Arts et Métiers"
 layout: presentation2
 institution:
@@ -14,6 +14,7 @@ frontphoto: "https://upload.wikimedia.org/wikipedia/commons/6/67/Mus%C3%A9e_du_C
 description: "Une brève présentation du Cnam."
 slides: [
     ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdXZfsUZPkpWR1JaVCI?embed=1", "Garde"],
+    ["img", "https://1drv.ms/i/s!AnQx_v88q65Qgda0NsMo6cVogNRaPhM?embed=1", "Cnam-birdview"],
     ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdXWUO6xMpxDSg3jusc?embed=1", "Cnam"],
     ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdXZf1FEnlSbZshPLYI?embed=1", "EPN"],
     ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdXmK5iudS-mBc-RU98?embed=1", "Cnam-design"],
