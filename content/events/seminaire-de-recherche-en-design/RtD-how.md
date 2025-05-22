@@ -1,5 +1,5 @@
 ---
-title: "Research through Design – yes but how?"
+title: "Research through Design – yes but how? (repoussé)"
 prezfor: "le séminaire de méthodologie Pratiques de recherche en design et création"
 collaboration:
     partner1:

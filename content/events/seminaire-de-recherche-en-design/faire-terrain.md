@@ -1,5 +1,5 @@
 ---
-title: "Faire terrain : le design comme pratique située de recherche"
+title: "Faire terrain : le design comme pratique située de recherche (repoussé)"
 prezfor: "le séminaire de méthodologie Pratiques de recherche en design et création"
 collaboration:
     partner1:

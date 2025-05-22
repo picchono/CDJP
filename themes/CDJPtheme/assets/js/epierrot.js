@@ -290,7 +290,7 @@ window.addEventListener('scroll', function (event) {
   isScrolling = setTimeout(function () {
     iso.arrange();
   }, 500);
-}, false);
+});
 
 window.addEventListener("resize", function () {
   clearTimeout(isScrolling);
