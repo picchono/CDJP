@@ -273,8 +273,8 @@ body#menu .pack-item {
 .dynCadre {
   @apply relative inline-block w-full md:w-auto justify-center p-5 transition-all duration-700 ease-in-out;
   --b: 3px; /* border width */
-	--c: 1em; /* corner size */
-	--r: 0.125em; /* corner rounding */
+	--c: 1rem; /* corner size */
+	--r: 0.375rem; /* corner rounding */
   border-radius: var(--r);
   place-self: center;
 	border: var(--b) solid var(--color-primary-text);
