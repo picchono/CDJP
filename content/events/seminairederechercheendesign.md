@@ -41,7 +41,6 @@ photocredit:
 link:
     1: ["poster", "paper", "https://1drv.ms/b/s!AnQx_v88q65QgcCbKLZVHK3YRuvCaps?e=SzwP9D"]
     2: ["DSN201 · Initiation à recherche en design, art et création", "website", "http://localhost:1313/teaching/initiation-a-la-recherche-en-design-art-creation/"]
-fronttop: true
 code: seminaire-de-recherche-en-design
 sessions:
     objet:

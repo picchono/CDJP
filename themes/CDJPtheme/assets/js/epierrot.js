@@ -235,7 +235,6 @@ if (checksearch) {
   var quicksearch = document.querySelector('.quickSearch');
   quicksearch.addEventListener('keyup', debounce(function () {
     qsRegex = new RegExp(quicksearch.value, 'gi');
-    console.log(qsRegex);
     iso.arrange();
   }, 200));
 }
@@ -276,14 +275,6 @@ iso.on('arrangeComplete', function (filteredItems) {
   showPic();
 });
 
-window.addEventListener('load', function (event) {
-  externalLinks();
-  if (document.getElementById("toc")) tableContent();
-  if (document.querySelector("pre")) AddCopyButtons();
-  iso.arrange();
-});
-
-
 let isScrolling;
 window.addEventListener('scroll', function (event) {
   clearTimeout(isScrolling);
@@ -298,7 +289,6 @@ window.addEventListener("resize", function () {
     iso.arrange();
   }, 500);
 });
-
 
 /* light dark */
 function setTheme(themeName) {
@@ -319,9 +309,45 @@ function toggleTheme() {
 (function () {
   if (localStorage.getItem('theme') === 'dark') {
     setTheme('dark');
+    document.getElementById('slider').checked = true;
+  } else if (localStorage.getItem('theme') === 'light') {
+    setTheme('light');
     document.getElementById('slider').checked = false;
   } else {
-    setTheme('light');
-    document.getElementById('slider').checked = true;
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      setTheme('dark');
+      document.getElementById('slider').checked = true;
+    } else {
+      setTheme('light');
+      document.getElementById('slider').checked = false;
+    }
   }
 })();
+
+function openSearch() {
+  document.getElementById('searchingBox').classList.add("searchOpen");
+  document.getElementById('entete').classList.add("searchOpen");
+  isScrolling = setTimeout(function () {
+    iso.arrange();
+  }, 500);
+};
+
+function closeSearch() {
+  document.getElementById('searchingBox').classList.remove("searchOpen");
+  document.getElementById('entete').classList.remove("searchOpen");
+  var eraseSearch = document.querySelector('.quickSearch');
+  eraseSearch.value = '';
+  isScrolling = setTimeout(function () {
+    filters = {};
+    iso.arrange();
+  }, 500);
+};
+
+window.addEventListener('load', function (event) {
+  externalLinks();
+  if (document.getElementById("toc")) tableContent();
+  if (document.querySelector("pre")) AddCopyButtons();
+  closeSearch();
+  iso.arrange();
+});
+

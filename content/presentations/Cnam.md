@@ -13,12 +13,12 @@ date: 2021-09-01T16:27:15+02:00
 frontphoto: "https://upload.wikimedia.org/wikipedia/commons/6/67/Mus%C3%A9e_du_Conservatoire_national_des_Arts_et_M%C3%A9tiers_-_panoramio.jpg"
 description: "Une brève présentation du Cnam."
 slides: [
-    ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdXZfsUZPkpWR1JaVCI?embed=1", "Garde"],
-    ["img", "https://1drv.ms/i/s!AnQx_v88q65Qgda0NsMo6cVogNRaPhM?embed=1", "Cnam-birdview"],
-    ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdXWUO6xMpxDSg3jusc?embed=1", "Cnam"],
-    ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdXZf1FEnlSbZshPLYI?embed=1", "EPN"],
+    ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdfAAIsOndmq3CSakSs?embed=1", "Garde"],
+    ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdfAAf_hJlIx0iphlFI?embed=1", "Cnam-birdview"],
+    ["img", "https://1drv.ms/i/s!AnQx_v88q65Qgde_fUqWBNTMZIYCn0o?embed=1", "Cnam"],
+    ["img", "https://1drv.ms/i/s!AnQx_v88q65Qgde_fIl-1Nw8Gi_kpio?embed=1", "EPN"],
     ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdXmK5iudS-mBc-RU98?embed=1", "Cnam-design"],
-    ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdXaAIl_d7EZhIaXQoo?embed=1", "Cnam-photos"]
+    ["img", "https://1drv.ms/i/s!AnQx_v88q65Qgde_fhRGnC03lsEC2ng?embed=1", "Cnam-photos"]
 ]
 ---
 &nbsp;
