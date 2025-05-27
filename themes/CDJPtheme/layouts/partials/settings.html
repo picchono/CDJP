@@ -16,6 +16,7 @@
                         </label>
                         <!-- <button id="switch" onclick="toggleTheme()">Switch</button> -->
                 </div>
+                {{ if .IsHome }}
                 <div class="searchlaunch">
                         <label id="searchl" class="searchl cursor-pointer">
                                 <input type="checkbox" onchange="openSearch()" id="searchButton">
@@ -25,5 +26,6 @@
                                         </svg></span>
                         </label>
                 </div>
+                {{ end }}
         </div>
 </div>
