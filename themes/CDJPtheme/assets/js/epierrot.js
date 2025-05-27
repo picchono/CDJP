@@ -327,20 +327,29 @@ function toggleTheme() {
 function openSearch() {
   document.getElementById('searchingBox').classList.add("searchOpen");
   document.getElementById('entete').classList.add("searchOpen");
+  document.getElementById('entete').classList.add("disappear");
+  clearTimeout(isScrolling);
   isScrolling = setTimeout(function () {
     iso.arrange();
   }, 500);
 };
 
+let isScrolling2;
 function closeSearch() {
-  document.getElementById('searchingBox').classList.remove("searchOpen");
+  document.getElementById('searchingBox').classList.remove("searchOpen");;
   document.getElementById('entete').classList.remove("searchOpen");
   var eraseSearch = document.querySelector('.quickSearch');
   eraseSearch.value = '';
+  clearTimeout(isScrolling);
   isScrolling = setTimeout(function () {
     filters = {};
     iso.arrange();
   }, 500);
+  clearTimeout(isScrolling2);
+  isScrolling2 = setTimeout(function () {
+    document.getElementById('entete').classList.remove("disappear");
+  }, 500);
+  
 };
 
 window.addEventListener('load', function (event) {

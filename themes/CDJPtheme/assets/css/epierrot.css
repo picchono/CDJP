@@ -243,7 +243,7 @@ div#entete:hover a.logohome {
 }
 
 body#menu #entete.pack-item {
-  @apply pt-4 md:pb-14 md:pr-40 md:pl-10;
+  @apply h-100 pt-4 md:pb-14 md:pr-32 md:mr-8 md:pl-10 bg-secondary-bg rounded-md transition-all duration-700 ease-in-out opacity-100;
 }
 
 /* Pack items*/
@@ -2878,4 +2878,7 @@ button.splide__arrow {
 
 body#menu #entete.pack-item.searchOpen {
   @apply h-0 w-0 p-0 m-0;
+}
+body#menu #entete.pack-item.disappear {
+  @apply opacity-0;
 }
