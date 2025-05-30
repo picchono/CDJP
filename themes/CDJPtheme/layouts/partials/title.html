@@ -1,5 +1,5 @@
 <div id="entete" class="pack-item stamp flex flex-col md:flex-row justify-stretch max-h-240 max-w-240 border" data-cat-sort="1000">
-    <div class="flex flex-col justify-between">
+    <div class="flex flex-col justify-between flex-grow-0 flex-shrink-0">
         <div class="relative block">
             {{ if false }}
             <a class="logohome strok" href="{{ .Site.BaseURL | absURL }}" aria-label="Pierre Lévy">
@@ -26,7 +26,7 @@
         {{ end }}
     </div>
     {{ if not .IsHome }}
-    <div class="flex flex-col justify-end md:ml-20">
+    <div class="flex flex-col justify-end my-14 md:ml-20 flex-grow flex-shrink">
         <div class="text-left items-start my-10">
             <h1 class="text-4xl font-bold m-0">{{ .Params.title |safeHTML }}{{if eq .Params.subsection "ended"}}
                 ({{- i18n
