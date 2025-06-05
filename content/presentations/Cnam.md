@@ -13,6 +13,8 @@ date: 2021-09-01T16:27:15+02:00
 frontphoto: "https://upload.wikimedia.org/wikipedia/commons/6/67/Mus%C3%A9e_du_Conservatoire_national_des_Arts_et_M%C3%A9tiers_-_panoramio.jpg"
 description: "Une brève présentation du Cnam."
 slides: [
+    ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdjrQEjjVc_SYZnKXfA?embed=1"],
+    ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdjrPy2dhjwXSF5jkcs?embed=1"],
     ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdfAAIsOndmq3CSakSs?embed=1"],
     ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdfAAf_hJlIx0iphlFI?embed=1"],
     ["img", "https://1drv.ms/i/s!AnQx_v88q65Qgde_fUqWBNTMZIYCn0o?embed=1"],
