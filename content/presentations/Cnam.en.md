@@ -17,7 +17,6 @@ slides: [
     ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdfAAf_hJlIx0iphlFI?embed=1", "Cnam-birdview"],
     ["img", "https://1drv.ms/i/s!AnQx_v88q65Qgde_fUqWBNTMZIYCn0o?embed=1", "Cnam"],
     ["img", "https://1drv.ms/i/s!AnQx_v88q65Qgde_fIl-1Nw8Gi_kpio?embed=1", "EPN"],
-    ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdXmK5iudS-mBc-RU98?embed=1", "Cnam-design"],
     ["img", "https://1drv.ms/i/s!AnQx_v88q65Qgde_fhRGnC03lsEC2ng?embed=1", "Cnam-photos"]
 ]
 ---

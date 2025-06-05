@@ -215,7 +215,6 @@
             gradi += Math.floor(Math.random() * 360) + ', 100%, 89%, 0.812) ' + Math.floor(100 / numbCol * ite) + '%, hsla(';
         }
         gradi += firstCol + ', 100%, 89%, 0.812) 100%)';
-        console.log('gradi', gradi);
         document.querySelectorAll('div.splide .splide__slide .gradcol').forEach((element, index) => {
             var clrChg = Math.floor(Math.random() * 256);
             element.style.setProperty('background', gradi);

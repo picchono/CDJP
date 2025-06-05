@@ -26,4 +26,3 @@ slides: [
     ["img", "https://1drv.ms/i/s!AnQx_v88q65QgbqHWZwAL0A3S95S5rs?embed=1"]
 ]
 ---
-&nbsp;
