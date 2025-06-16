@@ -23,12 +23,12 @@
             {{ if eq $typ "img" }}
             <a class="place-self-center w-24 mr-4 mb-4" href="{{ index . 1 }}&width=3840&height=2160"
                 aria-label="See image {{ $ord }}">
-                <img class="rounded-sm object-cover" loading="lazy" src="{{ index . 1 }}&width=400"
+                <img class="rounded-xs object-cover" loading="lazy" src="{{ index . 1 }}&width=400"
                     alt="image {{ $ord }}"></a>
             {{ else if eq $typ "mov"}}
             <a data-lg-size="1280-720" data-src="{{ index . 1 }}" data-poster="{{ index . 2 }}"
                 class="place-self-center w-24 mr-4 mb-4">
-                <img class="rounded-sm object-cover" loading="lazy" src="{{ index . 2 }}" alt="video {{ $ord }}">
+                <img class="rounded-xs object-cover" loading="lazy" src="{{ index . 2 }}" alt="video {{ $ord }}">
             </a>
             {{ end }}
             {{ $ord = add $ord 1 }}
