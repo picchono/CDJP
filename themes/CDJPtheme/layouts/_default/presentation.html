@@ -43,11 +43,11 @@
 <script defer="defer">
     const qrcode = new QRCode(document.getElementById('qrcode'), {
         text: {{ .Page.Permalink }},
-        width: 1000,
+    width: 1000,
         height: 1000,
-        colorDark: '#000',
-        colorLight: '#fff',
-        correctLevel: QRCode.CorrectLevel.H
+            colorDark: '#000',
+                colorLight: '#fff',
+                    correctLevel: QRCode.CorrectLevel.H
     });
 </script>
 
@@ -115,6 +115,37 @@
             rel: 0
         },
         loadYouTubePoster: true
+    });
+</script>
+
+<script>
+    window.addEventListener('load', function (event) {
+        // Select the node that will be observed for mutations
+        const targetNode = document.getElementById("lg-inner-1");
+        // Options for the observer (which mutations to observe)
+        const config = { attributes: true, childList: true, subtree: true };
+        // Callback function to execute when mutations are observed
+        const callback = (mutationList, observer) => {
+            observer.disconnect();
+            var imag = document.querySelectorAll('img.lg-object');
+            imag.forEach(function (im, index) {
+                var nextSibling = im.nextElementSibling;
+                if (nextSibling && nextSibling.className === "imgAddons") {
+                } else {
+                    var newDiv = document.createElement('div');
+                    newDiv.innerHTML = '{{- .Title -}}&nbsp-&nbsp{{- now | time.Format "02/01/2006" -}}&nbsp-&nbsp<a href="mailto:pierre.levy@lecnam.net">pierre.levy@lecnam.net</a>';
+                    newDiv.className = 'imgAddons';
+                    im.parentNode.insertBefore(newDiv, im.nextSibling);
+                }
+            });
+            observer.observe(targetNode, config);
+        };
+
+        // Create an observer instance linked to the callback function
+        const observer = new MutationObserver(callback);
+
+        // Start observing the target node for configured mutations
+        observer.observe(targetNode, config);
     });
 </script>
 {{ end }}
