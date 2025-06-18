@@ -116,9 +116,8 @@
         },
         loadYouTubePoster: true
     });
-</script>
-
-<script>
+    
+    
     window.addEventListener('load', function (event) {
         // Select the node that will be observed for mutations
         const targetNode = document.getElementById("lg-inner-1");
@@ -137,9 +136,12 @@
                     var newDiv = document.createElement('div');
                     newDiv.innerHTML = '{{- .Title -}}&nbsp-&nbsp{{- now | time.Format "02/01/2006" -}}&nbsp-&nbsp<a href="mailto:pierre.levy@lecnam.net">pierre.levy@lecnam.net</a>';
                     newDiv.className = 'imgAddons';
-                    newDiv.style.cssText = "right: calc(101vw - " + rightIm + "px);bottom:calc(100.8vh - " + bottomIm + "px);";
                     im.parentNode.insertBefore(newDiv, im.nextSibling);
                 }
+                var newAd = document.querySelectorAll('div.imgAddons');
+                 newAd.forEach(function (nA, index) {
+                    nA.style.cssText = "right: calc(101vw - " + rightIm + "px);bottom:calc(100.8vh - " + bottomIm + "px);";
+                 });
             });
             observer.observe(targetNode, config);
         };
