@@ -127,14 +127,17 @@
         // Callback function to execute when mutations are observed
         const callback = (mutationList, observer) => {
             observer.disconnect();
-            var imag = document.querySelectorAll('img.lg-object');
+            var imag = document.querySelectorAll('div.lg-current img.lg-object');
             imag.forEach(function (im, index) {
+                var rect = im.getBoundingClientRect();
+                var rightIm = rect.right;
+                var bottomIm = rect.bottom;
                 var nextSibling = im.nextElementSibling;
-                if (nextSibling && nextSibling.className === "imgAddons") {
-                } else {
+                if (!(nextSibling && nextSibling.className === "imgAddons")) {
                     var newDiv = document.createElement('div');
                     newDiv.innerHTML = '{{- .Title -}}&nbsp-&nbsp{{- now | time.Format "02/01/2006" -}}&nbsp-&nbsp<a href="mailto:pierre.levy@lecnam.net">pierre.levy@lecnam.net</a>';
                     newDiv.className = 'imgAddons';
+                    newDiv.style.cssText = "right: calc(101vw - " + rightIm + "px);bottom:calc(100.8vh - " + bottomIm + "px);";
                     im.parentNode.insertBefore(newDiv, im.nextSibling);
                 }
             });
@@ -146,6 +149,19 @@
 
         // Start observing the target node for configured mutations
         observer.observe(targetNode, config);
+    });
+
+    window.addEventListener("resize", function () {
+        var imag = document.querySelectorAll('div.lg-current img.lg-object');
+        imag.forEach(function (im, index) {
+            var rect = im.getBoundingClientRect();
+            var rightIm = rect.right;
+            var bottomIm = rect.bottom;
+            var nextSibling = im.nextElementSibling;
+            if (nextSibling && nextSibling.className === "imgAddons") {
+                nextSibling.style.cssText = "right: calc(101vw - " + rightIm + "px);bottom:calc(100.8vh - " + bottomIm + "px);";
+            }
+        });
     });
 </script>
 {{ end }}

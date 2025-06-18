@@ -1561,10 +1561,6 @@ div.highlight pre {
 .imgAddons {
   @apply absolute flex justify-end items-end align-bottom;
     font-size: 0.8vw;
-    top:50%;
-    width: 98vw;
-    height: 27.5625vw;
-    padding: 0 1.5vw 1vw 0;
 }
 
 .imgAddons a, .imgAddons a:visited {
