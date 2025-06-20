@@ -22,9 +22,9 @@
             {{ $typ := index . 0 }}
             {{ if eq $typ "img" }}
             <a class="place-self-center w-24 mr-4 mb-4" href="{{ index . 1 }}&width=3840&height=2160"
-                aria-label="See image {{ $ord }}">
+                aria-label="See image {{ $ord }}" data-custom-prop="abc">
                 <img class="rounded-xs object-cover" loading="lazy" src="{{ index . 1 }}&width=400"
-                    alt="image {{ $ord }}"></a>
+                    alt="{{ index . 2}}" title="{{ index . 2}}"></a>
             {{ else if eq $typ "mov"}}
             <a data-lg-size="1280-720" data-src="{{ index . 1 }}" data-poster="{{ index . 2 }}"
                 class="place-self-center w-24 mr-4 mb-4">
@@ -90,6 +90,7 @@
         licenseKey: "86E42556-05764516-9C2C8B36-B8B2858F",
         plugins: [lgVideo, lgFullscreen, lgHash], //
         speed: 500,
+        extraProps: ['customProp'],
         download: false,
         loop: false,
         mode: "lg-fade",
@@ -134,7 +135,7 @@
                 var nextSibling = im.nextElementSibling;
                 if (!(nextSibling && nextSibling.className === "imgAddons")) {
                     var newDiv = document.createElement('div');
-                    newDiv.innerHTML = '{{- .Title -}}&nbsp-&nbsp{{- now | time.Format "02/01/2006" -}}&nbsp-&nbsp<a href="mailto:pierre.levy@lecnam.net">pierre.levy@lecnam.net</a>';
+                    newDiv.innerHTML = '{{- .Title -}}&nbsp(' + im.getAttribute('alt') + ')&nbsp;-&nbsp;{{- now | time.Format "02/01/2006" -}}&nbsp;-&nbsp;<a href="mailto:pierre.levy@lecnam.net">pierre.levy@lecnam.net</a>';
                     newDiv.className = 'imgAddons';
                     im.parentNode.insertBefore(newDiv, im.nextSibling);
                 }
