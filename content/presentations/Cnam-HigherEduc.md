@@ -52,7 +52,15 @@ slides: [
     ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdnHUXrbQapci3FhJO8?embed=1", "Cnam_Photos"],
     ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdrEVA27BXlYPoKd2OM?embed=1", "FrEduc_title_0"],
     ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdnSQoCgHzBXJtspj84?embed=1", "FrEduc_global"],
+    ["img", "https://1drv.ms/i/c/50aeab3cfffe3174/IQRPAWwT3KQ3Ra8NFIaF-K5-ATBVyarKCu5HwPKju26-R-I?embed=1", "Cnam_diploma"],
     ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdrEVdc4mzSru1kyEC8?embed=1", "FrEduc_continuous-education_0"],
+    ["img", "https://1drv.ms/i/c/50aeab3cfffe3174/IQTL2O0tPzkAQabVlRrNGVwMAfx8dLSXVxbWc1Jz9jjoKg8?embed=1", "Cnam_DNMADe-DSAA"],
+    ["img", "https://1drv.ms/i/c/50aeab3cfffe3174/UQR0Mf7_PKuuIIBQxDU2AAAAAE2H02rLIDTBDjs?embed=1", "Chaire_intro"],
+    ["img", "https://1drv.ms/i/c/50aeab3cfffe3174/UQR0Mf7_PKuuIIBQ6XM2AAAAAPXZWk9ydzUqLT0?embed=1", "Chaire_front"],
+    ["img", "https://1drv.ms/i/c/50aeab3cfffe3174/UQR0Mf7_PKuuIIBQ6nM2AAAAAIw91Uet647YJWo?embed=1", "Chaire_Cnam-2"],
+    ["img", "https://1drv.ms/i/c/50aeab3cfffe3174/IQR0Mf7_PKuuIIBQ6-Y2AAAAAZdnZUIVX5TK7-D8tVCA2XM?embed=1", "TP_intro"],
+    ["img", "https://1drv.ms/i/c/50aeab3cfffe3174/UQR0Mf7_PKuuIIBQ7eY2AAAAABeb7IsI0UOQeoM?embed=1", "TP_global_0"],
+    ["img", "https://1drv.ms/i/c/50aeab3cfffe3174/UQR0Mf7_PKuuIIBQ7-Y2AAAAANQsxe-i17Djiz4?embed=1", "TP_global_PhDs"],
     ["img", "https://1drv.ms/i/s!AnQx_v88q65QgdjrQUL7ByRwtrfLDiY?embed=1", "_End"]
 ]
 ---

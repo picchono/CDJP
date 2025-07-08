@@ -4,6 +4,7 @@ title = "Chaire design Jean Prouvé"
 theme = "CDJPtheme"
 defaultContentLanguage = "fr"
 ignoreErrors = ["error-disable-taxonomy"]
+ignoreLogs = ["warning-goldmark-raw-html"]
 
 DefaultContentLanguage = "fr"
 copyright = "chaire-design.fr"
