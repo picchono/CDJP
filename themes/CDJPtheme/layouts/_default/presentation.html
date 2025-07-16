@@ -135,7 +135,7 @@
                 var nextSibling = im.nextElementSibling;
                 if (!(nextSibling && nextSibling.className === "imgAddons")) {
                     var newDiv = document.createElement('div');
-                    newDiv.innerHTML = '{{- .Title -}}&nbsp(' + im.getAttribute('alt') + ')&nbsp;-&nbsp;{{- now | time.Format "02/01/2006" -}}&nbsp;-&nbsp;<a href="mailto:pierre.levy@lecnam.net">pierre.levy@lecnam.net</a>';
+                    newDiv.innerHTML = '{{- .Title -}}&nbsp{{ if false }}(' + im.getAttribute('alt') + ')&nbsp;{{ end }}-&nbsp;{{- now | time.Format "02/01/2006" -}}&nbsp;-&nbsp;<a href="mailto:pierre.levy@lecnam.net">pierre.levy@lecnam.net</a>';
                     newDiv.className = 'imgAddons';
                     im.parentNode.insertBefore(newDiv, im.nextSibling);
                 }
