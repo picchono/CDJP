@@ -67,6 +67,10 @@ body {
   @apply bg-primary-bg text-primary-text w-screen mx-auto min-h-screen overflow-x-hidden transition-all duration-700 ease-in-out;
 }
 
+body#menu {
+  padding: 1.25rem;
+}
+
 /*
 body::before {
   background:#000;
@@ -238,7 +242,11 @@ a.logohome:hover .lh2 {
   stroke: var(--color-epierrot);
 }
 div#entete {
-  @apply md:my-2 md:bg-secondary-bg rounded-md transition-all duration-700 ease-in-out opacity-100;
+  @apply md:m-7 md:bg-secondary-bg rounded-md transition-all duration-700 ease-in-out opacity-100;
+}
+
+body#menu div#entete {
+  @apply md:ml-0 md:mt-0;
 }
 
 div#entete:hover a.logohome {
@@ -251,7 +259,7 @@ body#menu #entete.pack-item {
 
 /* Pack items*/
 main.pack {
-  @apply md:p-7 transition-all duration-500 ease-in-out;
+  @apply transition-all duration-500 ease-in-out;
   margin-top: 0;
 }
 
@@ -2873,7 +2881,7 @@ button.splide__arrow {
   @apply absolute cursor-pointer top-0 left-0 right-0 bottom-0 pb-1 transition-all duration-700 ease-in-out;
 }
 .searchlaunch .searchButton svg.searchSvg {
-  @apply h-5 w-5;
+  @apply h-6 w-4;
   fill:var(--color-primary-text);
 }
 
