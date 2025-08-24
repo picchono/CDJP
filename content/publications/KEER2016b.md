@@ -19,6 +19,7 @@ institution:
     colo: "#c72125"
 chaire: false
 date: 2016-09-02T22:55:03+02:00
+shortConf: "KEER 2016"
 citation:
     authors:
         1: ["Kennedy", "Richard", "R."]

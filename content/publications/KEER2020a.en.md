@@ -21,6 +21,7 @@ researchpage: true
 jpphilo: true
 front: false
 frontdescription: "A KEER2020 international conference paper"
+shortConf: "KEER 2020"
 research:
     -  everyday
     -  kansei

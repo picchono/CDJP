@@ -16,6 +16,7 @@ institution:
     colo: "#c72125"
 chaire: false
 date: 2015-05-11T22:37:10+02:00
+shortConf: "IASDR 2015"
 citation:
     authors:
         1: ["Duel", "Thijs", "T."]

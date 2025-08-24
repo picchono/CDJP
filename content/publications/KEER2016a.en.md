@@ -19,6 +19,7 @@ institution:
     colo: "#c72125"
 chaire: false
 date: 2016-09-02T23:06:45+02:00
+shortConf: "KEER 2016"
 citation:
     authors:
         1: ["Levy", "Pierre", "P."]

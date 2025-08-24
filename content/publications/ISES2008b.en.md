@@ -14,6 +14,7 @@ institution:
     name: "University of Tsukuba"
 chaire: false
 date: 2008-02-25T19:44:09+01:00
+shortConf: "ISES 2008"
 citation:
     authors:
         1: ["Yamanaka", "Toshimasa", "T."]

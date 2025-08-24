@@ -18,6 +18,7 @@ institution:
     colo: "#c72125"
 chaire: false
 date: 2018-03-22T23:44:38+01:00
+shortConf: "KEER 2018"
 citation:
     editors:
         1: ["Lokman", "Anitawati Mohd", "A.M."]

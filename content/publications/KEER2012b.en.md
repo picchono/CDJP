@@ -20,6 +20,7 @@ institution:
     colo: "#c72125"
 chaire: false
 date: 2012-04-14T21:52:14+02:00
+shortConf: "KEER 2012"
 citation:
     authors:
         1: ["Trotto", "Ambra", "A."]

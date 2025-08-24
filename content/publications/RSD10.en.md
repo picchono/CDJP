@@ -19,6 +19,7 @@ institution:
     colo: "#c72125"
 chaire: false
 date: 2021-11-05T23:11:05+01:00
+shortConf: "RSD 2010"
 citation:
     authors:
         1: ["Hummels", "Caroline", "C.C.M."]

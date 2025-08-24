@@ -20,6 +20,7 @@ everyday: true
 researchpage: true
 front: false
 frontdescription: "Un article publié à la conférence internationale KEER2020"
+shortConf: "KEER 2020"
 research: 
     -  everyday
     -  kansei

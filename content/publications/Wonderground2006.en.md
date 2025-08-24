@@ -18,6 +18,7 @@ institution:
     name: "University of Tsukuba"
 chaire: false
 date: 2006-09-29T19:13:29+02:00
+shortConf: "Wonderground 2006"
 citation:
     authors:
         1: ["Levy", "Pierre", "P."]

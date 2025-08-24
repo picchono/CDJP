@@ -18,6 +18,7 @@ institution:
     colo: "#c72125"
 chaire: false
 date: 2014-08-13T22:41:15+02:00
+shortConf: "KEER 2014"
 citation:
     authors:
         1: ["Kint", "Johanna", "J."]

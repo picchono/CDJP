@@ -23,6 +23,12 @@ intervenants:
         link: "https://www.manoarchitecture.com/"
         photo: "https://1drv.ms/i/s!AnQx_v88q65Qgc2SNO15FRMOF_Bzz_U?embed=1&width=500"
         bio: "<p>Benjamin Loiseau est architecte et docteur en architecture. Il dirige MANO, une agence d'architecture spécialisée dans la conception participative. Ses travaux de recherche portent sur les processus de conception en architecture et la place que les usagers peuvent y prendre.</p>"
+institution:
+    heig: 1
+    logo: cnam
+    short: Cnam
+    name: "Conservatoire national des Arts et Métiers"
+    web: "https://www.cnam.fr/"
 chaire: true
 date: 2025-04-03T18:00:00+02:00
 place: "Cnam<br/>Amphithéatre Gaston Planté, accès 35<br>2, rue Conté<br>75003 Paris"

@@ -14,6 +14,7 @@ institution:
     web: "https://www.chiba-u.ac.jp/"
 chaire: false
 date: 2008-10-22T20:45:41+02:00
+shortConf: "ISIDC 2008"
 citation:
     authors:
         1: ["Ono", "Kenta", "K."]

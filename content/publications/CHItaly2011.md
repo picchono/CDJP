@@ -16,6 +16,7 @@ institution:
     colo: "#c72125"
 chaire: false
 date: 2011-06-14T21:43:41+02:00
+shortConf: "CHItaly 2011"
 citation:
     authors:
         1: ["Levy", "Pierre", "P."]

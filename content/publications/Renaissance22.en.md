@@ -10,6 +10,7 @@ institution:
     colo: "#c1002a"
 chaire: true
 date: 2022-04-01T17:03:37+02:00
+shortSection: "The Next Renaissance - Culture and Creativity shaping Europe"
 layout: publi
 searchFilter: Publication
 searchWeight: 8

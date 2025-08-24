@@ -15,6 +15,7 @@ institution:
 kasne: true
 chaire: false
 date: 2009-06-23T21:19:56+02:00
+shortConf: "ErgoForum 2009"
 citation:
     authors:
         1: ["Levy", "Pierre", "P."]

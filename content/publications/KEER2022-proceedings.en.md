@@ -18,6 +18,7 @@ institution:
     colo: "#c72125"
 chaire: true
 date: 2022-09-09T22:10:51+02:00
+shortConf: "KEER 2022"
 citation:
     editors:
         1: ["Marco-Almagro", "Lluís", "L."]

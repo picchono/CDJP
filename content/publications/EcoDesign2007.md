@@ -17,6 +17,7 @@ research:
     -  kansei
 chaire: false
 date: 2007-10-02T19:37:01+02:00
+shortConf: "EcoDesign 2007"
 citation:
     authors:
         1: ["Levy", "Pierre", "P."]

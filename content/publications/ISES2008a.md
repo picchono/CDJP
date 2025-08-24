@@ -11,6 +11,7 @@ research:
     -  kansei
 chaire: false
 date: 2008-02-28T19:51:56+01:00
+shortConf: "ISES 2008"
 citation:
     authors:
         1: ["Levy", "Pierre", "P."]

@@ -18,6 +18,7 @@ research:
     -  kansei
 chaire: false
 date: 2009-09-22T21:28:01+02:00
+shortConf: "IASDR 2009"
 citation:
     authors:
         1: ["Levy", "Pierre", "P."]

@@ -15,6 +15,7 @@ institution:
     colo: "#c72125"
 chaire: false
 date: 2011-09-14T21:58:10+02:00
+shortConf: "IASDR 2011"
 citation:
     authors:
         1: ["Levy", "Pierre", "P."]

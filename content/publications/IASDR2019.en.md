@@ -21,6 +21,7 @@ institution:
     colo: "#c72125"
 chaire: false
 date: 2019-09-04T15:00:40+02:00
+shortConf: "IASDR 2019"
 citation:
     authors:
         21: ["Levy", "Pierre", "P."]

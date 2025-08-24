@@ -10,6 +10,7 @@ institution:
     colo: "#c72125"
 chaire: false
 date: 2020-08-29T16:39:07+02:00
+shortConf: "KEER 2020"
 layout: publi
 searchFilter: Publication
 searchWeight: 8

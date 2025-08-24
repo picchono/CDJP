@@ -17,6 +17,7 @@ institution:
     colo: "#c1002a"
 chaire: true
 date: 2023-10-09T15:00:40+02:00
+shortConf: "IASDR 2023"
 citation:
     authors:
         1: ["Levy", "Pierre", "P."]

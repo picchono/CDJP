@@ -19,6 +19,7 @@ institution:
     colo: "#c72125"
 chaire: false
 date: 2013-09-10T20:07:29+02:00
+shortJournal: "Interactions 20(6)"
 citation:
     authors:
         1: ["Hummels", "Caroline", "C.C.M."]

@@ -18,6 +18,7 @@ chaire: false
 date: 2021-10-21T12:29:52+02:00
 front: true
 frontdescription: "A collaborative illustrated atlas on TP"
+shortBook: "Published by TU/e, Eindhoven"
 citation:
     authors:
         1: ["Trotto", "Ambra", "A."]
